@@ -4,14 +4,29 @@
     "blacklist": false,
     "universal": true
   },
-  "items": [{
-    "languages": {"en_US": ""},
-    "type": "text",
-    "_twin": {
-      "dateCreated": 1583413030632,
-      "id": "321f7ec7-0fa4-4b71-999e-89b57829a8c2",
-      "dateUpdated": 1583413039146
+  "items": [
+    {
+      "languages": {
+        "en_US": "&7  Last login - &e%1 days ago",
+        "ja_JP": "&7  最終ログイン - &e%1 日前"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1582856552932,
+        "id": "0cc080a1-0c49-4242-a967-a21caf0e919d",
+        "dateUpdated": 1585030824570
+      },
+      "key": "GriefPrevention.PlayerOfflineTime"
     },
-    "key": "GriefPrevention.PlayerOfflineTime"
-  }]
+    {
+      "languages": {"en_US": ""},
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1583413030632,
+        "id": "321f7ec7-0fa4-4b71-999e-89b57829a8c2",
+        "dateUpdated": 1583413039146
+      },
+      "key": "GriefPrevention.PlayerOfflineTime"
+    }
+  ]
 }

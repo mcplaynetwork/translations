@@ -16,19 +16,6 @@
     },
     {
       "languages": {
-        "en_US": "&7  Last login - &e%1 days ago",
-        "ja_JP": "&7  最終ログイン - &e%1 日前"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1582856552932,
-        "id": "0cc080a1-0c49-4242-a967-a21caf0e919d",
-        "dateUpdated": 1582856601340
-      },
-      "key": "GriefPrevention.PlayerOfflineTime"
-    },
-    {
-      "languages": {
         "en_US": "English",
         "ja_JP": "日本語"
       },
@@ -39,6 +26,58 @@
         "dateUpdated": 1583862279492
       },
       "key": "language"
+    },
+    {
+      "languages": {
+        "en_US": "server",
+        "ja_JP": "サーバー"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1585030829612,
+        "id": "85575e93-4c6b-4f25-8edd-f7efcfa774da",
+        "dateUpdated": 1585030847206
+      },
+      "key": "server"
+    },
+    {
+      "languages": {
+        "en_US": "server select",
+        "ja_JP": "サーバー選択"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1585030849840,
+        "id": "060bccb9-ee1b-458b-b25b-87c22c7b6532",
+        "dateUpdated": 1585030864447
+      },
+      "key": "serverselect"
+    },
+    {
+      "languages": {
+        "en_US": "menu",
+        "ja_JP": "メニュー"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1585030866660,
+        "id": "7fd1031b-7b7a-42fe-b516-7b84db548ea3",
+        "dateUpdated": 1585030875710
+      },
+      "key": "menu"
+    },
+    {
+      "languages": {
+        "en_US": "warp",
+        "ja_JP": "ワープ"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1585030877996,
+        "id": "4e84a0bf-9254-409c-a403-94eb590d8d9c",
+        "dateUpdated": 1585030886567
+      },
+      "key": "warp"
     }
   ]
 }

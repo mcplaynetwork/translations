@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": false,
+    "universal": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_US": "&8[§6MCPlay&8] &r",
+        "ja_JP": "&8[§6MCPlay&8] &r"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586836724828,
+        "id": "c5f62e52-5403-4dad-be78-aa210aa89620",
+        "dateUpdated": 1586836829388
+      },
+      "key": "bungeecord.alert"
+    },
+    {
+      "languages": {
+        "en_US": "&cYou are already connected to this server.",
+        "ja_JP": "&cすでにサーバーに接続しています。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586836838378,
+        "id": "4b4af6af-9c98-4441-af81-299013e8edf4",
+        "dateUpdated": 1586836950071
+      },
+      "key": "bungeecord.alreadyconnected"
+    },
+    {
+      "languages": {
+        "en_US": "&cYou are already connected to this proxy.",
+        "ja_JP": "&cすでにプロキシに接続しています。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586836886151,
+        "id": "291be1ac-1a4b-4b73-bef3-03063285a8e7",
+        "dateUpdated": 1586836950071
+      },
+      "key": "bungeecord.alreadyconnectedproxy"
+    },
+    {
+      "languages": {
+        "en_US": "&cAlready connecting to this server.",
+        "ja_JP": "&cすでにサーバーに接続中です。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586836956332,
+        "id": "dc517fa5-5961-409d-9cb9-992dd946c3f9",
+        "dateUpdated": 1586837017035
+      },
+      "key": "bungeecord.alreadyconnecting"
+    },
+    {
+      "languages": {
+        "en_US": "Network is restarting. Please reconnect after a few minutes.",
+        "ja_JP": "ネットワークが再起動中です。数分後に再接続してください。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586837097626,
+        "id": "72d54499-d891-4279-a82f-22018ba39512",
+        "dateUpdated": 1586837241351
+      },
+      "key": "bungeecord.restart"
+    },
+    {
+      "languages": {
+        "en_US": "Network is full.",
+        "ja_JP": "ネットワークが満員です。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586837258107,
+        "id": "197e8c08-9449-451a-afbd-653a0a0c2c5e",
+        "dateUpdated": 1586837292298
+      },
+      "key": "bungeecord.proxyfull"
+    },
+    {
+      "languages": {
+        "en_US": "&cThe specified server does not exist.",
+        "ja_JP": "&c指定されたサーバーは存在しません。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586837453917,
+        "id": "1037efe2-9c32-40b8-b01a-19ef59f08412",
+        "dateUpdated": 1586837489902
+      },
+      "key": "bungeecord.noserver"
+    }
+  ]
+}

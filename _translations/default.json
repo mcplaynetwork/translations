@@ -104,6 +104,19 @@
         "dateUpdated": 1586826903809
       },
       "key": "clicktoselect"
+    },
+    {
+      "languages": {
+        "en_US": "&cYou do not have permission.",
+        "ja_JP": "&c権限がありません。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586837322385,
+        "id": "16c3cf88-9cc1-4ddf-8ff0-8207ab2ea82f",
+        "dateUpdated": 1586837431519
+      },
+      "key": "nopermission"
     }
   ]
 }

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": false,
+    "universal": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_US": "EliteMobs drop",
+        "ja_JP": "エリートモブ ドロップ"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586696457620,
+        "id": "68dc793f-ab3c-470f-9f19-2e7990bf451b",
+        "dateUpdated": 1586702692694
+      },
+      "key": "EliteMobs.EliteMobsdrop",
+      "patterns": ["EliteMobs.EliteMobsdrop"]
+    },
+    {
+      "languages": {
+        "en_US": "Tier",
+        "ja_JP": "ティア"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586696625590,
+        "id": "4e6fcd9c-7006-4671-afd7-777714cc18e5",
+        "dateUpdated": 1586700673551
+      },
+      "key": "EliteMobs.Tier"
+    },
+    {
+      "languages": {
+        "en_US": "Worth",
+        "ja_JP": "価値"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586696726960,
+        "id": "abe5c515-e473-4ae7-8fd1-5f93df0b9f17",
+        "dateUpdated": 1586696737262
+      },
+      "key": "EliteMobs.Worth"
+    },
+    {
+      "languages": {
+        "en_US": "Sells for",
+        "ja_JP": "価格"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586696769136,
+        "id": "b7fff43c-cd6d-44bb-aef6-59759f0a17c4",
+        "dateUpdated": 1586696792578
+      },
+      "key": "EliteMobs.Sellsfor"
+    },
+    {
+      "languages": {
+        "en_US": "Purchased from a shop",
+        "ja_JP": "ショップから購入"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586697905066,
+        "id": "3cea7e99-e7b7-4eef-b12a-c7885528923a",
+        "dateUpdated": 1586697980799
+      },
+      "key": "EliteMobs.Purchasedfromastore"
+    },
+    {
+      "languages": {
+        "en_US": "Looted from %1",
+        "ja_JP": "%1からドロップ"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586697983452,
+        "id": "88f22a3f-04cc-4091-af72-2d0151d81a25",
+        "dateUpdated": 1586698083071
+      },
+      "key": "EliteMobs.Lootedfrom"
+    }
+  ]
+}

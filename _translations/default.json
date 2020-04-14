@@ -78,6 +78,32 @@
         "dateUpdated": 1585030886567
       },
       "key": "warp"
+    },
+    {
+      "languages": {
+        "en_US": "Server Select",
+        "ja_JP": "サーバー選択"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586826623014,
+        "id": "d9ea9b09-9018-4dd0-b5e0-68ae7658b466",
+        "dateUpdated": 1586826641780
+      },
+      "key": "serverselect"
+    },
+    {
+      "languages": {
+        "en_US": "Click to select",
+        "ja_JP": "クリックして選択"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586826889717,
+        "id": "8fafd746-8078-4157-ae5e-048c8d3f1bb3",
+        "dateUpdated": 1586826903809
+      },
+      "key": "clicktoselect"
     }
   ]
 }

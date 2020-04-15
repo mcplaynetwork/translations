@@ -20,27 +20,27 @@
     },
     {
       "languages": {
-        "en_US": "&cYou are already connected to this server.",
-        "ja_JP": "&cすでにサーバーに接続しています。"
+        "en_US": "You are already connected to this server.",
+        "ja_JP": "すでにサーバーに接続しています。"
       },
       "type": "text",
       "_twin": {
         "dateCreated": 1586836838378,
         "id": "4b4af6af-9c98-4441-af81-299013e8edf4",
-        "dateUpdated": 1586836950071
+        "dateUpdated": 1586957761835
       },
       "key": "bungeecord.alreadyconnected"
     },
     {
       "languages": {
-        "en_US": "&cYou are already connected to this proxy.",
-        "ja_JP": "&cすでにプロキシに接続しています。"
+        "en_US": "You are already connected to this proxy.",
+        "ja_JP": "すでにプロキシに接続しています。"
       },
       "type": "text",
       "_twin": {
         "dateCreated": 1586836886151,
         "id": "291be1ac-1a4b-4b73-bef3-03063285a8e7",
-        "dateUpdated": 1586836950071
+        "dateUpdated": 1586957811416
       },
       "key": "bungeecord.alreadyconnectedproxy"
     },
@@ -92,9 +92,74 @@
       "_twin": {
         "dateCreated": 1586837453917,
         "id": "1037efe2-9c32-40b8-b01a-19ef59f08412",
-        "dateUpdated": 1586837489902
+        "dateUpdated": 1586957769005
       },
       "key": "bungeecord.noserver"
+    },
+    {
+      "languages": {
+        "en_US": "Reason",
+        "ja_JP": "理由"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586842544396,
+        "id": "d3c11942-6e39-43d8-a93e-085af51e2ad1",
+        "dateUpdated": 1586842740591
+      },
+      "key": "redirect.reason"
+    },
+    {
+      "languages": {
+        "en_US": "You have been disconnected from the server.",
+        "ja_JP": "サーバーから切断されました。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586842775534,
+        "id": "3c811edc-0927-4d75-b92a-8c2adda61ae5",
+        "dateUpdated": 1586842858948
+      },
+      "key": "redirect.disconnect"
+    },
+    {
+      "languages": {
+        "en_US": "Could not connect.",
+        "ja_JP": "接続できませんでした。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586842869330,
+        "id": "42b01293-03ec-4041-b1a8-308be6780e31",
+        "dateUpdated": 1586842920972
+      },
+      "key": "redirect.couldnotconnect"
+    },
+    {
+      "languages": {
+        "en_US": "Server is unavailable.",
+        "ja_JP": "サーバーが利用不可"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586843084892,
+        "id": "a074a635-9ac7-41e7-8475-50be9e0360b9",
+        "dateUpdated": 1586843103088
+      },
+      "key": "redirect.unavailable"
+    },
+    {
+      "languages": {
+        "en_US": "Already connected.",
+        "ja_JP": "すでに接続しています。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586843274598,
+        "id": "67583ddc-b1d4-426a-91be-6bd9c7c5d649",
+        "dateUpdated": 1586843301647
+      },
+      "key": "redirect.alreadyconnected"
     }
   ]
 }

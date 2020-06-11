@@ -3,19 +3,6 @@
   "items": [
     {
       "languages": {
-        "en_US": "world",
-        "ja_JP": "ワールド"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1582810313879,
-        "id": "22ea2138-2399-4ec1-abfd-b86ab28f3f23",
-        "dateUpdated": 1582810336259
-      },
-      "key": "world"
-    },
-    {
-      "languages": {
         "en_US": "English",
         "ja_JP": "日本語"
       },
@@ -117,6 +104,335 @@
         "dateUpdated": 1586837431519
       },
       "key": "nopermission"
+    },
+    {
+      "languages": {
+        "en_US": "Access to the server is denied.",
+        "ja_JP": "サーバーへのアクセスが拒否されました。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586966724896,
+        "id": "7c3788cd-d4e2-4f03-955a-51519b533664",
+        "dateUpdated": 1586967478798
+      },
+      "key": "messages.whitelist",
+      "patterns": ["You are not whitelisted on this server!"]
+    },
+    {
+      "languages": {
+        "en_US": "Unknown command",
+        "ja_JP": "不明なコマンド"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586966815493,
+        "id": "78f0183b-7d66-4817-97ad-7c3ac28d66ab",
+        "dateUpdated": 1586967487677
+      },
+      "key": "messages.unknown-command",
+      "patterns": ["Unknown command. Type \"/help\" for help."]
+    },
+    {
+      "languages": {
+        "en_US": "Server is full",
+        "ja_JP": "サーバーが満員"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586966863039,
+        "id": "617a6f56-cab9-4e15-97f6-058b75048c7b",
+        "dateUpdated": 1586967493815
+      },
+      "key": "messages.server-full",
+      "patterns": ["The server is full!"]
+    },
+    {
+      "languages": {
+        "en_US": "Server and client versions are different.",
+        "ja_JP": "サーバーとクライアントのバージョンが異なります。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586966935982,
+        "id": "c87e2900-45c9-4a81-80f6-c65ad7688be3",
+        "dateUpdated": 1586967112185
+      },
+      "key": "messages.outdated-client"
+    },
+    {
+      "languages": {
+        "en_US": "Server and client versions are different.",
+        "ja_JP": "サーバーとクライアントのバージョンが異なります。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586967021869,
+        "id": "75aebb4c-ca23-4d01-9b62-abbc2230f2dc",
+        "dateUpdated": 1586967089032
+      },
+      "key": "messages.outdated-server"
+    },
+    {
+      "languages": {
+        "en_US": "Server restart",
+        "ja_JP": "サーバー再起動"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586967119736,
+        "id": "a7dfe865-d496-42c8-8c3b-f634dd7a07ec",
+        "dateUpdated": 1586967537995
+      },
+      "key": "messages.restart",
+      "patterns": ["Server is restarting"]
+    },
+    {
+      "languages": {
+        "en_US": "Survival",
+        "ja_JP": "サバイバル"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1586969771035,
+        "id": "544716c3-ae99-470e-8fa5-1e40a6668a5c",
+        "dateUpdated": 1586969783760
+      },
+      "key": "server.survival"
+    },
+    {
+      "languages": {
+        "en_US": "Minecraft Chokaigi build project",
+        "ja_JP": "マイクラでニコ超再現プロジェクト"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587026824225,
+        "id": "55a2dcb3-9011-481e-9603-2f7cad761e4d",
+        "dateUpdated": 1587026940802
+      },
+      "key": "server.chokaigi"
+    },
+    {
+      "languages": {
+        "en_US": "Proxy will restart in %1.",
+        "ja_JP": "プロキシは%1後に再起動します。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587027389688,
+        "id": "7639c129-25ce-40df-bab2-8d6fadcc05a4",
+        "dateUpdated": 1587028274827
+      },
+      "key": "shell.proxyrestartcount"
+    },
+    {
+      "languages": {
+        "en_US": "10 minutes",
+        "ja_JP": "10分"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587028061529,
+        "id": "400adc96-702c-4a8b-8334-4c6dc25555d0",
+        "dateUpdated": 1587028087615
+      },
+      "key": "10minutes"
+    },
+    {
+      "languages": {
+        "en_US": "5 minutes",
+        "ja_JP": "5分"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587028123661,
+        "id": "1031f065-50c9-42c5-82dd-2c1760c75ff6",
+        "dateUpdated": 1587028132533
+      },
+      "key": "5minutes"
+    },
+    {
+      "languages": {
+        "en_US": "1 minute",
+        "ja_JP": "1分"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587028134890,
+        "id": "b2bfe093-8a59-44e1-b66d-a4a1a728168a",
+        "dateUpdated": 1587029676504
+      },
+      "key": "1minute"
+    },
+    {
+      "languages": {
+        "en_US": "30 seconds",
+        "ja_JP": "30秒"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587028151201,
+        "id": "453a823b-4dbb-4091-a8cd-c2024ba17d23",
+        "dateUpdated": 1587028164595
+      },
+      "key": "30seconds"
+    },
+    {
+      "languages": {
+        "en_US": "Restarting... Restart will take about 30 seconds to complete. Please reconnect to mcplay.biz .",
+        "ja_JP": "再起動中... 再起動は約30秒で完了します。mcplay.bizで再接続してください。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587028370142,
+        "id": "af030869-897a-43b0-b355-805116e3f50f",
+        "dateUpdated": 1587028518002
+      },
+      "key": "shell.restarting"
+    },
+    {
+      "languages": {
+        "en_US": "Yes",
+        "ja_JP": "はい"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587138379775,
+        "id": "1692c6c5-eb7e-415f-9c13-2582210bcb77",
+        "dateUpdated": 1587138387701
+      },
+      "key": "yes"
+    },
+    {
+      "languages": {
+        "en_US": "No",
+        "ja_JP": "いいえ"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587138389967,
+        "id": "e30d64eb-341e-48ca-aebe-73939dd7e659",
+        "dateUpdated": 1587139237807
+      },
+      "key": "no"
+    },
+    {
+      "languages": {
+        "en_US": "Are you sure?",
+        "ja_JP": "本当にいいですか"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587139242751,
+        "id": "ccd49338-9451-4acc-a874-bb40617cbe45",
+        "dateUpdated": 1587139290825
+      },
+      "key": "areyousure"
+    },
+    {
+      "languages": {
+        "en_US": "This server is not MCPlay.",
+        "ja_JP": "このサーバーはMCPlayではありません。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587151195422,
+        "id": "34c347a2-9db7-41ff-b9da-2c339ec3e6a1",
+        "dateUpdated": 1587151376427
+      },
+      "key": "warn.thiserverisnotmcplay"
+    },
+    {
+      "languages": {
+        "en_US": "Different rules may apply.",
+        "ja_JP": "異なるルールが適用される可能性があります。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587151384322,
+        "id": "5c6e7335-afce-4472-8d66-4b5f8f4533b2",
+        "dateUpdated": 1587151446967
+      },
+      "key": "warn.differentrulesmayapply"
+    },
+    {
+      "languages": {
+        "en_US": "WARNING",
+        "ja_JP": "警告"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587151459925,
+        "id": "402f269b-f44c-4d8f-b267-04bd6211703d",
+        "dateUpdated": 1587151473570
+      },
+      "key": "warning"
+    },
+    {
+      "languages": {
+        "en_US": "day",
+        "ja_JP": "日"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591755803540,
+        "id": "c2dc3769-b15f-4b40-a8aa-705d3f0c9ae3",
+        "dateUpdated": 1591755823372
+      },
+      "key": "day"
+    },
+    {
+      "languages": {
+        "en_US": "hour",
+        "ja_JP": "時間"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591755833305,
+        "id": "b2c7e6c7-3b74-482d-8b23-ae88a51200d5",
+        "dateUpdated": 1591755846017
+      },
+      "key": "hour"
+    },
+    {
+      "languages": {
+        "en_US": "minute",
+        "ja_JP": "分"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591755851065,
+        "id": "c0d26cf7-d2ef-409c-af0e-fee4b29752d0",
+        "dateUpdated": 1591755866377
+      },
+      "key": "minute"
+    },
+    {
+      "languages": {
+        "en_US": "Next",
+        "ja_JP": "次"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591757642319,
+        "id": "19ee0fee-d71b-4f43-9709-b48cb0da25f4",
+        "dateUpdated": 1591757651445
+      },
+      "key": "next"
+    },
+    {
+      "languages": {
+        "en_US": "Prev",
+        "ja_JP": "前"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591757687233,
+        "id": "9093130f-ff0a-46df-9988-caafd64beabc",
+        "dateUpdated": 1591757693683
+      },
+      "key": "prev"
     }
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": false,
+    "universal": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_US": "&cERROR 404:%1:The message does not exist. Please notify the staff!",
+        "ja_JP": "&cERROR 404:%1:メッセージが存在しません。スタッフにお知らせください！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587019598604,
+        "id": "64239caa-7fc6-4fef-aa69-1e9ab89697d7",
+        "dateUpdated": 1587019819049
+      },
+      "key": "triton.message-not-found"
+    },
+    {
+      "languages": {
+        "en_US": "Select a language",
+        "ja_JP": "言語を選択"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587019894438,
+        "id": "164525d9-2a4e-4bba-989a-ea36a0d4378c",
+        "dateUpdated": 1587019910106
+      },
+      "key": "triton.selector-gui-name"
+    },
+    {
+      "languages": {
+        "en_US": "Currently selected",
+        "ja_JP": "選択中"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587019934043,
+        "id": "667346b1-a010-4bca-8968-b7567c27e3d7",
+        "dateUpdated": 1587019958411
+      },
+      "key": "triton.selected"
+    },
+    {
+      "languages": {
+        "en_US": "Language changed to %1",
+        "ja_JP": "言語を%1に変更"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587020001571,
+        "id": "e9ee036b-41e7-4e8a-8b0f-d6eca03e7dec",
+        "dateUpdated": 1587020079840
+      },
+      "key": "triton.selector"
+    },
+    {
+      "languages": {
+        "en_US": "The language has been set to %1",
+        "ja_JP": "言語が%1に設定されました。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1587020133527,
+        "id": "88c42b8d-9f6d-421b-8b4f-4625e81a5a4d",
+        "dateUpdated": 1587020224669
+      },
+      "key": "triton.detected-language"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": false,
+    "universal": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_US": "You can go back to the point of death with the /back .",
+        "ja_JP": "/back で死亡地点に戻れます."
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1588378493867,
+        "id": "29e820e3-b01f-4404-b982-a2efa7603fbb",
+        "dateUpdated": 1588378592334
+      },
+      "key": "survival.cangoback"
+    },
+    {
+      "languages": {
+        "en_US": "Player Status",
+        "ja_JP": "プレイヤー ステータス"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591755348389,
+        "id": "b9f20379-8a8c-493c-a132-f7fe3cc4ebb5",
+        "dateUpdated": 1591755386598
+      },
+      "key": "survival.playerstatus"
+    },
+    {
+      "languages": {
+        "en_US": "Money",
+        "ja_JP": "所持金"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591755538269,
+        "id": "c79e981f-dbef-4db4-a17b-218185c02552",
+        "dateUpdated": 1591755551600
+      },
+      "key": "survival.balance"
+    },
+    {
+      "languages": {
+        "en_US": "Username",
+        "ja_JP": "ユーザー名"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591755666127,
+        "id": "152c0572-cb48-4e61-9baa-b9ea5ab53a9a",
+        "dateUpdated": 1591755680864
+      },
+      "key": "survival.username"
+    },
+    {
+      "languages": {
+        "en_US": "Playtime",
+        "ja_JP": "プレイ時間"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591755746512,
+        "id": "a53268f3-3505-4386-a628-b18e6da4f1a1",
+        "dateUpdated": 1591755756224
+      },
+      "key": "survival.playtime"
+    },
+    {
+      "languages": {
+        "en_US": "mcMMO Status",
+        "ja_JP": "mcMMO ステータス"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591756075903,
+        "id": "ea5b158e-d640-41b2-b80b-58d2c4b7b42d",
+        "dateUpdated": 1591756093897
+      },
+      "key": "survival.mcmmostatus"
+    },
+    {
+      "languages": {
+        "en_US": "Balance ranking",
+        "ja_JP": "所持金ランキング"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591790343484,
+        "id": "9b0fd176-ca43-4003-9eb9-e120be4ca10b",
+        "dateUpdated": 1591790368213
+      },
+      "key": "survival.baltop"
+    },
+    {
+      "languages": {
+        "en_US": "Vote ranking",
+        "ja_JP": "投票ランキング"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1591790374943,
+        "id": "a21be2be-475f-45f4-9393-7946465b2fb7",
+        "dateUpdated": 1591790388595
+      },
+      "key": "survival.votetop"
+    }
+  ]
+}

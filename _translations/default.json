@@ -42,19 +42,6 @@
     },
     {
       "languages": {
-        "en_US": "menu",
-        "ja_JP": "メニュー"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1585030866660,
-        "id": "7fd1031b-7b7a-42fe-b516-7b84db548ea3",
-        "dateUpdated": 1585030875710
-      },
-      "key": "menu"
-    },
-    {
-      "languages": {
         "en_US": "warp",
         "ja_JP": "ワープ"
       },
@@ -433,6 +420,19 @@
         "dateUpdated": 1591757693683
       },
       "key": "prev"
+    },
+    {
+      "languages": {
+        "en_US": "Cancel",
+        "ja_JP": "キャンセル"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592533790677,
+        "id": "1f71347e-2864-49a2-bdc1-b4eebcf23f87",
+        "dateUpdated": 1592533805150
+      },
+      "key": "cancel"
     }
   ]
 }

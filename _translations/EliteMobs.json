@@ -7,82 +7,376 @@
   "items": [
     {
       "languages": {
-        "en_US": "EliteMobs drop",
-        "ja_JP": "エリートモブ ドロップ"
+        "en_US": "Item Shop",
+        "ja_JP": "アイテムショップ"
       },
       "type": "text",
       "_twin": {
-        "dateCreated": 1586696457620,
-        "id": "68dc793f-ab3c-470f-9f19-2e7990bf451b",
-        "dateUpdated": 1586702692694
+        "dateCreated": 1592529743063,
+        "id": "19388829-4b37-4515-94bf-b6387952651f",
+        "dateUpdated": 1592533528450
       },
-      "key": "EliteMobs.EliteMobsdrop",
-      "patterns": ["EliteMobs.EliteMobsdrop"]
+      "key": "elitemobs.shopname"
     },
     {
       "languages": {
-        "en_US": "Tier",
-        "ja_JP": "ティア"
+        "en_US": "Elite items shop",
+        "ja_JP": "エリートアイテムショップ"
       },
       "type": "text",
       "_twin": {
-        "dateCreated": 1586696625590,
-        "id": "4e6fcd9c-7006-4671-afd7-777714cc18e5",
-        "dateUpdated": 1586700673551
+        "dateCreated": 1592529838995,
+        "id": "92a8c1bd-d02f-486d-9dbd-5d5ac4929628",
+        "dateUpdated": 1592533707837
       },
-      "key": "EliteMobs.Tier"
+      "key": "elitemobs.informationbutton.name"
     },
     {
       "languages": {
-        "en_US": "Worth",
-        "ja_JP": "価値"
+        "en_US": "Buy",
+        "ja_JP": "購入"
       },
       "type": "text",
       "_twin": {
-        "dateCreated": 1586696726960,
-        "id": "abe5c515-e473-4ae7-8fd1-5f93df0b9f17",
-        "dateUpdated": 1586696737262
+        "dateCreated": 1592533345895,
+        "id": "61aa86fa-05f7-4b0d-a8ec-b2726b5d0b5d",
+        "dateUpdated": 1592533379320
       },
-      "key": "EliteMobs.Worth"
+      "key": "elitemobs.buy_procedurally_generated_items.name"
     },
     {
       "languages": {
-        "en_US": "Sells for",
-        "ja_JP": "価格"
+        "en_US": "Sell",
+        "ja_JP": "売却"
       },
       "type": "text",
       "_twin": {
-        "dateCreated": 1586696769136,
-        "id": "b7fff43c-cd6d-44bb-aef6-59759f0a17c4",
-        "dateUpdated": 1586696792578
+        "dateCreated": 1592533402954,
+        "id": "d884da3e-83e7-4240-9de4-63088324295c",
+        "dateUpdated": 1592533426687
       },
-      "key": "EliteMobs.Sellsfor"
+      "key": "elitemobs.sell_items.name"
     },
     {
       "languages": {
-        "en_US": "Purchased from a shop",
-        "ja_JP": "ショップから購入"
+        "en_US": "Confirm",
+        "ja_JP": "確定"
       },
       "type": "text",
       "_twin": {
-        "dateCreated": 1586697905066,
-        "id": "3cea7e99-e7b7-4eef-b12a-c7885528923a",
-        "dateUpdated": 1586697980799
+        "dateCreated": 1592533841194,
+        "id": "4e5ba38e-40ea-49e8-9739-80de9450101b",
+        "dateUpdated": 1592533918324
       },
-      "key": "EliteMobs.Purchasedfromastore"
+      "key": "elitemobs.confirmbutton.name"
+    },
+    {
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592534068107,
+        "id": "9599c8b7-b60c-43f6-959e-f4f4057f6547",
+        "dateUpdated": 1592534093916
+      },
+      "key": "elitemobs.procedural_shop_menu.shopname"
     },
     {
       "languages": {
-        "en_US": "Looted from %1",
-        "ja_JP": "%1からドロップ"
+        "en_US": "&8[&6Shop&8] &7Your inventory is full!",
+        "ja_JP": "&8[&6Shop&8] &7インベントリが一杯です！"
       },
       "type": "text",
       "_twin": {
-        "dateCreated": 1586697983452,
-        "id": "88f22a3f-04cc-4091-af72-2d0151d81a25",
-        "dateUpdated": 1586698083071
+        "dateCreated": 1592534171054,
+        "id": "58e97cb3-2e3a-4c35-a51e-c61425e8722c",
+        "dateUpdated": 1592534282138
       },
-      "key": "EliteMobs.Lootedfrom"
+      "key": "elitemobs.procedural_shop_menu.fullinventorymessage"
+    },
+    {
+      "languages": {
+        "en_US": "Guild Rank",
+        "ja_JP": "ギルドランク"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592535746943,
+        "id": "d907e1dc-8636-420b-bb65-e98aaca48898",
+        "dateUpdated": 1592535850993
+      },
+      "key": "elitemobs.questtierselectormenutitle"
+    },
+    {
+      "languages": {
+        "en_US": "&a&lUNLOCK",
+        "ja_JP": "&a&lアンロック"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592536107939,
+        "id": "75675d00-1704-4b7a-94ef-50dbf870cf78",
+        "dateUpdated": 1592536139946
+      },
+      "key": "elitemobs.unlockedbutton.lore.1"
+    },
+    {
+      "languages": {
+        "en_US": "&6Selectable",
+        "ja_JP": "&6選択可能"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592536183302,
+        "id": "676ed12c-c91e-400c-93db-fc6cea533213",
+        "dateUpdated": 1592537748187
+      },
+      "key": "elitemobs.unlockedbutton.lore.2"
+    },
+    {
+      "languages": {
+        "en_US": "&7Max drop tier: &eTier %1",
+        "ja_JP": "&7最大ドロップTier: &eTier %1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592536561969,
+        "id": "87523e78-a590-4e00-afe5-ca229f42b339",
+        "dateUpdated": 1592536991888
+      },
+      "key": "elitemobs.unlockedbutton.lore.3"
+    },
+    {
+      "languages": {
+        "en_US": "&c&lLOCKED",
+        "ja_JP": "&c&lロック"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537106719,
+        "id": "44dafa1e-0389-4500-9ffb-7cbd02768c77",
+        "dateUpdated": 1592537143204
+      },
+      "key": "elitemobs.lockedbutton.lore.1"
+    },
+    {
+      "languages": {
+        "en_US": "&cNeed %1",
+        "ja_JP": "&c%1&cが必要"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537164148,
+        "id": "b75186d9-f4b9-47eb-97c6-0143021d0473",
+        "dateUpdated": 1592539573457
+      },
+      "key": "elitemobs.lockedbutton.lore.2"
+    },
+    {
+      "languages": {
+        "en_US": "&6Current select",
+        "ja_JP": "&6現在選択中"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537269446,
+        "id": "77ada650-3b74-4529-839c-0fa1c57cb623",
+        "dateUpdated": 1592537365410
+      },
+      "key": "elitemobs.currentbutton.lore.1"
+    },
+    {
+      "languages": {
+        "en_US": "&6&lUNLOCKABLE!",
+        "ja_JP": "&6&lアンロック可能！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537488231,
+        "id": "63520f26-ddf7-4688-ae90-db8b253f887b",
+        "dateUpdated": 1592537535076
+      },
+      "key": "elitemobs.nextbutton.lore.1"
+    },
+    {
+      "languages": {
+        "en_US": "&7Cost - &6%1",
+        "ja_JP": "&7コスト - &6%1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537559964,
+        "id": "0df6fcde-971b-4f03-807a-b0f5432e64e4",
+        "dateUpdated": 1592537589350
+      },
+      "key": "elitemobs.nextbutton.lore.2"
+    },
+    {
+      "languages": {
+        "en_US": "Prestige %1",
+        "ja_JP": "プレステージ %1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537808355,
+        "id": "702d7c51-a59d-449d-a3e8-d71f61605e46",
+        "dateUpdated": 1592537848485
+      },
+      "key": "elitemobs.prestigelockedbutton.name"
+    },
+    {
+      "languages": {
+        "en_US": "&cYou must unlock all guild ranks!",
+        "ja_JP": "&c全てのギルドランクをアンロックする必要があります！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537891816,
+        "id": "d00a42e0-4abb-4f83-b901-35c58835f00b",
+        "dateUpdated": 1592538765246
+      },
+      "key": "elitemobs.prestigelockedbutton.lore.1"
+    },
+    {
+      "languages": {
+        "en_US": "&7Cost - &6%1",
+        "ja_JP": "&7コスト - &6%1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592537967300,
+        "id": "2fb2e45c-a1a8-4fde-9aed-9cf35fbdc984",
+        "dateUpdated": 1592537998161
+      },
+      "key": "elitemobs.prestigenextunlockbutton.lore.2"
+    },
+    {
+      "languages": {
+        "en_US": "&a&lUNLOCK IS READY",
+        "ja_JP": "&a&lアンロック可能"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592538020040,
+        "id": "ae90d8a7-3f64-4fa8-b11a-866a4a3ba2dc",
+        "dateUpdated": 1592538052670
+      },
+      "key": "elitemobs.prestigenextunlockbutton.lore.1"
+    },
+    {
+      "languages": {
+        "en_US": "&c&lWARNING",
+        "ja_JP": "&c&l注意"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592538130789,
+        "id": "eca9ccbd-c50e-46ba-a735-8d2880b965e1",
+        "dateUpdated": 1592538147064
+      },
+      "key": "elitemobs.prestigenextunlockbutton.lore.3"
+    },
+    {
+      "languages": {
+        "en_US": "&cYour guild rank will be reset when you advance to the prestige stage.",
+        "ja_JP": "&cプレステージへ進むとギルドランクがリセットされます。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592538170487,
+        "id": "ea1d091c-ec31-4af3-b2b7-de90be136c05",
+        "dateUpdated": 1592538703234
+      },
+      "key": "elitemobs.prestigenextunlockbutton.lore.4"
+    },
+    {
+      "languages": {
+        "en_US": "&cWill allow you to unlock:",
+        "ja_JP": "&c次のものがアンロック可能になります:"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592538238620,
+        "id": "a99836e0-11fe-44cf-b69b-84ac7ffbf978",
+        "dateUpdated": 1592538719614
+      },
+      "key": "elitemobs.prestigenextunlockbutton.lore.5"
+    },
+    {
+      "languages": {
+        "en_US": "&7- Access to higher tiers",
+        "ja_JP": "&7- より高いティアの開放"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592538282103,
+        "id": "ba476b74-ebf8-4c9f-9161-7827cb88ef71",
+        "dateUpdated": 1592538745423
+      },
+      "key": "elitemobs.prestigenextunlockbutton.lore.6"
+    },
+    {
+      "languages": {
+        "en_US": "&7- Access to higher tier loot",
+        "ja_JP": "&7- より高いティアのアイテムの開放"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592538331014,
+        "id": "68dfc76e-4a00-4816-9f3d-f208fb8c54c2",
+        "dateUpdated": 1592538741825
+      },
+      "key": "elitemobs.prestigenextunlockbutton.lore.7"
+    },
+    {
+      "languages": {
+        "en_US": "&7Extra drop balance: &e %1",
+        "ja_JP": "&7お金の追加ドロップ: &e%1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592538816493,
+        "id": "76a5b7de-333b-4f00-bcc4-e217bfed0164",
+        "dateUpdated": 1592539101064
+      },
+      "key": "elitemobs.currencybonusmessage"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6Elite&8] &7You don't have enough money!",
+        "ja_JP": "&8[&6Elite&8] &7十分な所持金がありません！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592539124961,
+        "id": "1b1087df-a39b-4509-9843-dbf210f5339d",
+        "dateUpdated": 1592539227636
+      },
+      "key": "elitemobs.notenoughcurrencymessage"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6Elite&8] &7Unlocked &e%1 rank&7!",
+        "ja_JP": "&8[&6Elite&8] &e%1 ランク &7をアンロックしました！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592539242021,
+        "id": "8cc7a74e-6549-4da9-ad31-e98a9521860a",
+        "dateUpdated": 1592539655503
+      },
+      "key": "elitemobs.unlockmessage"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6Elite&8] &e%1 &7has  unlocked &e%2 rank&7!",
+        "ja_JP": "&8[&6Elite&8] &e%1 &7が &e%2 ランク&7をアンロックしました！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592539380351,
+        "id": "8f387554-3c02-4e43-9583-315c4ffab75d",
+        "dateUpdated": 1592539645524
+      },
+      "key": "elitemobs.questcompletebroadcastmessage"
     }
   ]
 }

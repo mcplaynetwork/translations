@@ -377,6 +377,19 @@
         "dateUpdated": 1592539645524
       },
       "key": "elitemobs.questcompletebroadcastmessage"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6Anti-Exploit&8] &7Nearby elite won't drop special loot.",
+        "ja_JP": "&8[&6Anti-Exploit&8] &7近くのエリートは特別なアイテムをドロップしません。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592620812200,
+        "id": "0687b568-2529-4891-bb56-d08d7f70dca3",
+        "dateUpdated": 1592621225331
+      },
+      "key": "elitemobs.antiexploitmessage"
     }
   ]
 }

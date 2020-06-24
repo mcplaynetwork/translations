@@ -56,6 +56,19 @@
         "dateUpdated": 1592532334510
       },
       "key": "gui.shop.eliteitemsshop.name"
+    },
+    {
+      "languages": {
+        "en_US": "World select",
+        "ja_JP": "ワールド選択"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833647652,
+        "id": "c0901af6-e18f-498a-8cc1-7b23d61c3acd",
+        "dateUpdated": 1592833676637
+      },
+      "key": "gui.worldselect"
     }
   ]
 }

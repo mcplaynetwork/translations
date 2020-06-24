@@ -433,6 +433,19 @@
         "dateUpdated": 1592533805150
       },
       "key": "cancel"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6Vote&8] &e%1 &7voted in &e%2&7.",
+        "ja_JP": "&8[&6Vote&8] &e%1 &7が &e%2 &7で投票しました。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592960997957,
+        "id": "ad02ba9b-8f49-4246-b41e-16ce886dd46a",
+        "dateUpdated": 1592966766203
+      },
+      "key": "votebroadcast"
     }
   ]
 }

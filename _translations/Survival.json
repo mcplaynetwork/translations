@@ -108,6 +108,97 @@
         "dateUpdated": 1591790388595
       },
       "key": "survival.votetop"
+    },
+    {
+      "languages": {
+        "en_US": "&e&lWilderness Teleport",
+        "ja_JP": "&e&lビルドワールドへランダムテレポート"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833357251,
+        "id": "fb37d4e0-d7df-438b-913a-a4d066a131b2",
+        "dateUpdated": 1592916715721
+      },
+      "key": "survival.hologram.wildernessteleport"
+    },
+    {
+      "languages": {
+        "en_US": "&lWORLD SELECT",
+        "ja_JP": "&lワールド選択"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833495538,
+        "id": "e63da4cc-c87c-4c4c-b83a-60ab8fa85060",
+        "dateUpdated": 1592833523320
+      },
+      "key": "survival.hologram.world"
+    },
+    {
+      "languages": {
+        "en_US": "&lSHOP",
+        "ja_JP": "&lショップ"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833548561,
+        "id": "9f42ef58-b85a-44fb-b95c-142ec31e9f02",
+        "dateUpdated": 1592833573285
+      },
+      "key": "survival.hologram.shop"
+    },
+    {
+      "languages": {
+        "en_US": "&6Build world",
+        "ja_JP": "&6ビルドワールド"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833696936,
+        "id": "acea07e0-e9a3-49fd-9eee-e9c066bd18e4",
+        "dateUpdated": 1592833730223
+      },
+      "key": "survival.world.build"
+    },
+    {
+      "languages": {
+        "en_US": "&7&lRESOURCE &aOVERWORLD",
+        "ja_JP": "&7&l資源 &aオーバーワールド"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833746369,
+        "id": "8661ad77-6e4e-4819-aeb1-2809837d960c",
+        "dateUpdated": 1592833811661
+      },
+      "key": "survival.world.resourceoverworld"
+    },
+    {
+      "languages": {
+        "en_US": "&7&lRESOURCE &cNETHER",
+        "ja_JP": "&7&l資源 &cネザー"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833839671,
+        "id": "8daba6f7-c5d0-4d53-85e3-b2609e838886",
+        "dateUpdated": 1592833866276
+      },
+      "key": "survival.world.resourcenether"
+    },
+    {
+      "languages": {
+        "en_US": "&7&lRESOURCE &eTHE END",
+        "ja_JP": "&7&l資源 &eジ・エンド"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592833885299,
+        "id": "27798fc0-4a42-4440-86fe-1b05dd8b916e",
+        "dateUpdated": 1592833925245
+      },
+      "key": "survival.world.resourcetheend"
     }
   ]
 }

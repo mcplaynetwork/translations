@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": false,
+    "universal": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_US": "Do you enjoy your server? Please vote for us! &ohttps://www.mcplay.biz/vote/",
+        "ja_JP": "サーバーを楽しんでいますか？ぜひ投票してください！ &ohttps://www.mcplay.biz/vote/"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592970494644,
+        "id": "3475fbec-4795-4856-9592-fc5990d3628c",
+        "dateUpdated": 1592979323168
+      },
+      "key": "timedmessages.vote"
+    },
+    {
+      "languages": {
+        "en_US": "Join the Discord to get the latest news! https://www.mcplay.biz/discord",
+        "ja_JP": "Discordに参加すると最新情報を知れます！ https://www.mcplay.biz/discord"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1592979194564,
+        "id": "63cc623f-5d42-459f-a090-0d28dcd0cbb2",
+        "dateUpdated": 1592979537409
+      },
+      "key": "timedmessages.discord"
+    }
+  ]
+}

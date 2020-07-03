@@ -199,6 +199,136 @@
         "dateUpdated": 1592833925245
       },
       "key": "survival.world.resourcetheend"
+    },
+    {
+      "languages": {
+        "en_US": "Back to the previous point.",
+        "ja_JP": "前の地点に戻る。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593181695935,
+        "id": "57b18094-fa88-41a2-bdb9-8854b392e463",
+        "dateUpdated": 1593181737045
+      },
+      "key": "surviva.backpreviouspoint"
+    },
+    {
+      "languages": {
+        "en_US": "Random Teleport",
+        "ja_JP": "ランダムテレポート"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593181882957,
+        "id": "a63cf423-d78c-46f9-9a7b-f6a92df5b1f9",
+        "dateUpdated": 1593181897058
+      },
+      "key": "survival.randomteleport"
+    },
+    {
+      "languages": {
+        "en_US": "Teleport to center point.",
+        "ja_JP": "中心地点にテレポート"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593182297664,
+        "id": "97550a88-d4c9-410b-b6af-a1fb8163633e",
+        "dateUpdated": 1593182462197
+      },
+      "key": "survival.teleportworldcenter"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6World&8] &7Resource worlds is automatically reset. The reset is on the first day of each month.",
+        "ja_JP": "&8[&6World&8] &7資源ワールドは自動的にリセットされます。リセットは毎月１日に行われます。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593760091517,
+        "id": "075667a8-d34e-4aff-8ade-3714c981684a",
+        "dateUpdated": 1593760279729
+      },
+      "key": "survival.resourceworldreset"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6World&8] &7Regenerating resource worlds...",
+        "ja_JP": "&8[&6World&8] &7資源ワールドの再生成中..."
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593772465234,
+        "id": "66577f96-71bd-4cbd-bf96-44fa2eb40d32",
+        "dateUpdated": 1593772940050
+      },
+      "key": "survival.regeneratingstart"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6World&8] &7Resource world has been regenerated!",
+        "ja_JP": "&8[&6World&8] &7資源ワールドの再生成が完了しました！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593772615116,
+        "id": "28b69a8b-2499-4ad7-a991-15be9fcadf63",
+        "dateUpdated": 1593772933406
+      },
+      "key": "survival.regeneratingfinish"
+    },
+    {
+      "languages": {
+        "en_US": "&e&lSewer Dungeon",
+        "ja_JP": "&e&l下水道ダンジョン"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593797400686,
+        "id": "8da3a43d-bc92-42d8-bddf-4ff3d5a18568",
+        "dateUpdated": 1593797480331
+      },
+      "key": "survival.hologram.elitemobs_sewer_maze.1"
+    },
+    {
+      "languages": {
+        "en_US": "&eDungeon worlds",
+        "ja_JP": "&eダンジョンワールド"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593807609051,
+        "id": "22eddfda-f6bc-4417-83dd-e5a9ca88e285",
+        "dateUpdated": 1593807828869
+      },
+      "key": "survival.world.dungeons"
+    },
+    {
+      "languages": {
+        "en_US": "&2Sewer dungeon",
+        "ja_JP": "&2下水道ダンジョン"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593808189233,
+        "id": "d040591f-6ecf-4fa0-a6dc-19062d86e969",
+        "dateUpdated": 1593808256408
+      },
+      "key": "survival.world.elitemobs_sewer_maze"
+    },
+    {
+      "languages": {
+        "en_US": "&eResource worlds",
+        "ja_JP": "&e資源ワールド"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593808451990,
+        "id": "6176bc90-b543-4671-bb68-e54731331fa1",
+        "dateUpdated": 1593808471717
+      },
+      "key": "survival.world.resourceworlds"
     }
   ]
 }

@@ -390,6 +390,32 @@
         "dateUpdated": 1592621225331
       },
       "key": "elitemobs.antiexploitmessage"
+    },
+    {
+      "languages": {
+        "en_US": "&8[&6Elite&8] &7Picked up &e%1&7!",
+        "ja_JP": "&8[&6Elite&8] &e%1&7を拾いました！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593757499447,
+        "id": "2f550264-17dc-45d4-8c13-c74426b75a5c",
+        "dateUpdated": 1593758230494
+      },
+      "key": "elitemobs.chatCurrencyShowerMessage"
+    },
+    {
+      "languages": {
+        "en_US": "&7Picked up &e%1&7!",
+        "ja_JP": "&e%1&7を拾いました！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593758164273,
+        "id": "fa246a89-b5cc-4cf0-a4b9-a9a4e9dc2275",
+        "dateUpdated": 1593758237754
+      },
+      "key": "elitemobs.actionbarCurrencyShowerMessage"
     }
   ]
 }

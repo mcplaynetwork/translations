@@ -446,6 +446,19 @@
         "dateUpdated": 1592966766203
       },
       "key": "votebroadcast"
+    },
+    {
+      "languages": {
+        "en_US": "You don't have a website account yet. You can register at /register.",
+        "ja_JP": "まだウェブサイトのアカウントを持っていません。/register で登録できます。"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593176965937,
+        "id": "89370757-c572-4a9f-9004-49ca9a142149",
+        "dateUpdated": 1593177097431
+      },
+      "key": "account.notregisted"
     }
   ]
 }

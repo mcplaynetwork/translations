@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": false,
+    "universal": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_US": "&e%1 &7was kicked because of cheating!",
+        "ja_JP": "&e%1 &7はチートが原因でkickされました！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593167953944,
+        "id": "1f24cbf9-368e-464c-9210-5b2cd5eed48d",
+        "dateUpdated": 1593168067760
+      },
+      "key": "anticheat.kickformat"
+    },
+    {
+      "languages": {
+        "en_US": "&e%1 &7was kicked because of cheating!",
+        "ja_JP": "&e%1 &7はチートが原因でkickされました！"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1593167953944,
+        "id": "1f24cbf9-368e-464c-9210-5b2cd5eed48d",
+        "dateUpdated": 1593168067760
+      },
+      "key": "anticheat.kickformat"
+    }
+  ]
+}

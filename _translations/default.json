@@ -1,464 +1,545 @@
 {
-  "metadata": {},
+  "metadata": {
+    "blacklist": true,
+    "servers": []
+  },
   "items": [
     {
+      "key": "language",
+      "type": "text",
+      "_twin": {
+        "id": "9c90a1b6-13e1-4dd5-a3b6-4a82ba0a4e28",
+        "dateCreated": 1583862266566,
+        "dateUpdated": 1583862279492,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "English",
         "ja_JP": "日本語"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1583862266566,
-        "id": "9c90a1b6-13e1-4dd5-a3b6-4a82ba0a4e28",
-        "dateUpdated": 1583862279492
-      },
-      "key": "language"
+      }
     },
     {
+      "key": "server",
+      "type": "text",
+      "_twin": {
+        "id": "85575e93-4c6b-4f25-8edd-f7efcfa774da",
+        "dateCreated": 1585030829612,
+        "dateUpdated": 1585030847206,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "server",
         "ja_JP": "サーバー"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1585030829612,
-        "id": "85575e93-4c6b-4f25-8edd-f7efcfa774da",
-        "dateUpdated": 1585030847206
-      },
-      "key": "server"
+      }
     },
     {
+      "key": "serverselect",
+      "type": "text",
+      "_twin": {
+        "id": "060bccb9-ee1b-458b-b25b-87c22c7b6532",
+        "dateCreated": 1585030849840,
+        "dateUpdated": 1585030864447,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "server select",
         "ja_JP": "サーバー選択"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1585030849840,
-        "id": "060bccb9-ee1b-458b-b25b-87c22c7b6532",
-        "dateUpdated": 1585030864447
-      },
-      "key": "serverselect"
+      }
     },
     {
+      "key": "warp",
+      "type": "text",
+      "_twin": {
+        "id": "4e84a0bf-9254-409c-a403-94eb590d8d9c",
+        "dateCreated": 1585030877996,
+        "dateUpdated": 1585030886567,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "warp",
         "ja_JP": "ワープ"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1585030877996,
-        "id": "4e84a0bf-9254-409c-a403-94eb590d8d9c",
-        "dateUpdated": 1585030886567
-      },
-      "key": "warp"
+      }
     },
     {
+      "key": "serverselect",
+      "type": "text",
+      "_twin": {
+        "id": "d9ea9b09-9018-4dd0-b5e0-68ae7658b466",
+        "dateCreated": 1586826623014,
+        "dateUpdated": 1586826641780,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Server Select",
         "ja_JP": "サーバー選択"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586826623014,
-        "id": "d9ea9b09-9018-4dd0-b5e0-68ae7658b466",
-        "dateUpdated": 1586826641780
-      },
-      "key": "serverselect"
+      }
     },
     {
+      "key": "clicktoselect",
+      "type": "text",
+      "_twin": {
+        "id": "8fafd746-8078-4157-ae5e-048c8d3f1bb3",
+        "dateCreated": 1586826889717,
+        "dateUpdated": 1586826903809,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Click to select",
         "ja_JP": "クリックして選択"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586826889717,
-        "id": "8fafd746-8078-4157-ae5e-048c8d3f1bb3",
-        "dateUpdated": 1586826903809
-      },
-      "key": "clicktoselect"
+      }
     },
     {
-      "languages": {
-        "en_US": "&cYou do not have permission.",
-        "ja_JP": "&c権限がありません。"
-      },
+      "key": "nopermission",
       "type": "text",
       "_twin": {
-        "dateCreated": 1586837322385,
         "id": "16c3cf88-9cc1-4ddf-8ff0-8207ab2ea82f",
-        "dateUpdated": 1586837431519
+        "dateCreated": 1586837322385,
+        "dateUpdated": 1586837431519,
+        "archived": false,
+        "tags": []
       },
-      "key": "nopermission"
+      "languages": {
+        "en_US": "\u0026cYou do not have permission.",
+        "ja_JP": "\u0026c権限がありません。"
+      }
     },
     {
+      "key": "messages.whitelist",
+      "type": "text",
+      "_twin": {
+        "id": "7c3788cd-d4e2-4f03-955a-51519b533664",
+        "dateCreated": 1586966724896,
+        "dateUpdated": 1586967478798,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Access to the server is denied.",
         "ja_JP": "サーバーへのアクセスが拒否されました。"
       },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586966724896,
-        "id": "7c3788cd-d4e2-4f03-955a-51519b533664",
-        "dateUpdated": 1586967478798
-      },
-      "key": "messages.whitelist",
-      "patterns": ["You are not whitelisted on this server!"]
+      "patterns": [
+        "You are not whitelisted on this server!"
+      ]
     },
     {
+      "key": "messages.unknown-command",
+      "type": "text",
+      "_twin": {
+        "id": "78f0183b-7d66-4817-97ad-7c3ac28d66ab",
+        "dateCreated": 1586966815493,
+        "dateUpdated": 1586967487677,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Unknown command",
         "ja_JP": "不明なコマンド"
       },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586966815493,
-        "id": "78f0183b-7d66-4817-97ad-7c3ac28d66ab",
-        "dateUpdated": 1586967487677
-      },
-      "key": "messages.unknown-command",
-      "patterns": ["Unknown command. Type \"/help\" for help."]
+      "patterns": [
+        "Unknown command. Type \"/help\" for help."
+      ]
     },
     {
+      "key": "messages.server-full",
+      "type": "text",
+      "_twin": {
+        "id": "617a6f56-cab9-4e15-97f6-058b75048c7b",
+        "dateCreated": 1586966863039,
+        "dateUpdated": 1586967493815,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Server is full",
         "ja_JP": "サーバーが満員"
       },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586966863039,
-        "id": "617a6f56-cab9-4e15-97f6-058b75048c7b",
-        "dateUpdated": 1586967493815
-      },
-      "key": "messages.server-full",
-      "patterns": ["The server is full!"]
+      "patterns": [
+        "The server is full!"
+      ]
     },
     {
-      "languages": {
-        "en_US": "Server and client versions are different.",
-        "ja_JP": "サーバーとクライアントのバージョンが異なります。"
-      },
+      "key": "messages.outdated-client",
       "type": "text",
       "_twin": {
-        "dateCreated": 1586966935982,
         "id": "c87e2900-45c9-4a81-80f6-c65ad7688be3",
-        "dateUpdated": 1586967112185
+        "dateCreated": 1586966935982,
+        "dateUpdated": 1586967112185,
+        "archived": false,
+        "tags": []
       },
-      "key": "messages.outdated-client"
-    },
-    {
       "languages": {
         "en_US": "Server and client versions are different.",
         "ja_JP": "サーバーとクライアントのバージョンが異なります。"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586967021869,
-        "id": "75aebb4c-ca23-4d01-9b62-abbc2230f2dc",
-        "dateUpdated": 1586967089032
-      },
-      "key": "messages.outdated-server"
+      }
     },
     {
+      "key": "messages.outdated-server",
+      "type": "text",
+      "_twin": {
+        "id": "75aebb4c-ca23-4d01-9b62-abbc2230f2dc",
+        "dateCreated": 1586967021869,
+        "dateUpdated": 1586967089032,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "Server and client versions are different.",
+        "ja_JP": "サーバーとクライアントのバージョンが異なります。"
+      }
+    },
+    {
+      "key": "messages.restart",
+      "type": "text",
+      "_twin": {
+        "id": "a7dfe865-d496-42c8-8c3b-f634dd7a07ec",
+        "dateCreated": 1586967119736,
+        "dateUpdated": 1586967537995,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Server restart",
         "ja_JP": "サーバー再起動"
       },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586967119736,
-        "id": "a7dfe865-d496-42c8-8c3b-f634dd7a07ec",
-        "dateUpdated": 1586967537995
-      },
-      "key": "messages.restart",
-      "patterns": ["Server is restarting"]
+      "patterns": [
+        "Server is restarting"
+      ]
     },
     {
+      "key": "server.survival",
+      "type": "text",
+      "_twin": {
+        "id": "544716c3-ae99-470e-8fa5-1e40a6668a5c",
+        "dateCreated": 1586969771035,
+        "dateUpdated": 1586969783760,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Survival",
         "ja_JP": "サバイバル"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1586969771035,
-        "id": "544716c3-ae99-470e-8fa5-1e40a6668a5c",
-        "dateUpdated": 1586969783760
-      },
-      "key": "server.survival"
+      }
     },
     {
+      "key": "server.chokaigi",
+      "type": "text",
+      "_twin": {
+        "id": "55a2dcb3-9011-481e-9603-2f7cad761e4d",
+        "dateCreated": 1587026824225,
+        "dateUpdated": 1587026940802,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Minecraft Chokaigi build project",
         "ja_JP": "マイクラでニコ超再現プロジェクト"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587026824225,
-        "id": "55a2dcb3-9011-481e-9603-2f7cad761e4d",
-        "dateUpdated": 1587026940802
-      },
-      "key": "server.chokaigi"
+      }
     },
     {
+      "key": "shell.proxyrestartcount",
+      "type": "text",
+      "_twin": {
+        "id": "7639c129-25ce-40df-bab2-8d6fadcc05a4",
+        "dateCreated": 1587027389688,
+        "dateUpdated": 1587028274827,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Proxy will restart in %1.",
         "ja_JP": "プロキシは%1後に再起動します。"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587027389688,
-        "id": "7639c129-25ce-40df-bab2-8d6fadcc05a4",
-        "dateUpdated": 1587028274827
-      },
-      "key": "shell.proxyrestartcount"
+      }
     },
     {
+      "key": "10minutes",
+      "type": "text",
+      "_twin": {
+        "id": "400adc96-702c-4a8b-8334-4c6dc25555d0",
+        "dateCreated": 1587028061529,
+        "dateUpdated": 1587028087615,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "10 minutes",
         "ja_JP": "10分"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587028061529,
-        "id": "400adc96-702c-4a8b-8334-4c6dc25555d0",
-        "dateUpdated": 1587028087615
-      },
-      "key": "10minutes"
+      }
     },
     {
+      "key": "5minutes",
+      "type": "text",
+      "_twin": {
+        "id": "1031f065-50c9-42c5-82dd-2c1760c75ff6",
+        "dateCreated": 1587028123661,
+        "dateUpdated": 1587028132533,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "5 minutes",
         "ja_JP": "5分"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587028123661,
-        "id": "1031f065-50c9-42c5-82dd-2c1760c75ff6",
-        "dateUpdated": 1587028132533
-      },
-      "key": "5minutes"
+      }
     },
     {
+      "key": "1minute",
+      "type": "text",
+      "_twin": {
+        "id": "b2bfe093-8a59-44e1-b66d-a4a1a728168a",
+        "dateCreated": 1587028134890,
+        "dateUpdated": 1587029676504,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "1 minute",
         "ja_JP": "1分"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587028134890,
-        "id": "b2bfe093-8a59-44e1-b66d-a4a1a728168a",
-        "dateUpdated": 1587029676504
-      },
-      "key": "1minute"
+      }
     },
     {
+      "key": "30seconds",
+      "type": "text",
+      "_twin": {
+        "id": "453a823b-4dbb-4091-a8cd-c2024ba17d23",
+        "dateCreated": 1587028151201,
+        "dateUpdated": 1587028164595,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "30 seconds",
         "ja_JP": "30秒"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587028151201,
-        "id": "453a823b-4dbb-4091-a8cd-c2024ba17d23",
-        "dateUpdated": 1587028164595
-      },
-      "key": "30seconds"
+      }
     },
     {
+      "key": "shell.restarting",
+      "type": "text",
+      "_twin": {
+        "id": "af030869-897a-43b0-b355-805116e3f50f",
+        "dateCreated": 1587028370142,
+        "dateUpdated": 1587028518002,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Restarting... Restart will take about 30 seconds to complete. Please reconnect to mcplay.biz .",
         "ja_JP": "再起動中... 再起動は約30秒で完了します。mcplay.bizで再接続してください。"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587028370142,
-        "id": "af030869-897a-43b0-b355-805116e3f50f",
-        "dateUpdated": 1587028518002
-      },
-      "key": "shell.restarting"
+      }
     },
     {
+      "key": "yes",
+      "type": "text",
+      "_twin": {
+        "id": "1692c6c5-eb7e-415f-9c13-2582210bcb77",
+        "dateCreated": 1587138379775,
+        "dateUpdated": 1587138387701,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Yes",
         "ja_JP": "はい"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587138379775,
-        "id": "1692c6c5-eb7e-415f-9c13-2582210bcb77",
-        "dateUpdated": 1587138387701
-      },
-      "key": "yes"
+      }
     },
     {
+      "key": "no",
+      "type": "text",
+      "_twin": {
+        "id": "e30d64eb-341e-48ca-aebe-73939dd7e659",
+        "dateCreated": 1587138389967,
+        "dateUpdated": 1587139237807,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "No",
         "ja_JP": "いいえ"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587138389967,
-        "id": "e30d64eb-341e-48ca-aebe-73939dd7e659",
-        "dateUpdated": 1587139237807
-      },
-      "key": "no"
+      }
     },
     {
+      "key": "areyousure",
+      "type": "text",
+      "_twin": {
+        "id": "ccd49338-9451-4acc-a874-bb40617cbe45",
+        "dateCreated": 1587139242751,
+        "dateUpdated": 1587139290825,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Are you sure?",
         "ja_JP": "本当にいいですか"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587139242751,
-        "id": "ccd49338-9451-4acc-a874-bb40617cbe45",
-        "dateUpdated": 1587139290825
-      },
-      "key": "areyousure"
+      }
     },
     {
+      "key": "warn.thiserverisnotmcplay",
+      "type": "text",
+      "_twin": {
+        "id": "34c347a2-9db7-41ff-b9da-2c339ec3e6a1",
+        "dateCreated": 1587151195422,
+        "dateUpdated": 1587151376427,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "This server is not MCPlay.",
         "ja_JP": "このサーバーはMCPlayではありません。"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587151195422,
-        "id": "34c347a2-9db7-41ff-b9da-2c339ec3e6a1",
-        "dateUpdated": 1587151376427
-      },
-      "key": "warn.thiserverisnotmcplay"
+      }
     },
     {
+      "key": "warn.differentrulesmayapply",
+      "type": "text",
+      "_twin": {
+        "id": "5c6e7335-afce-4472-8d66-4b5f8f4533b2",
+        "dateCreated": 1587151384322,
+        "dateUpdated": 1587151446967,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Different rules may apply.",
         "ja_JP": "異なるルールが適用される可能性があります。"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587151384322,
-        "id": "5c6e7335-afce-4472-8d66-4b5f8f4533b2",
-        "dateUpdated": 1587151446967
-      },
-      "key": "warn.differentrulesmayapply"
+      }
     },
     {
+      "key": "warning",
+      "type": "text",
+      "_twin": {
+        "id": "402f269b-f44c-4d8f-b267-04bd6211703d",
+        "dateCreated": 1587151459925,
+        "dateUpdated": 1587151473570,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "WARNING",
         "ja_JP": "警告"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1587151459925,
-        "id": "402f269b-f44c-4d8f-b267-04bd6211703d",
-        "dateUpdated": 1587151473570
-      },
-      "key": "warning"
+      }
     },
     {
+      "key": "day",
+      "type": "text",
+      "_twin": {
+        "id": "c2dc3769-b15f-4b40-a8aa-705d3f0c9ae3",
+        "dateCreated": 1591755803540,
+        "dateUpdated": 1591755823372,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "day",
         "ja_JP": "日"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591755803540,
-        "id": "c2dc3769-b15f-4b40-a8aa-705d3f0c9ae3",
-        "dateUpdated": 1591755823372
-      },
-      "key": "day"
+      }
     },
     {
+      "key": "hour",
+      "type": "text",
+      "_twin": {
+        "id": "b2c7e6c7-3b74-482d-8b23-ae88a51200d5",
+        "dateCreated": 1591755833305,
+        "dateUpdated": 1591755846017,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "hour",
         "ja_JP": "時間"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591755833305,
-        "id": "b2c7e6c7-3b74-482d-8b23-ae88a51200d5",
-        "dateUpdated": 1591755846017
-      },
-      "key": "hour"
+      }
     },
     {
+      "key": "minute",
+      "type": "text",
+      "_twin": {
+        "id": "c0d26cf7-d2ef-409c-af0e-fee4b29752d0",
+        "dateCreated": 1591755851065,
+        "dateUpdated": 1591755866377,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "minute",
         "ja_JP": "分"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591755851065,
-        "id": "c0d26cf7-d2ef-409c-af0e-fee4b29752d0",
-        "dateUpdated": 1591755866377
-      },
-      "key": "minute"
+      }
     },
     {
+      "key": "next",
+      "type": "text",
+      "_twin": {
+        "id": "19ee0fee-d71b-4f43-9709-b48cb0da25f4",
+        "dateCreated": 1591757642319,
+        "dateUpdated": 1591757651445,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Next",
         "ja_JP": "次"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757642319,
-        "id": "19ee0fee-d71b-4f43-9709-b48cb0da25f4",
-        "dateUpdated": 1591757651445
-      },
-      "key": "next"
+      }
     },
     {
+      "key": "prev",
+      "type": "text",
+      "_twin": {
+        "id": "9093130f-ff0a-46df-9988-caafd64beabc",
+        "dateCreated": 1591757687233,
+        "dateUpdated": 1591757693683,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Prev",
         "ja_JP": "前"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757687233,
-        "id": "9093130f-ff0a-46df-9988-caafd64beabc",
-        "dateUpdated": 1591757693683
-      },
-      "key": "prev"
+      }
     },
     {
+      "key": "cancel",
+      "type": "text",
+      "_twin": {
+        "id": "1f71347e-2864-49a2-bdc1-b4eebcf23f87",
+        "dateCreated": 1592533790677,
+        "dateUpdated": 1592533805150,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Cancel",
         "ja_JP": "キャンセル"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1592533790677,
-        "id": "1f71347e-2864-49a2-bdc1-b4eebcf23f87",
-        "dateUpdated": 1592533805150
-      },
-      "key": "cancel"
+      }
     },
     {
-      "languages": {
-        "en_US": "&8[&6Vote&8] &e%1 &7voted in &e%2&7.",
-        "ja_JP": "&8[&6Vote&8] &e%1 &7が &e%2 &7で投票しました。"
-      },
+      "key": "votebroadcast",
       "type": "text",
       "_twin": {
-        "dateCreated": 1592960997957,
         "id": "ad02ba9b-8f49-4246-b41e-16ce886dd46a",
-        "dateUpdated": 1592966766203
+        "dateCreated": 1592960997957,
+        "dateUpdated": 1592966766203,
+        "archived": false,
+        "tags": []
       },
-      "key": "votebroadcast"
+      "languages": {
+        "en_US": "\u00268[\u00266Vote\u00268] \u0026e%1 \u00267voted in \u0026e%2\u00267.",
+        "ja_JP": "\u00268[\u00266Vote\u00268] \u0026e%1 \u00267が \u0026e%2 \u00267で投票しました。"
+      }
     },
     {
-      "languages": {
-        "en_US": "You don't have a website account yet. You can register at /register.",
-        "ja_JP": "まだウェブサイトのアカウントを持っていません。/register で登録できます。"
-      },
+      "key": "account.notregisted",
       "type": "text",
       "_twin": {
-        "dateCreated": 1593176965937,
         "id": "89370757-c572-4a9f-9004-49ca9a142149",
-        "dateUpdated": 1593177097431
+        "dateCreated": 1593176965937,
+        "dateUpdated": 1594981662411,
+        "archived": false,
+        "tags": []
       },
-      "key": "account.notregisted"
+      "languages": {
+        "en_US": "\u00268[\u00266MCPlay\u00268] \u00267You don\u0027t have a website account yet. You can register at /register.",
+        "ja_JP": "\u00268[\u00266MCPlay\u00268] \u00267まだウェブサイトのアカウントを持っていません。/register で登録できます。"
+      }
     }
   ]
 }

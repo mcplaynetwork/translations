@@ -1,48 +1,101 @@
 {
   "metadata": {
-    "servers": [],
-    "blacklist": false,
-    "universal": true
+    "blacklist": true,
+    "servers": []
   },
   "items": [
     {
-      "languages": {
-        "en_US": "&cCancelled Shop Purchase.",
-        "ja_JP": "&c購入をキャンセルしました。"
-      },
+      "key": "quickshop.shop-purchase-cancelled",
       "type": "text",
       "_twin": {
-        "dateCreated": 1583862223542,
         "id": "2a197875-82db-40e8-b666-4bd6eef6a01e",
-        "dateUpdated": 1583862649793
+        "dateCreated": 1583862223542,
+        "dateUpdated": 1583862649793,
+        "archived": false,
+        "tags": []
       },
-      "key": "quickshop.shop-purchase-cancelled"
+      "languages": {
+        "en_US": "\u0026cCancelled Shop Purchase.",
+        "ja_JP": "\u0026c購入をキャンセルしました。"
+      }
     },
     {
-      "languages": {
-        "en_US": "&aShop removed.",
-        "ja_JP": "&aショップを削除"
-      },
+      "key": "quickshop.success-removed-shop",
       "type": "text",
       "_twin": {
-        "dateCreated": 1583862239166,
         "id": "b3774f81-96d7-4ce8-8bba-b01f832c4f74",
-        "dateUpdated": 1585409179544
+        "dateCreated": 1583862239166,
+        "dateUpdated": 1585409179544,
+        "archived": false,
+        "tags": []
       },
-      "key": "quickshop.success-removed-shop"
+      "languages": {
+        "en_US": "\u0026aShop removed.",
+        "ja_JP": "\u0026aショップを削除"
+      }
     },
     {
-      "languages": {
-        "en_US": "&cThat is already a shop.",
-        "ja_JP": "&c既にショップです。"
-      },
+      "key": "quickshop.shop-already-owned",
       "type": "text",
       "_twin": {
-        "dateCreated": 1583862373929,
         "id": "2f6be200-e9ee-4f07-8342-37537d68feda",
-        "dateUpdated": 1583862397440
+        "dateCreated": 1583862373929,
+        "dateUpdated": 1583862397440,
+        "archived": false,
+        "tags": []
       },
-      "key": "quickshop.shop-already-owned"
+      "languages": {
+        "en_US": "\u0026cThat is already a shop.",
+        "ja_JP": "\u0026c既にショップです。"
+      }
+    },
+    {
+      "key": "selling",
+      "type": "text",
+      "_twin": {
+        "id": "bd30bef4-c6d2-4f7b-8079-7e9f82315f13",
+        "dateCreated": 1594743530803,
+        "dateUpdated": 1594744106831,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "Selling",
+        "ja_JP": "販売中"
+      },
+      "patterns": [
+        "Selling \\d*"
+      ]
+    },
+    {
+      "key": "quickshop.how-many-buy",
+      "type": "text",
+      "_twin": {
+        "id": "b6a6070a-cb3c-4ba4-8973-f7acb31784a9",
+        "dateCreated": 1594744747452,
+        "dateUpdated": 1594745981933,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "\u00267Enter how many you wish to \u0026eBUY\u00267 in chat. You can buy \u0026e%1\u00267. Enter \u0026eall\u00267 to buy them all.",
+        "ja_JP": "\u0026e購入\u00267したい個数をチャットに書いてください。\u0026e%1\u00267個を購入可能です。 \u0026eall \u00267と入力することで全て購入できます。"
+      }
+    },
+    {
+      "key": "quickshop.how-many-sell",
+      "type": "text",
+      "_twin": {
+        "id": "0b2ef060-d8fb-4dbb-91cf-babe2db12876",
+        "dateCreated": 1594746903796,
+        "dateUpdated": 1594981631371,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "\u00267Enter how many you wish to \u0026eSELL\u00267 in chat. You have \u0026e%1\u00267 available. Enter \u0026eall\u00267 to sell them all.",
+        "ja_JP": "\u0026e売却\u00267したい個数をチャットに書いてください。\u0026e%1\u00267個を売却可能です。 \u0026eall \u00267と入力することで全て売却できます。"
+      }
     }
   ]
 }

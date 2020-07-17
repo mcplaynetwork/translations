@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "servers": [],
-    "blacklist": false,
-    "universal": true
+    "blacklist": true,
+    "servers": []
   },
   "items": [
     {
-      "languages": {
-        "en_US": "&fWelcome to &a6lSurvivalIsland!",
-        "ja_JP": "&a&lSurvivalIsland &fへようこそ！"
-      },
+      "key": "survivalisland.hologram.welcome.1",
       "type": "text",
       "_twin": {
-        "dateCreated": 1593445602280,
         "id": "835d7c35-1619-4c3a-a5ba-59fb7c493105",
-        "dateUpdated": 1593446582494
+        "dateCreated": 1593445602280,
+        "dateUpdated": 1593446582494,
+        "archived": false,
+        "tags": []
       },
-      "key": "survivalisland.hologram.welcome.1"
+      "languages": {
+        "en_US": "\u0026fWelcome to \u0026a6lSurvivalIsland!",
+        "ja_JP": "\u0026a\u0026lSurvivalIsland \u0026fへようこそ！"
+      }
     },
     {
+      "key": "survivalisland.hologram.welcome.2",
+      "type": "text",
+      "_twin": {
+        "id": "7f1acccb-d20a-4efd-9e80-2a442c09df78",
+        "dateCreated": 1593445697496,
+        "dateUpdated": 1593445793524,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "To get started:",
         "ja_JP": "開始するには："
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1593445697496,
-        "id": "7f1acccb-d20a-4efd-9e80-2a442c09df78",
-        "dateUpdated": 1593445793524
-      },
-      "key": "survivalisland.hologram.welcome.2"
+      }
     }
   ]
 }

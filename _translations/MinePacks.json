@@ -1,20 +1,23 @@
 {
   "metadata": {
-    "servers": [],
-    "blacklist": false,
-    "universal": true
+    "blacklist": true,
+    "servers": []
   },
-  "items": [{
-    "languages": {
-      "en_US": "Backpack",
-      "ja_JP": "バックパック"
-    },
-    "type": "text",
-    "_twin": {
-      "dateCreated": 1588374775994,
-      "id": "36f331e0-cd65-4638-9355-c628cff8ddf1",
-      "dateUpdated": 1588378644499
-    },
-    "key": "MinePacks.title"
-  }]
+  "items": [
+    {
+      "key": "MinePacks.title",
+      "type": "text",
+      "_twin": {
+        "id": "36f331e0-cd65-4638-9355-c628cff8ddf1",
+        "dateCreated": 1588374775994,
+        "dateUpdated": 1588378644499,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "Backpack",
+        "ja_JP": "バックパック"
+      }
+    }
+  ]
 }

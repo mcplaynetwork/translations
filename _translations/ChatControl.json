@@ -1,152 +1,173 @@
 {
   "metadata": {
-    "servers": [],
-    "blacklist": false,
-    "universal": true
+    "blacklist": true,
+    "servers": []
   },
   "items": [
     {
+      "key": "chatcontrol.sourceserver",
+      "type": "text",
+      "_twin": {
+        "id": "097d8a9a-8fc9-4293-a518-da08c152eb88",
+        "dateCreated": 1591860149716,
+        "dateUpdated": 1591860203194,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Server",
         "ja_JP": "サーバー"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591860149716,
-        "id": "097d8a9a-8fc9-4293-a518-da08c152eb88",
-        "dateUpdated": 1591860203194
-      },
-      "key": "chatcontrol.sourceserver"
+      }
     },
     {
+      "key": "chatcontrol.timestamp",
+      "type": "text",
+      "_twin": {
+        "id": "af4807ca-92eb-49a7-a46d-5dc64b5499f1",
+        "dateCreated": 1591860229869,
+        "dateUpdated": 1591860266964,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Timestamp",
         "ja_JP": "タイムスタンプ"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591860229869,
-        "id": "af4807ca-92eb-49a7-a46d-5dc64b5499f1",
-        "dateUpdated": 1591860266964
-      },
-      "key": "chatcontrol.timestamp"
+      }
     },
     {
+      "key": "chatcontrol.clicktosendamessage",
+      "type": "text",
+      "_twin": {
+        "id": "71b2d7ba-91cb-440f-afb2-12c27a9d7d04",
+        "dateCreated": 1591860298188,
+        "dateUpdated": 1591860325686,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Click to send a message",
         "ja_JP": "クリックしてメッセージを送信"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591860298188,
-        "id": "71b2d7ba-91cb-440f-afb2-12c27a9d7d04",
-        "dateUpdated": 1591860325686
-      },
-      "key": "chatcontrol.clicktosendamessage"
+      }
     },
     {
+      "key": "chatcontrol.mailhasbeensent",
+      "type": "text",
+      "_twin": {
+        "id": "f1f86832-78db-49b0-9849-b4641321070a",
+        "dateCreated": 1591860586354,
+        "dateUpdated": 1591860611960,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "has been sent!",
         "ja_JP": "が送信されました！"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591860586354,
-        "id": "f1f86832-78db-49b0-9849-b4641321070a",
-        "dateUpdated": 1591860611960
-      },
-      "key": "chatcontrol.mailhasbeensent"
+      }
     },
     {
+      "key": "chatcontrol.privatemessage",
+      "type": "text",
+      "_twin": {
+        "id": "7563989e-9486-4983-8dfa-2d607f03a230",
+        "dateCreated": 1591861462570,
+        "dateUpdated": 1591861533286,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Private Message",
         "ja_JP": "プライベートメッセージ"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591861462570,
-        "id": "7563989e-9486-4983-8dfa-2d607f03a230",
-        "dateUpdated": 1591861533286
-      },
-      "key": "chatcontrol.privatemessage"
+      }
     },
     {
+      "key": "chatcontrol.sentat",
+      "type": "text",
+      "_twin": {
+        "id": "b82f2178-2013-4021-af08-66ce2c6f5bb5",
+        "dateCreated": 1591861535235,
+        "dateUpdated": 1591861569089,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Sent at",
         "ja_JP": "送信"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591861535235,
-        "id": "b82f2178-2013-4021-af08-66ce2c6f5bb5",
-        "dateUpdated": 1591861569089
-      },
-      "key": "chatcontrol.sentat"
+      }
     },
     {
+      "key": "chatcontrol.receiver",
+      "type": "text",
+      "_twin": {
+        "id": "599612b9-6999-41c3-9e04-556882faebf0",
+        "dateCreated": 1591861589547,
+        "dateUpdated": 1591861616971,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Receiver",
         "ja_JP": "受信者"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591861589547,
-        "id": "599612b9-6999-41c3-9e04-556882faebf0",
-        "dateUpdated": 1591861616971
-      },
-      "key": "chatcontrol.receiver"
+      }
     },
     {
+      "key": "chatcontrol.message",
+      "type": "text",
+      "_twin": {
+        "id": "f0b1f01f-233f-4f8e-b8b7-f5a79fc9dced",
+        "dateCreated": 1591861633347,
+        "dateUpdated": 1591861642463,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Message",
         "ja_JP": "メッセージ"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591861633347,
-        "id": "f0b1f01f-233f-4f8e-b8b7-f5a79fc9dced",
-        "dateUpdated": 1591861642463
-      },
-      "key": "chatcontrol.message"
+      }
     },
     {
+      "key": "chatcontrol.receivedat",
+      "type": "text",
+      "_twin": {
+        "id": "2c2ed0d4-765e-4e67-814a-7882ded73db1",
+        "dateCreated": 1591861704349,
+        "dateUpdated": 1591861718062,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Received at",
         "ja_JP": "受信"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591861704349,
-        "id": "2c2ed0d4-765e-4e67-814a-7882ded73db1",
-        "dateUpdated": 1591861718062
-      },
-      "key": "chatcontrol.receivedat"
+      }
     },
     {
+      "key": "chatcontrol.sender",
+      "type": "text",
+      "_twin": {
+        "id": "551b78ca-ad18-42be-bbc6-0d17528960ee",
+        "dateCreated": 1591861740440,
+        "dateUpdated": 1591861761226,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Sender",
         "ja_JP": "送信者"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591861740440,
-        "id": "551b78ca-ad18-42be-bbc6-0d17528960ee",
-        "dateUpdated": 1591861761226
-      },
-      "key": "chatcontrol.sender"
+      }
     },
     {
+      "key": "chatcontrol.clickforareply",
+      "type": "text",
+      "_twin": {
+        "id": "a824a3ba-e036-4736-8650-41e34448516c",
+        "dateCreated": 1591861783870,
+        "dateUpdated": 1591861805189,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Click for a reply",
         "ja_JP": "クリックして返信"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591861783870,
-        "id": "a824a3ba-e036-4736-8650-41e34448516c",
-        "dateUpdated": 1591861805189
-      },
-      "key": "chatcontrol.clickforareply"
+      }
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "blacklist": true,
+    "servers": []
+  },
+  "items": [
+    {
+      "key": "jobs.levelup.nobroadcast",
+      "type": "text",
+      "_twin": {
+        "id": "4646c876-5d45-4271-b39c-1f27dc9ec6e9",
+        "dateCreated": 1593827604691,
+        "dateUpdated": 1593827757086,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "\u00268[\u00266%1\u00268] \u00267Leveled up to the \u0026e%2 \u00267level!",
+        "ja_JP": "\u00268[\u00266%1\u00268] \u0026e%2\u00267レベルにレベルアップしました！"
+      }
+    }
+  ]
+}

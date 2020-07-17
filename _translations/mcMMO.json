@@ -1,243 +1,278 @@
 {
   "metadata": {
-    "servers": [],
-    "blacklist": false,
-    "universal": true
+    "blacklist": true,
+    "servers": []
   },
   "items": [
     {
+      "key": "mcmmo.fishing",
+      "type": "text",
+      "_twin": {
+        "id": "9c9253f0-9b41-41cb-8e80-5f42c4d3fa3e",
+        "dateCreated": 1591756158121,
+        "dateUpdated": 1591757153911,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Fishing",
         "ja_JP": "釣り"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591756158121,
-        "id": "9c9253f0-9b41-41cb-8e80-5f42c4d3fa3e",
-        "dateUpdated": 1591757153911
-      },
-      "key": "mcmmo.fishing"
+      }
     },
     {
+      "key": "mcmmo.unarmed",
+      "type": "text",
+      "_twin": {
+        "id": "abead700-e4c9-4aa6-9cf5-15d4e7bcad1a",
+        "dateCreated": 1591756262974,
+        "dateUpdated": 1591757141954,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Unarmed",
         "ja_JP": "素手"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591756262974,
-        "id": "abead700-e4c9-4aa6-9cf5-15d4e7bcad1a",
-        "dateUpdated": 1591757141954
-      },
-      "key": "mcmmo.unarmed"
+      }
     },
     {
+      "key": "mcmmo.axes",
+      "type": "text",
+      "_twin": {
+        "id": "23e48695-8515-4600-ad68-dba116c1c069",
+        "dateCreated": 1591756593684,
+        "dateUpdated": 1591757134541,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Axes",
         "ja_JP": "斧"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591756593684,
-        "id": "23e48695-8515-4600-ad68-dba116c1c069",
-        "dateUpdated": 1591757134541
-      },
-      "key": "mcmmo.axes"
+      }
     },
     {
+      "key": "mcmmo.swords",
+      "type": "text",
+      "_twin": {
+        "id": "376a51c3-d9ea-4f6a-bb50-4116d351aa45",
+        "dateCreated": 1591756650699,
+        "dateUpdated": 1591757128389,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Swords",
         "ja_JP": "剣"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591756650699,
-        "id": "376a51c3-d9ea-4f6a-bb50-4116d351aa45",
-        "dateUpdated": 1591757128389
-      },
-      "key": "mcmmo.swords"
+      }
     },
     {
+      "key": "mcmmo.taming",
+      "type": "text",
+      "_twin": {
+        "id": "f06c25ec-e56c-41a6-a9ee-0c17acb1af65",
+        "dateCreated": 1591756715404,
+        "dateUpdated": 1591757122257,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Taming",
         "ja_JP": "調教"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591756715404,
-        "id": "f06c25ec-e56c-41a6-a9ee-0c17acb1af65",
-        "dateUpdated": 1591757122257
-      },
-      "key": "mcmmo.taming"
+      }
     },
     {
+      "key": "mcmmo.archery",
+      "type": "text",
+      "_twin": {
+        "id": "376f4e9e-4a22-405a-9d64-6878c25b2070",
+        "dateCreated": 1591756801074,
+        "dateUpdated": 1591757115651,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Archery",
         "ja_JP": "弓"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591756801074,
-        "id": "376f4e9e-4a22-405a-9d64-6878c25b2070",
-        "dateUpdated": 1591757115651
-      },
-      "key": "mcmmo.archery"
+      }
     },
     {
+      "key": "mcmmo.gatheringskills",
+      "type": "text",
+      "_twin": {
+        "id": "495db600-24fd-464f-8767-ee07d6cb03ae",
+        "dateCreated": 1591757009402,
+        "dateUpdated": 1591757036034,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Gathering Skills",
         "ja_JP": "収集スキル"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757009402,
-        "id": "495db600-24fd-464f-8767-ee07d6cb03ae",
-        "dateUpdated": 1591757036034
-      },
-      "key": "mcmmo.gatheringskills"
+      }
     },
     {
+      "key": "mcmmo.combatskills",
+      "type": "text",
+      "_twin": {
+        "id": "47c06bca-4614-45da-8e13-00df8a16856a",
+        "dateCreated": 1591757048426,
+        "dateUpdated": 1591757059774,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Combat Skills",
         "ja_JP": "戦闘スキル"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757048426,
-        "id": "47c06bca-4614-45da-8e13-00df8a16856a",
-        "dateUpdated": 1591757059774
-      },
-      "key": "mcmmo.combatskills"
+      }
     },
     {
+      "key": "mcmmo.miscskills",
+      "type": "text",
+      "_twin": {
+        "id": "bd69c028-5171-4f22-bca6-1891a0d8a2a7",
+        "dateCreated": 1591757063885,
+        "dateUpdated": 1591757084189,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Misc Skill",
         "ja_JP": "その他のスキル"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757063885,
-        "id": "bd69c028-5171-4f22-bca6-1891a0d8a2a7",
-        "dateUpdated": 1591757084189
-      },
-      "key": "mcmmo.miscskills"
+      }
     },
     {
+      "key": "mcmmo.excavation",
+      "type": "text",
+      "_twin": {
+        "id": "4cfa9414-e961-4f18-b944-5965fd5110f0",
+        "dateCreated": 1591757173527,
+        "dateUpdated": 1591757194654,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Excavation",
         "ja_JP": "掘削"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757173527,
-        "id": "4cfa9414-e961-4f18-b944-5965fd5110f0",
-        "dateUpdated": 1591757194654
-      },
-      "key": "mcmmo.excavation"
+      }
     },
     {
+      "key": "mcmmo.herbalism",
+      "type": "text",
+      "_twin": {
+        "id": "c1a88777-894f-4354-9735-8c041c5b70c3",
+        "dateCreated": 1591757197748,
+        "dateUpdated": 1591757230450,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Herbalism",
         "ja_JP": "薬草学"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757197748,
-        "id": "c1a88777-894f-4354-9735-8c041c5b70c3",
-        "dateUpdated": 1591757230450
-      },
-      "key": "mcmmo.herbalism"
+      }
     },
     {
+      "key": "mcmmo.mining",
+      "type": "text",
+      "_twin": {
+        "id": "ffba644e-1ba7-49b8-a31a-d7010b20fc99",
+        "dateCreated": 1591757242112,
+        "dateUpdated": 1591757255085,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Mining",
         "ja_JP": "採掘"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757242112,
-        "id": "ffba644e-1ba7-49b8-a31a-d7010b20fc99",
-        "dateUpdated": 1591757255085
-      },
-      "key": "mcmmo.mining"
+      }
     },
     {
+      "key": "mcmmo.woodcutting",
+      "type": "text",
+      "_twin": {
+        "id": "e9155958-c9e2-47fd-b762-21bc64e2c83c",
+        "dateCreated": 1591757259006,
+        "dateUpdated": 1591757274596,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Woodcutting",
         "ja_JP": "伐採"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757259006,
-        "id": "e9155958-c9e2-47fd-b762-21bc64e2c83c",
-        "dateUpdated": 1591757274596
-      },
-      "key": "mcmmo.woodcutting"
+      }
     },
     {
+      "key": "mcmmo.acrobatics",
+      "type": "text",
+      "_twin": {
+        "id": "73dc3821-490b-4994-b529-6510299b4091",
+        "dateCreated": 1591757276924,
+        "dateUpdated": 1591757292250,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Acrobatics",
         "ja_JP": "アクロバティック"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757276924,
-        "id": "73dc3821-490b-4994-b529-6510299b4091",
-        "dateUpdated": 1591757292250
-      },
-      "key": "mcmmo.acrobatics"
+      }
     },
     {
+      "key": "mcmmo.alchemy",
+      "type": "text",
+      "_twin": {
+        "id": "156e0c78-6842-4715-a4a6-544f57c1865a",
+        "dateCreated": 1591757294262,
+        "dateUpdated": 1591757339980,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Alchemy",
         "ja_JP": "醸造"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757294262,
-        "id": "156e0c78-6842-4715-a4a6-544f57c1865a",
-        "dateUpdated": 1591757339980
-      },
-      "key": "mcmmo.alchemy"
+      }
     },
     {
+      "key": "mcmmo.repair",
+      "type": "text",
+      "_twin": {
+        "id": "1d769f00-a401-4d07-bac4-67e15b8263e4",
+        "dateCreated": 1591757342734,
+        "dateUpdated": 1591757358469,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Repair",
         "ja_JP": "修理"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757342734,
-        "id": "1d769f00-a401-4d07-bac4-67e15b8263e4",
-        "dateUpdated": 1591757358469
-      },
-      "key": "mcmmo.repair"
+      }
     },
     {
+      "key": "mcmmo.salvage",
+      "type": "text",
+      "_twin": {
+        "id": "7cb3e3f0-dcf6-47e6-b8f9-febd72e35353",
+        "dateCreated": 1591757360933,
+        "dateUpdated": 1591757410271,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Salvage",
         "ja_JP": "サルベージ"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757360933,
-        "id": "7cb3e3f0-dcf6-47e6-b8f9-febd72e35353",
-        "dateUpdated": 1591757410271
-      },
-      "key": "mcmmo.salvage"
+      }
     },
     {
+      "key": "mcmmo.smelting",
+      "type": "text",
+      "_twin": {
+        "id": "468832bd-c31e-423c-ba00-5e29c8ebb3d4",
+        "dateCreated": 1591757377546,
+        "dateUpdated": 1591757406262,
+        "archived": false,
+        "tags": []
+      },
       "languages": {
         "en_US": "Smelting",
         "ja_JP": "製錬"
-      },
-      "type": "text",
-      "_twin": {
-        "dateCreated": 1591757377546,
-        "id": "468832bd-c31e-423c-ba00-5e29c8ebb3d4",
-        "dateUpdated": 1591757406262
-      },
-      "key": "mcmmo.smelting"
+      }
     }
   ]
 }

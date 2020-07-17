@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "servers": [],
-    "blacklist": false,
-    "universal": true
+    "blacklist": true,
+    "servers": []
   },
   "items": [
     {
-      "languages": {
-        "en_US": "&7You have been warned by &e%1 &7for &e%2 &7.",
-        "ja_JP": "&e%1 &7から &e%2 &7という理由で警告を受けました。"
-      },
+      "key": "punishments.warn.message",
       "type": "text",
       "_twin": {
-        "dateCreated": 1593009944463,
         "id": "7b16884e-7ba9-49b1-b4a2-78d29e434a05",
-        "dateUpdated": 1593010065412
+        "dateCreated": 1593009944463,
+        "dateUpdated": 1593010065412,
+        "archived": false,
+        "tags": []
       },
-      "key": "punishments.warn.message"
+      "languages": {
+        "en_US": "\u00267You have been warned by \u0026e%1 \u00267for \u0026e%2 \u00267.",
+        "ja_JP": "\u0026e%1 \u00267から \u0026e%2 \u00267という理由で警告を受けました。"
+      }
     },
     {
-      "languages": {
-        "en_US": "&e%1 &7was kicked.",
-        "ja_JP": "&e%1 &7はkickされました。"
-      },
+      "key": "punishments.kick.message",
       "type": "text",
       "_twin": {
-        "dateCreated": 1593177129577,
         "id": "e1528fcd-6115-4f71-9f26-7a53357ebc62",
-        "dateUpdated": 1593177233773
+        "dateCreated": 1593177129577,
+        "dateUpdated": 1593177233773,
+        "archived": false,
+        "tags": []
       },
-      "key": "punishments.kick.message"
+      "languages": {
+        "en_US": "\u0026e%1 \u00267was kicked.",
+        "ja_JP": "\u0026e%1 \u00267はkickされました。"
+      }
     }
   ]
 }

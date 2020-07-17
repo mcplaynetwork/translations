@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "blacklist": true,
+    "servers": []
+  },
+  "items": [
+    {
+      "key": "cmi.afk",
+      "type": "text",
+      "_twin": {
+        "id": "608f451a-623f-49ac-b064-bb5f7cc5dba6",
+        "dateCreated": 1593828421010,
+        "dateUpdated": 1593829185384,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "\u00268[\u00266AFK\u00268] \u00267You are now AFK.",
+        "ja_JP": "\u00268[\u00266AFK\u00268] \u00267AFKになりました。"
+      }
+    },
+    {
+      "key": "cmi.leaveafk",
+      "type": "text",
+      "_twin": {
+        "id": "2d4ba682-344d-48c3-b157-0dd479fa3c30",
+        "dateCreated": 1593828640104,
+        "dateUpdated": 1593829176864,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "\u00268[\u00266AFK\u00268] \u00267You are no longer AFK.",
+        "ja_JP": "\u00268[\u00266AFK\u00268] \u00267AFKを解除しました。"
+      }
+    },
+    {
+      "key": "cmi.afk",
+      "type": "text",
+      "_twin": {
+        "id": "608f451a-623f-49ac-b064-bb5f7cc5dba6",
+        "dateCreated": 1593828421010,
+        "dateUpdated": 1593829185384,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "\u00268[\u00266AFK\u00268] \u00267You are now AFK.",
+        "ja_JP": "\u00268[\u00266AFK\u00268] \u00267AFKになりました。"
+      }
+    },
+    {
+      "key": "cmi.leaveafk",
+      "type": "text",
+      "_twin": {
+        "id": "2d4ba682-344d-48c3-b157-0dd479fa3c30",
+        "dateCreated": 1593828640104,
+        "dateUpdated": 1593829176864,
+        "archived": false,
+        "tags": []
+      },
+      "languages": {
+        "en_US": "\u00268[\u00266AFK\u00268] \u00267You are no longer AFK.",
+        "ja_JP": "\u00268[\u00266AFK\u00268] \u00267AFKを解除しました。"
+      }
+    }
+  ]
+}

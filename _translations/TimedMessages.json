@@ -10,13 +10,13 @@
       "_twin": {
         "id": "3475fbec-4795-4856-9592-fc5990d3628c",
         "dateCreated": 1592970494644,
-        "dateUpdated": 1592979323168,
+        "dateUpdated": 1595525093557,
         "archived": false,
         "tags": []
       },
       "languages": {
-        "en_US": "Do you enjoy your server? Please vote for us! \u0026ohttps://www.mcplay.biz/vote/",
-        "ja_JP": "サーバーを楽しんでいますか？ぜひ投票してください！ \u0026ohttps://www.mcplay.biz/vote/"
+        "en_US": "\u00268[\u00266MCPlay\u00268] \u00267Do you enjoy your server? Please vote for us! \u0026ehttps://www.mcplay.biz/vote/",
+        "ja_JP": "\u00268[\u00266MCPlay\u00268] \u00267サーバーを楽しんでいますか？ぜひ投票してください！ \u0026ehttps://www.mcplay.biz/vote/"
       }
     },
     {
@@ -25,13 +25,13 @@
       "_twin": {
         "id": "63cc623f-5d42-459f-a090-0d28dcd0cbb2",
         "dateCreated": 1592979194564,
-        "dateUpdated": 1592979537409,
+        "dateUpdated": 1595525083316,
         "archived": false,
         "tags": []
       },
       "languages": {
-        "en_US": "Join the Discord to get the latest news! https://www.mcplay.biz/discord",
-        "ja_JP": "Discordに参加すると最新情報を知れます！ https://www.mcplay.biz/discord"
+        "en_US": "\u00268[\u00266MCPlay\u00268] \u00267Join the Discord to get the latest news! \u0026ehttps://www.mcplay.biz/discord",
+        "ja_JP": "\u00268[\u00266MCPlay\u00268] \u00267Discordに参加すると最新情報を知れます！ \u0026ehttps://www.mcplay.biz/discord"
       }
     }
   ]

@@ -55,13 +55,13 @@
 info:
   # Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMI&e] '
-  NoPermission: '&cYou don''t have permission!'
-  CantHavePermission: '&cYou can''t have this permission!'
+  NoPermission: '&c権限がありません！'
+  CantHavePermission: '&c権限がありません！'
   WrongGroup: '&cYou are in wrong group for this!'
   NoPlayerPermission: '&c[playerName] doesn''t have permission for: [permission]'
   Ingame: '&cYou can only use this in game!'
   NoInformation: '&cNo information found!'
-  Console: '&6Server'
+  Console: '&6サーバー'
   FromConsole: '&cYou can only use this in the console!'
   NotOnline: '&cThe player is not online!'
   NobodyOnline: '&cThere is no one online!'

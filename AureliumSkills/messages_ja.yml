@@ -1,0 +1,736 @@
+# Aurelium Skills message file
+abilities:
+  farming:
+    bountiful_harvest:
+      name: Bountiful Harvest
+      desc: '{value}%の確率で作物から2倍のドロップが\n  得られるようになります。'
+      info: '{value}% 2xドロップ'
+    farmer:
+      name: Farmer
+      desc: 'ファーミングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    scythe_master:
+      name: Scythe Master
+      desc: '桑のダメージを{value}%増加させます。'
+      info: '+{value}% 桑ダメージ'
+    geneticist:
+      name: Geneticist
+      desc: '植物性食品からの満腹度獲得を\n&7  {value}だけ増加させます。'
+      info: '+{value} 満腹度'
+    triple_harvest:
+      name: Triple Harvest
+      desc: '{value}}%の確率で作物から\n&7  3倍のドロップを得ることができます。'
+      info: '{value}% 3xドロップ'
+  foraging:
+    lumberjack:
+      name: Lumberjack
+      desc: '{value}%の確率で原木から\n&7  2倍のドロップを得ることができます。'
+      info: '{value}% 2xドロップ'
+    forager:
+      name: Forager
+      desc: 'フォージングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    axe_master:
+      name: Axe Master
+      desc: '斧のダメージを{value}}%増加させます。'
+      info: '+{value}% 斧ダメージ'
+    valor:
+      name: Valor
+      desc: '斧を持っている間、+{value} Strength\n&7  を付与する。'
+      info: '+{value} Strength'
+    shredder:
+      name: Shredder
+      desc: '{value}%の確率で、斧で3倍の\n&7  耐久性のあるダメージを与える。'
+      info: '{value}% 3x 耐久ダメージ'
+  mining:
+    lucky_miner:
+      name: Lucky Miner
+      desc: '{value}%の確率で鉱石から\n&7  2倍のドロップを得ることができます。'
+      info: '{value}% 2xドロップ'
+    miner:
+      name: Miner
+      desc: 'マイニングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    pick_master:
+      name: Pick Master
+      desc: 'ピッケルのダメージを{value}%の増加させます。'
+      info: '+{value}% ピッケルダメージ'
+    stamina:
+      name: Stamina
+      desc: 'ピッケルを持っている間、+{value} Toughness\n&7  を付与します。'
+      info: '+{value} Toughness'
+    hardened_armor:
+      name: Hardened Armor
+      desc: '{value}%の確率でアーマーの耐久性ダメージを無効化する。'
+      info: '{value}% 耐久低下なし'
+  fishing:
+    lucky_catch:
+      name: Lucky Catch
+      desc: '{value}%の確率で釣りから\n&7  2倍のドロップを得ることができます。'
+      info: '{value}% 2xドロップ'
+    fisher:
+      name: Fisher
+      desc: 'フィッシングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    treasure_hunter:
+      name: Treasure Hunter
+      desc: '釣りで{value}%の確率で レアルートを\n&7  手に入れるようになります。'
+      info: '+{value}% レアルート'
+    grappler:
+      name: Grappler
+      desc: 'エンティティを{value}%の速度で引っ掛けます。'
+      info: '+{value}% 引っ掛けるスピード'
+    epic_catch:
+      name: Epic Catch
+      desc: '釣りで{value}%の確率で エピックルートを\n&7  手に入れるようになります。'
+      info: '+{value}% エピックルート'
+  excavation:
+    metal_detector:
+      name: Metal Detector
+      desc: '掘削で{value}%の確率で レアルートを\n&7  手に入れるようになります。'
+      info: '+{value}% レアルート'
+    excavator:
+      name: Excavator
+      desc: 'エクスカヴェイションXPが{value}%増加します。'
+      info: '+{value}% XP'
+    spade_master:
+      name: Spade Master
+      desc: 'シャベルのダメージを{value}%の増加させます。'
+      info: '+{value}% シャベルダメージ'
+    bigger_scoop:
+      name: Bigger Scoop
+      desc: '{value}%の確率で掘り物から3倍のドロップを得ることができます。'
+      info: '{value}% 3xドロップ'
+    lucky_spades:
+      name: Lucky Spades
+      desc: '掘削で{value}%の確率で エピックルートを\n&7  手に入れるようになります。'
+      info: '+{value}% エピックルート'
+  archery:
+    crit_chance:
+      name: Crit Chance
+      desc: '+{value}%の確率でクリティカルヒットを与える。'
+      info: '+{value}% クリティカル確率'
+    archer:
+      name: Archer
+      desc: 'アーチェリーXPが{value}%増加します。'
+      info: '+{value}% XP'
+    bow_master:
+      name: Bow Master
+      desc: '弓のダメージを{value}%の増加させます。'
+      info: '+{value}% 弓ダメージ'
+    piercing:
+      name: Piercing
+      desc: '{value}%の確率で矢がMobを貫通します。'
+      info: '{value}% 貫通確率'
+    stun:
+      name: Stun
+      desc: '2秒間、{value}%の確率で敵の移動速度を20%減少させる。'
+      info: '{value}% スタン確率'
+  defense:
+    shielding:
+      name: Shielding
+      desc: 'スニーク中に入ってくるダメージを{value}%減らします。'
+      info: '-{value}% スニーク中に受けるダメージ'
+    defender:
+      name: Defender
+      desc: 'デフェンダーXPが{value}%増加します。'
+      info: '+{value}% XP'
+    mob_master:
+      name: Mob Master
+      desc: 'Mobから受けるダメージを{value}%軽減する。'
+      info: '-{value}% Mobダメージ'
+    immunity:
+      name: Immunity
+      desc: '{value}%の確率で敵の攻撃を完全に無効化する。'
+      info: '{value}% 免疫'
+    no_debuff:
+      name: No Debuff
+      desc: '{value}%の確率でデバフ系のポーション効果を無効化する。'
+      info: '{value}% デバフ無効'
+  fighting:
+    crit_damage:
+      name: Crit Damage
+      desc: 'クリティカルヒットのダメージが{value}%増加する。'
+      info: '+{value}% クリティカルダメージ'
+    fighter:
+      name: Fighter
+      desc: 'ファイティングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    sword_master:
+      name: Sword Master
+      desc: '剣のダメージを{value}%の増加させます。'
+      info: '+{value}% 剣ダメージ'
+    first_strike:
+      name: First Strike
+      desc: 'ファーストアタックのダメージが{value}%増加します。'
+      info: '+{value}% ファーストヒットダメージ'
+      dealt: '&c先手必勝！'
+    bleed:
+      name: Bleed
+      desc: '{value}%の確率で、3回のブリードティックの間に、敵を出血させ、1回のティックにつき{value_2}のダメージを与える。'
+      info: '{value}% 確率、{value_2} ダメージ'
+      enemy_bleeding: '&c敵が出血しました！'
+      self_bleeding: '&cあなたは出血しています！'
+      stop: '&f出血が止まりました'
+  endurance:
+    anti_hunger:
+      name: Anti Hunger
+      desc: '{value}%の確率で空腹を阻止します。'
+      info: '{value}% 空腹の阻止'
+    runner:
+      name: Runner
+      desc: 'エンデュランスXPが{value}%増加します。'
+      info: '+{value}% XP'
+    golden_heal:
+      name: Golden Heal
+      desc: '再生能力の効果で体力回復を{value}%増加させる。'
+      info: '+{value}% 再生能力の効果'
+    recovery:
+      name: Recovery
+      desc: '体力が半分以下の時の自然回復量を{value}%増加させる。'
+      info: '+{value}% 低HPでの回復量'
+    meal_steal:
+      name: Meal Steal
+      desc: '{value}%の確率で、プレイヤーを攻撃する際に空腹ゲージを1つ盗む。'
+      info: '{value}% 空腹ゲージ盗み'
+  agility:
+    light_fall:
+      name: Light Fall
+      desc: 'すべての落下ダメージを{value}%軽減する。'
+      info: '-{value}% 落下ダメージ'
+    jumper:
+      name: Jumper
+      desc: 'アジリティXPが{value}%増加します。'
+      info: '+{value}% XP'
+    sugar_rush:
+      name: Sugar Rush
+      desc: '消費されて飛び散った移動速度上昇と跳躍力増加の\n&7  ポーションの持続時間が{value}%長くなります。'
+      info: '{value}% 持続時間'
+    fleeting:
+      name: Fleeting
+      desc: '体力が20%以下の時に+{value}%の移動速度を獲得する。'
+      info: '+{value}% Speed'
+      start: '&f瞬間的に移動速度上昇を手に入れました！ &7(+{value}% 移動速度)'
+      end: '&7瞬間的な移動速度上昇が失われた'
+    thunder_fall:
+      name: Thunder Fall
+      desc: '落下中にスニークすると、\n&7  {value}%の確率で半径3ブロック内のMobsに\n&7  落下ダメージの{value_2}%を与える。'
+      info: '{value}% 確率、{value_2}% ダメージ'
+  alchemy:
+    alchemist:
+      name: Alchemist
+      desc: '醸造したポーションの持続時間が{value}%長くなります。'
+      info: '+{value}% ポーションの持続時間'
+      lore: '&a(+{duration})'
+    brewer:
+      name: Brewer
+      desc: 'アルケミーXPが{value}%増加します。'
+      info: '+{value}% XP'
+    splasher:
+      name: Splasher
+      desc: '撒いたポーションは、影響を受けたプレイヤーごとに\n&7 {value}%持続時間が長くなります。'
+      info: '+{value}% 持続時間/プレーヤー'
+    lingering:
+      name: Lingering
+      desc: '残留ポーションは自然に{value}%遅く減衰し、\n&7 影響を受けたエンティティごとに{value_2}%少なく減衰します。'
+      info: '-{value}% 自然減衰、-{value_2}% エンティティ減衰'
+    wise_effect:
+      name: Wise Effect
+      desc: 'ユニークなアクティブポーションの効果ごとに{value}%の知恵を得る。'
+      info: '+{value} Wisdom/Effect'
+  enchanting:
+    xp_convert:
+      name: XP Convert
+      desc: '{value}スキルXPを獲得するごとに、Minecraft経験値を1獲得できます。'
+      info: '1 EXP/{value} スキルXP'
+    enchanter:
+      name: Enchanter
+      desc: 'エンチャンティングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    xp_warrior:
+      name: XP Warrior
+      desc: '倒したMobは{value}%の確率で2倍の経験値をドロップします。'
+      info: '{value}% 2x Mob XP'
+    enchanted_strength:
+      name: Enchanted Strength
+      desc: '保持しているアイテムのユニークなエンチャント\n&7  1つにつき、Strengthを得る。'
+      info: '{value} Strength/Enchant'
+    lucky_table:
+      name: Lucky Table
+      desc: 'エンチャントテーブルを使ってエンチャントした\n&7  アイテムは、最大レベルでない場合、\n&7  {value}%の確率でエンチャントレベルが1アップします。'
+      info: '{value}% エンチャントアップグレード 確率'
+  healing:
+    life_essence:
+      name: Life Essence
+      desc: 即時回復のポーションは{value}%回復します。
+      info: '+{value}% 即時回復'
+    healer:
+      name: Healer
+      desc: 'ヒーリングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    life_steal:
+      name: Life Steal
+      desc: '倒した敵対的なモブやプレイヤーの最大HPの{value}%を回復します。'
+      info: '{value}% HPを盗む'
+    golden_heart:
+      name: Golden Heart
+      desc: '自分の衝撃吸収ハートに与えるダメージが{値}%減少する。'
+      info: '-{value}% 衝撃吸収ダメージ'
+    revival:
+      name: Revival
+      desc: 'リスポーン後30秒間、&c+{value} Health&7と&6+{value_2} Regenerationを獲得する。'
+      info: '+{value} Health、+{value_2} Regen'
+      message: '&f30秒間、蘇生ボーナスを得た！&f(&c+{value} Health, &6+{value_2} Regeneration&f)'
+  forging:
+    disenchanter:
+      name: Disenchanter
+      desc: '砥石を使ってアイテムを分解する際の経験値が{value}%増加します。'
+      info: '+{value}% 砥石EXP'
+    forger:
+      name: Forger
+      desc: 'フォージングXPが{value}%増加します。'
+      info: '+{value}% XP'
+    repairing:
+      name: Repairing
+      desc: '金床にあるアイテムを、そのアイテムが作られた\n&7 原材料を使って修理すると、耐久度が{value}%向上します。'
+      info: '+{value}% 鉄床修理'
+    anvil_master:
+      name: Anvil Master
+      desc: '経験値が高くなりすぎる前に、金床の最大修理コストを増加させます。'
+      info: '{value} 最大コスト'
+    skill_mender:
+      name: Skill Mender
+      desc: 'スキルXPを獲得すると、{value}%の確率で、修繕エンチャントが施されたアイテムや着用している防具を、スキルXP2回につき1回、耐久度を上げて修理することができます。'
+      info: '{value}% 修繕確率'
+acf:
+  core:
+    permission_denied: '&cI''m sorry, but you do not have permission to perform this command.'
+    permission_denied_parameter: '&cI''m sorry, but you do not have permission to perform this command.'
+    error_generic_logged: '&cAn error occurred. This problem has been logged. Sorry for the inconvenience.'
+    unknown_command: '&cUnknown Command, please type &e/sk help'
+    invalid_syntax: '&eUsage: &e{command} &a{syntax}'
+    error_prefix: '&cError: {message}'
+    error_performing_command: "&cI'm sorry, but there was an error performing this command."
+    info_message: '{message}'
+    please_specify_one_of: '&cError: Please specify one of (&e{valid}&c)'
+    must_be_a_number: '&cError: {num} must be a number.'
+    must_be_min_length: '&cError: Must be at least {min} characters long.'
+    must_be_max_length: '&cError: Must be at most {max} characters long.'
+    please_specify_at_most: '&cError: Please specify a value at most {max}.'
+    please_specify_at_least: '&cError: Please specify a value at least {min}.'
+    not_allowed_on_console: '&cError: Console may not execute this command.'
+    could_not_find_player: '&cError: Could not find a player by the name: &e{search}'
+    no_command_matched_search: '&cNo command matched &e{search}.'
+    help_page_information: '&b - Showing page &a{page} &bof &a{totalpages} &b(&e{results}&b results).'
+    help_no_results: '&bError: No more results.'
+    help_header: '&e=== &bShowing help for &a{commandprefix}{command}&e ==='
+    help_format: '&b{commandprefix}{command} &a{parameters} &e{separator} {description}'
+    help_detailed_header: '&e=== &bShowing detailed help for &a{commandprefix}{command}&e ==='
+    help_detailed_command_format: '&b{command} &a{parameters} &e{separator} {description}'
+    help_detailed_parameter_format: '&a{syntaxorname}: &e{description}'
+    help_search_header: '&e=== &bSearch results for &a{commandprefix}{command} {search}&e ==='
+  minecraft:
+    invalid_world: '&cError: That world does not exist.'
+    you_must_be_holding_item: '&cError: You must be holding an item in your main hand.'
+    player_is_vanish_confirm: '&eWarning: &a{vanished} &eis vanished. Do not blow their cover!\n&eTo confirm your action add &a:confirm &eto the end of their name.\n&eEx: {vanished}:confirm'
+    username_too_short: '&cError: Username too short, must be at least three characters.'
+    is_not_a_valid_name: '&cError: &e{name} &cis not a valid username.'
+    multiple_players_match: '&cError: Multiple players matched &b{search} &e({all})&c, please be more specific.'
+    no_player_found_server: '&cNo player matching &e{search} &cis connected to this server.'
+    no_player_found_offline: '&cNo player matching &e{search}&c could be found.'
+    no_player_found: '&cNo player matching &e{search}&c could be found.'
+    location_please_specify_world: '&cError: Please specify world. Example: &eworld:x,y,z.'
+    location_please_specify_xyz: '&cError: Please specify the coordinates x, y, and z. Example: &eworld:x,y,z.'
+    location_console_not_relative: '&cError: Console may not use relative coordinates for location.'
+action_bar:
+  idle: '&c{hp}/{max_hp}❤                 &b{mana}/{max_mana} {mana_unit}'
+  xp: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
+  xp_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
+  maxed: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
+  maxed_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
+  ability: '{message}'
+  boss_bar_xp: '&6{skill} {level} &7({current_xp}/{level_xp} {xp_unit})'
+  boss_bar_maxed: '&6{skill} {level} &7(MAXED)'
+commands:
+  prefix: '&8[&eSkills&8]&r '
+  armor:
+    modifier:
+      add:
+        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
+        already_exists: '&eAn armor modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk armor modifier remove'
+        lore: '&7{stat}: {color}+{value}'
+        lore_subtract: '&7{stat}: {color}-{value}'
+      remove:
+        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
+        removed: '{color}{stat} &7modifier was removed from your item'
+      list:
+        header: '&fArmor modifiers found:'
+        entry: '  {color}{stat}&f - {value}'
+      removeall:
+        removed: '&7All armor modifiers have been removed from your item'
+    requirement:
+      add:
+        added: '&3{skill}&7 armor requirement with level &b{level}&7 was added to your item'
+        already_exists: '&eItem already has a &3{skill}&e armor requirement! Remove it first with &6/sk armor requirement remove'
+        lore: '&cRequires &3{skill} {level}'
+      remove:
+        does_not_exist: '&eYour item does not have a &3{skill}&e armor requirement!'
+        removed: '&3{skill}&7 armor requirement was removed from your item'
+      list:
+        header: '&fArmor requirements found:'
+        entry: '  &3{skill} &f- &b{level}'
+      removeall:
+        removed: '&7All armor requirements have been removed from your item'
+      equip: '&eYou do not meet the requirements to equip this item: {requirements}'
+      entry: '&b{skill} {level}&7, '
+  backup:
+    load:
+      confirm: '&cLoading a backup will revert all skill data of players. This action is permanent and cannot be undone. You may want to save a backup before loading one. Type the command again to confirm this action'
+      loading: '&fLoading backup...'
+      loaded: '&aSuccessfully loaded backup'
+      error: '&cError loading backup: {error}'
+      must_be_yaml: '&eFile must be a .yml file!'
+      file_not_found: '&eA backup of this file name does not exist in the backups folder!'
+    save:
+      saving: '&fSaving backup...'
+      saved: '&fBacked up {type} data as {file}'
+      error: '&cError backing up {type} data! See error in console/below for details'
+  claimitems:
+    no_items: '&eYou have no items to claim'
+  item:
+    give:
+      sender: '&fGave &b{amount}x {key} &fto {player}'
+      receiver: '&fYou were given &b{amount}x {key}'
+    modifier:
+      add:
+        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
+        already_exists: '&eAn item modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk item modifier remove'
+        lore: '&7{stat}: {color}+{value}'
+        lore_subtract: '&7{stat}: {color}-{value}'
+      remove:
+        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
+        removed: '{color}{stat} &7modifier was removed from your item'
+      list:
+        header: '&fItem modifiers found:'
+        entry: '  {color}{stat}&f - {value}'
+      removeall:
+        removed: '&7All item modifiers have been removed from your item'
+    register:
+      registered: '&fRegistered held item to key {key}'
+      already_registered: '&eThere is already an item registered to key &f{key}&e, use &f/skills item unregister &eto unregister it first'
+      no_spaces: '&eItem key cannot contain spaces!'
+    requirement:
+      add:
+        added: '&3{skill}&7 item requirement with level &b{level}&7 was added to your item'
+        already_exists: '&eItem already has a &3{skill}&e item requirement! Remove it first with &6/sk item requirement remove'
+        lore: '&cRequires &3{skill} {level}'
+      remove:
+        does_not_exist: '&eYour item does not have a &3{skill}&e item requirement!'
+        removed: '&3{skill}&7 item requirement was removed from your item'
+      list:
+        header: '&fItem requirements found:'
+        entry: '  &3{skill} &f- &b{level}'
+      removeall:
+        removed: '&7All item requirements have been removed from your item'
+      use: '&eYou do not meet the requirements to use this item: {requirements}'
+      entry: '&b{skill} {level}&7, '
+    unregister:
+      unregistered: '&fUnregistered item with key {key}'
+      not_registered: '&eThere is no item registered with key {key}'
+  lang:
+    set: '&7Language set to &b{lang}'
+    not_found: '&eLanguage not found!'
+  mana:
+    display: '&fYour {mana_unit}: &b{current}/{max}'
+    display_other: '&f{mana_unit} of {player}: &b{current}/{max}'
+    add: '&7Added &b{amount} {mana_unit} &7to player &6{player}'
+    remove: '&7Removed &b{amount} {mana_unit} &7from player &6{player}'
+    set: '&7Set player &6{player} &7to &b{amount} {mana_unit}'
+    at_least_zero: '&e{mana_unit} must be at least zero!'
+    console_specify_player: '&eConsole must specify a player!'
+  modifier:
+    add:
+      added: '{color}{stat} &7modifier level &b{value} &7with name &f{name} &7added to player &6{player}'
+      already_exists: '&eModifier with name {name} already exists on player &6{player}&e! Remove it with &6/sk modifier remove {player} {name}'
+    remove:
+      not_found: '&eModifier {name} not found for player &6{player}'
+      removed: '&7Modifier &f{name} &7removed from player &6{player}'
+    list:
+      all_stats_header: '&7Stat modifiers for player &6{player}:'
+      all_stats_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
+      one_stat_header: '&7Stat modifiers ({color}{stat}&7) for player &6{player}:'
+      one_stat_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
+      players_only: '&eOnly players can list their own modifiers! Try specifying a player'
+    removeall:
+      removed_all_stats: '&7Removed &b{num} &7stat modifiers from player &6{player}'
+      removed_one_stat: '&7Removed &b{num} {color}{stat} &7modifiers from player &6{player}'
+      players_only: '&eOnly players can remove their own modifiers! Try specifying a player'
+  multiplier:
+    list: '&fXP multiplier for &6{player}&f: &b{multiplier}x / +{percent}%'
+    players_only: '&eOnly players can list their own multiplier! Specify a player!'
+  rank:
+    header: '&b&lあなたのスキルランキング'
+    power: '&eパワー &7(全てのスキル): &f{total}中の#{rank}'
+    entry: '&b{skill}&7: &f#{total}中の#{rank}'
+  reload: '&aConfig reloaded!'
+  save:
+    already_saving: '&eData is already saving!'
+    mysql_not_enabled: '&eMySQL was not enabled at server startup, saving to file instead!'
+    saved: '&aSkill data saved!'
+  skill:
+    reset:
+      reset_all: '&7All Skills set to level &b1 &7for player &6{player}'
+      reset_skill: '&7Skill &b{skill} &7set to level &b1 &7for player &6{player}'
+    setall:
+      at_least_one: '&eLevel must be at least 1!'
+      set: '&7All skills set to level &b{level} &7for player &6{player}'
+    setlevel:
+      at_least_one: '&eLevel must be at least 1!'
+      set: '&7Skill &b{skill} &7set to level &b{level} &7for player &6{player}'
+  toggle:
+    enabled: '&aYour skills action bar has been enabled'
+    disabled: '&cYour skills action bar has been disabled'
+    not_enabled: '&eSkills action bar is not enabled on this server!'
+  top:
+    power_entry: '&f{rank}. &b{player} &f- {level}'
+    power_header: '&f--==&b&l全てのスキルのリーダーボード&f==--'
+    power_header_page: '&f--==&b&l全てのスキルのリーダーボード &f(Page {page})==--'
+    skill_header: '&f--==&b&l{skill} リーダーボード&f==--'
+    skill_header_page: '&f--==&b&l{skill} リーダーボード &f(Page {page})==--'
+    skill_entry: '&f{rank}. &b{player} &f- {level}'
+    average_header: '&f--==&b&lスキル平均のリーダーボード&f==--'
+    average_header_page: '&f--==&b&lスキル平均のリーダーボード &f(Page {page})==--'
+    average_entry: '&f{rank}. &b{player} &f- {level}'
+    usage: '&eUsage: &a/sk top &f<page> &7or &a/sk top &f[skill] <page>'
+  updateleaderboards:
+    already_updating: '&eLeaderboard is already updating!'
+    updated: '&aLeaderboard updated!'
+  xp:
+    add: '&7Added &b{amount} {skill} &7XP to player &7{player}'
+    set: '&7Set &b{skill} &7XP for player &7{player} &7to {amount}'
+    remove: '&7Removed &b{amount} {skill} &7XP from player &6{player}'
+  unknown_skill: '&eUnknown skill!'
+  no_profile: '&ePlayer does not have a skills profile!'
+leveler:
+  title: '&a{skill} レベルアップ'
+  subtitle: '&6{old} ➜ {new}'
+  level_up: '&3&m----------------------------------------\n&r &3スキルレベルアップ！ &b&l{skill} &8{old}➜&3&l{new}\n \n &b報酬:{stat_level}{ability_unlock}{ability_level_up}{mana_ability_unlock}{mana_ability_level_up}{money_reward}\n&3&m----------------------------------------'
+  stat_level: '\n  {color}+{num}{symbol} {stat}'
+  ability_unlock: '\n  &aアビリティ アンロック &6&l{ability}&7がアンロックされました'
+  ability_level_up: '\n  &aアビリティレベルアップ！ &6&l{ability}&7がレベル&6{level}&7になりました'
+  mana_ability_unlock: '\n  &dマナアビリティ アンロック &9&l{mana_ability}&7がアンロックされました'
+  mana_ability_level_up: '\n  &dマナアビリティ レベルアップ！ &9&l{mana_ability}&7がレベル&6{level}&7になりました'
+  money_reward: '\n  &a${amount}'
+  unclaimed_item: '&cYou have unclaimed items because your inventory was full, use &e/skills claimitems &cto claim them'
+menus:
+  common:
+    close: '&c閉じる'
+    level: '&7レベル: &e{level}'
+    progress_to_level: '&7レベル{level}の進展度: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
+    max_level: '&6最大レベル'
+    ability_levels: '&7アビリティレベル:\n  {ability_1}\n  {ability_2}\n  {ability_3}\n  {ability_4}\n  {ability_5}\n '
+    ability_level_entry: '&6{ability} {level} &8({info})'
+    ability_level_entry_locked: '&8&m{ability}'
+    stats_leveled: '\n&7レベルアップするステータス: {stats}\n '
+    mana_ability: '\n&d&lマナアビリティ &9{mana_ability} {level}\n &7持続時間: &a{duration}s &7マナコスト: &b{mana_cost} &7クールダウン: &e{cooldown}s\n '
+  skills_menu:
+    skills_menu_title: あなたのスキル
+    your_skills: '&bあなたのスキル - &6{player}'
+    your_skills_desc: '&7様々なタスクをこなしてスキルをアップグレードしていくと、\n&7ステータスや能力などが強くなっていきます！'
+    your_skills_hover: '&eスキルにカーソルを合わせると詳細が表示されます！'
+    your_skills_click: '&eクリックするとレベルの進行度を見ることができます！'
+    skill_click: '&eクリックするとレベル進行度を見ることができます！'
+    skill_locked: '&cYou do no have permission to view this skill!'
+  level_progression_menu:
+    level_progression_menu_title: '{skill} レベル - ページ {page}'
+    your_ranking: '&eあなたのスキルランキング'
+    rank_out_of: '&fあなたのランクは{total}プレイヤー中&6{rank}&fです。'
+    rank_percent: '&fあなたはプレイヤーの中で上位&6{percent}%&fにいます。'
+    back: '&a戻る'
+    back_click: '&7スキルメニューに戻る'
+    next_page: '&6次のページ'
+    next_page_click: '&eクリックして次のページへ'
+    previous_page: '&6前のページ'
+    previous_page_click: '&eクリックして前のページへ'
+    level_unlocked: '&aレベル {level}'
+    level_in_progress: '&eレベル {level}'
+    level_locked: '&cレベル {level}'
+    level_number: '&7レベル &f{level}'
+    unlocked: '&aアンロック'
+    in_progress: '&e進行中'
+    locked: '&cロック'
+    rewards: '&7報酬:{rewards}'
+    rewards_entry: '\n  {color}+{num} {symbol} {stat}'
+    money_reward: '\n  &a${amount}'
+    ability_unlock: '\n&6{ability} &a&lアビリティ アンロック\n&7  {desc}\n '
+    ability_level: '\n&6{ability} {level}\n&7  {desc}\n '
+    mana_ability_unlock: '\n&9{mana_ability} &d&lマナアビリティ アンロック\n&7  {desc}\n '
+    mana_ability_level: '\n&9{mana_ability} {level}\n&7  {desc}\n '
+    progress: '&7進行度: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
+  stats_menu:
+    stats_menu_title: あなたのステータス
+    player_stat_entry: ' {color}{symbol} {stat} &f{level}'
+    skills: '\n&7スキル: &f{skills}'
+    your_level: '&7あなたのレベル: {color}{level}'
+    attack_damage: '&4+{value}% 攻撃ダメージ'
+    hp: '&c+{value} ❤'
+    saturated_regen: '&6+{value} 満腹度回復'
+    full_hunger_regen: '&6+{value} Full Hunger Regen'
+    almost_full_hunger_regen: '&6+{value} Almost Full Hunger Regen'
+    mana_regen: '&b+{value} マナ/秒 回復'
+    luck: '&2+{value} 運'
+    double_drop_chance: '&2ドロップ2倍の確率: {value}%'
+    xp_gain: '&9+{value}% {xp_unit} 獲得'
+    anvil_cost_reduction: '&9鉄床のコスト削減: {value}%'
+    max_mana: '&9最大マナ: {value}'
+    incoming_damage: '&5-{value}% 受けるダメージ'
+  unclaimed_items:
+    unclaimed_items_title: 'Claim Items'
+    inventory_full: '&eYou do not have enough space in your inventory to claim that item'
+    click_to_claim: '&eClick to claim!'
+mana_abilities:
+  replenish:
+    name: Replenish
+    desc: '&7Replants crops automatically for \n&7  {value} seconds. &e[Right click hoe and\n&e  break crop to activate]'
+    raise: '&7You raise your hoe'
+    lower: '&7You lower your hoe'
+    start: '&6Replenish Activated! &7(-{mana} {mana_unit})'
+    end: '&7Replenish has worn off'
+  treecapitator:
+    name: Treecapitator
+    desc: '&7Breaks entire trees instantly for \n&7  {value} seconds. &e[Right click axe and\n&e  break log to activate]'
+    raise: '&7You raise your axe'
+    lower: '&7You lower your axe'
+    start: '&6Treecapitator Activated! &7(-{mana} {mana_unit})'
+    end: '&7Treecapitator has worn off'
+  speed_mine:
+    name: Speed Mine
+    desc: '&7Gives Haste {haste_level} for {value} seconds.\n&e  [Right click pickaxe and mine\n&e  block to activate]'
+    raise: '&7You raise your pickaxe'
+    lower: '&7You lower your pickaxe'
+    start: '&6Speed Mine Activated! &7(-{mana} {mana_unit})'
+    end: '&7Speed Mine has worn off'
+  absorption:
+    name: Absorption
+    desc: 'Incoming damage will decrease mana\n&7  by 2x Minecraft damage instead of your\n&7  health for {value} seconds. Mana will not\n&7  regenerate while Absorption is active.\n  &e[Left click shield and take damage to activate]'
+    raise: '&7You raise your shield'
+    lower: '&7You lower your shield'
+    start: '&6Absorption Activated! &7(-{mana} {mana_unit})'
+    end: '&7Absorption has worn off'
+  terraform:
+    name: Terraform
+    desc: 'Break blocks instantly in a 4 block radius\n&7  in the same layer when digging for {value} seconds. You\n&7  must use a shovel and extra blocks broken must be\n&7  the same type and in a single connected vein.\n&7  &e[Right click shovel and dig block to activate]'
+    raise: '&7You raise your shovel'
+    lower: '&7You lower your shovel'
+    start: '&6Terraform Activated! &7(-{mana} {mana_unit})'
+    end: '&7Terraform has worn off'
+  sharp_hook:
+    name: Sharp Hook
+    desc: 'Deal {value} damage to a hooked entity\n&7  when left clicking with a fishing rod'
+    use: '&6Used Sharp Hook! &7(-{mana} {mana_unit})'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Damage: &c{value} &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
+  charged_shot:
+    name: Charged Shot
+    desc: 'Arrows you shoot will deal more damage\n&7  based on how far the bow was pulled back,\n&7  consuming mana in the process. Does {value}% more\n&7  damage per mana consumed. &e[Left click\n&e  a bow to toggle charged shot mode]'
+    enable: '&7Charged shot mode is now enabled'
+    disable: '&7Charged shot mode is now disabled'
+    shoot: '&6Used Charged Shot! &d+{percent}% DMG &7(-{mana} {mana_unit})'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Damage: &c+{value}% / Mana &7Max Mana Cost: &b{mana_cost}\n '
+  lightning_blade:
+    name: Lightning Blade
+    desc: Increases attack speed by {value}% for {duration} seconds.\n&e  [Right click sword and attack mob to activate]
+    raise: '&7You ready your sword'
+    lower: '&7You lower your sword'
+    start: '&6Lightning Blade Activated! &7(-{mana} {mana_unit})'
+    end: '&7Lightning Blade has worn off'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Attack Speed: &c+{value}% &7Duration: &a{duration}s\n &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
+  not_ready: '&cAbility not ready! &7({cooldown}s)'
+  not_enough_mana: '&eNot enough mana! &7({mana} {mana_unit} required, you have {current_mana}/{max_mana})'
+rewards:
+  item:
+    default_menu_message: '\n  {display_name}'
+    default_menu_message_multiple: '\n  {display_name} {amount}x'
+    default_chat_message: '\n  {display_name}'
+    default_chat_message_multiple: '\n  {display_name} {amount}x'
+skills:
+  farming:
+    name: Farming
+    desc: '&7作物を収穫して、Farming {xp_unit}を獲得'
+  foraging:
+    name: Foraging
+    desc: '&7木を切ってForaging {xp_unit}を獲得'
+  mining:
+    name: Mining
+    desc: '&7石や鉱石を採掘して、Mining {xp_unit}を獲得'
+  fishing:
+    name: Fishing
+    desc: '&7魚を釣って、Fishing {xp_unit}を獲得'
+  excavation:
+    name: Excavation
+    desc: '&7ショベルで掘ると、Excavation {xp_unit}を獲得'
+  archery:
+    name: Archery
+    desc: '&7弓でモブやプレイヤーを撃つと、Archery {xp_unit}を獲得'
+  defense:
+    name: Defense
+    desc: '&7エンティティからのダメージを受けると、Defense {xp_unit}を獲得'
+  fighting:
+    name: Fighting
+    desc: '&7近接武器でモブと戦うことで、Fighting {xp_unit}を獲得'
+  endurance:
+    name: Endurance
+    desc: '&7歩いたり、走ったりして、Endurance {xp_unit}を獲得'
+  agility:
+    name: Agility
+    desc: '&7ジャンプして落下ダメージを受けると、Agility {xp_unit}を獲得'
+  alchemy:
+    name: Alchemy
+    desc: '&7ポーションを醸造すると、Alchemy {xp_unit}を獲得'
+  enchanting:
+    name: Enchanting
+    desc: '&7アイテムや本をエンチャントすると、Enchanting {xp_unit}を獲得。'
+  sorcery:
+    name: Sorcery
+    desc: '&7マナアビリティを使うと、Sorcery {xp_unit}を獲得'
+  healing:
+    name: Healing
+    desc: '&7ポーションを飲んだりかけたりすると、Healing {xp_unit}を獲得'
+  forging:
+    name: Forging
+    desc: '&7金床で本を組み合わせて適用すると、Forging {xp_unit}を獲得'
+stats:
+  strength:
+    name: Strength
+    desc: '&7Strengthは、様々な武器での攻撃ダメージを増加させます。'
+    color: '&4'
+    symbol: '➽'
+  health:
+    name: Health
+    desc: '&7Healthは{hp_unit}の量を増加させ、戦いでより長く持ちこたえることができます。'
+    color: '&c'
+    symbol: '❤'
+  regeneration:
+    name: Regeneration
+    desc: '&7Regenerationは、ヘルスとマナの回復速度を向上させます。'
+    color: '&6'
+    symbol: '❥'
+  luck:
+    name: Luck
+    desc: '&7Luckが良ければ、モブや釣りなどでレアな戦利品を手に入れる確率が増加する。'
+    color: '&2'
+    symbol: '☘'
+  wisdom:
+    name: Wisdom
+    desc: '&7Wisdomは、最大マナを増やし、経験値を増やし、鉄床のコストを減らす。'
+    color: '&9'
+    symbol: '✿'
+  toughness:
+    name: Toughness
+    desc: '&7Toughnessは、敵の攻撃によるダメージを軽減する効果があります。'
+    color: '&5'
+    symbol: '✦'
+units:
+  mana: マナ
+  hp: HP
+  xp: XP
+file_version: 22

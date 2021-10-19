@@ -1,392 +1,377 @@
+# Aurelium Skills message file
 abilities:
   farming:
     bountiful_harvest:
-      name: '[lang]sk.abilities.farming.bountiful_harvest.name[/lang]'
-      desc: '[lang]sk.abilities.farming.bountiful_harvest.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.farming.bountiful_harvest.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Bountiful Harvest
+      desc: '{value}% chance to get double drops\n&7  from crops.'
+      info: '{value}% 2x Drops'
     farmer:
-      name: '[lang]sk.abilities.farming.farmer.name[/lang]'
-      desc: '[lang]sk.abilities.farming.farmer.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.farming.farmer.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Farmer
+      desc: 'Earn {value}% more Farming XP.'
+      info: '+{value}% XP'
     scythe_master:
-      name: '[lang]sk.abilities.farming.scythe_master.name[/lang]'
-      desc: '[lang]sk.abilities.farming.scythe_master.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.farming.scythe_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Scythe Master
+      desc: 'Increases damage from hoes by {value}%'
+      info: '+{value}% Hoe Damage'
     geneticist:
-      name: '[lang]sk.abilities.farming.geneticist.name[/lang]'
-      desc: '[lang]sk.abilities.farming.geneticist.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.farming.geneticist.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Geneticist
+      desc: 'Increases saturation gain from\n&7  plant-based foods by {value}.'
+      info: '+{value} Saturation'
     triple_harvest:
-      name: '[lang]sk.abilities.farming.triple_harvest.name[/lang]'
-      desc: '[lang]sk.abilities.farming.triple_harvest.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.farming.triple_harvest.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Triple Harvest
+      desc: '{value}% chance to get triple drops from\n&7  crops.'
+      info: '{value}% 3x Drops'
   foraging:
     lumberjack:
-      name: '[lang]sk.abilities.foraging.lumberjack.name[/lang]'
-      desc: '[lang]sk.abilities.foraging.lumberjack.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.foraging.lumberjack.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Lumberjack
+      desc: '{value}% chance to get double drops\n&7  from logs.'
+      info: '{value}% 2x Drops'
     forager:
-      name: '[lang]sk.abilities.foraging.forager.name[/lang]'
-      desc: '[lang]sk.abilities.foraging.forager.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.foraging.forager.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Forager
+      desc: 'Earn {value}% more Foraging XP.'
+      info: '+{value}% XP'
     axe_master:
-      name: '[lang]sk.abilities.foraging.axe_master.name[/lang]'
-      desc: '[lang]sk.abilities.foraging.axe_master.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.foraging.axe_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Axe Master
+      desc: 'Increases damage from axes by {value}%'
+      info: '+{value}% Axe Damage'
     valor:
-      name: '[lang]sk.abilities.foraging.valor.name[/lang]'
-      desc: '[lang]sk.abilities.foraging.valor.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.foraging.valor.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Valor
+      desc: 'Grants +{value} Strength while holding\n&7  an axe'
+      info: '+{value} Strength'
     shredder:
-      name: '[lang]sk.abilities.foraging.shredder.name[/lang]'
-      desc: '[lang]sk.abilities.foraging.shredder.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.foraging.shredder.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Shredder
+      desc: '{value}% chance to deal triple durability\n&7  damage with axes.'
+      info: '{value}% 3x Durability Damage'
   mining:
     lucky_miner:
-      name: '[lang]sk.abilities.mining.lucky_miner.name[/lang]'
-      desc: '[lang]sk.abilities.mining.lucky_miner.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.mining.lucky_miner.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Lucky Miner
+      desc: '{value}% chance to get double drops\n&7  from ores.'
+      info: '{value}% 2x Drops'
     miner:
-      name: '[lang]sk.abilities.mining.miner.name[/lang]'
-      desc: '[lang]sk.abilities.mining.miner.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.mining.miner.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Miner
+      desc: 'Earn {value}% more Mining XP.'
+      info: '+{value}% XP'
     pick_master:
-      name: '[lang]sk.abilities.mining.pick_master.name[/lang]'
-      desc: '[lang]sk.abilities.mining.pick_master.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.mining.pick_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Pick Master
+      desc: 'Deal {value}% more damage with pickaxes.'
+      info: '+{value}% Pickaxe Damage'
     stamina:
-      name: '[lang]sk.abilities.mining.stamina.name[/lang]'
-      desc: '[lang]sk.abilities.mining.stamina.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.mining.stamina.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Stamina
+      desc: 'Grants +{value} Toughness while\n&7  holding a pickaxe'
+      info: '+{value} Toughness'
     hardened_armor:
-      name: '[lang]sk.abilities.mining.hardened_armor.name[/lang]'
-      desc: '[lang]sk.abilities.mining.hardened_armor.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.mining.hardened_armor.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Hardened Armor
+      desc: '{value}% chance to negate durability\n&7  damage on armor.'
+      info: '{value}% No Durability Loss'
   fishing:
     lucky_catch:
-      name: '[lang]sk.abilities.fishing.lucky_catch.name[/lang]'
-      desc: '[lang]sk.abilities.fishing.lucky_catch.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fishing.lucky_catch.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Lucky Catch
+      desc: '{value}% added chance to get double drops\n&7  from fishing.'
+      info: '{value}% 2x Drops'
     fisher:
-      name: '[lang]sk.abilities.fishing.fisher.name[/lang]'
-      desc: '[lang]sk.abilities.fishing.fisher.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fishing.fisher.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Fisher
+      desc: 'Earn {value}% more Fishing XP'
+      info: '+{value}% XP'
     treasure_hunter:
-      name: '[lang]sk.abilities.fishing.treasure_hunter.name[/lang]'
-      desc: '[lang]sk.abilities.fishing.treasure_hunter.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fishing.treasure_hunter.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Treasure Hunter
+      desc: '{value}% higher chance to get rare loot from fishing.'
+      info: '+{value}% Rare Loot'
     grappler:
-      name: '[lang]sk.abilities.fishing.grappler.name[/lang]'
-      desc: '[lang]sk.abilities.fishing.grappler.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fishing.grappler.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Grappler
+      desc: 'Hook entities with {value}% more speed.'
+      info: '+{value}% Hook Speed'
     epic_catch:
-      name: '[lang]sk.abilities.fishing.epic_catch.name[/lang]'
-      desc: '[lang]sk.abilities.fishing.epic_catch.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fishing.epic_catch.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Epic Catch
+      desc: '{value}% added chance to get epic loot\n&7  from fishing.'
+      info: '+{value}% Epic Loot'
   excavation:
     metal_detector:
-      name: '[lang]sk.abilities.excavation.metal_detector.name[/lang]'
-      desc: '[lang]sk.abilities.excavation.metal_detector.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.excavation.metal_detector.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Metal Detector
+      desc: '{value}% added chance to get rare loot from digging.'
+      info: '+{value}% Rare Loot'
     excavator:
-      name: '[lang]sk.abilities.excavation.excavator.name[/lang]'
-      desc: '[lang]sk.abilities.excavation.excavator.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.excavation.excavator.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Excavator
+      desc: 'Earn {value}% more Excavation XP'
+      info: '+{value}% XP'
     spade_master:
-      name: '[lang]sk.abilities.excavation.spade_master.name[/lang]'
-      desc: '[lang]sk.abilities.excavation.spade_master.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.excavation.spade_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Spade Master
+      desc: 'Deal {value}% more damage with shovels.'
+      info: '+{value}% Shovel Damage'
     bigger_scoop:
-      name: '[lang]sk.abilities.excavation.bigger_scoop.name[/lang]'
-      desc: '[lang]sk.abilities.excavation.bigger_scoop.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.excavation.bigger_scoop.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Bigger Scoop
+      desc: '{value}% chance to get triple drops from digging.'
+      info: '{value}% 3x Drops'
     lucky_spades:
-      name: '[lang]sk.abilities.excavation.lucky_spades.name[/lang]'
-      desc: '[lang]sk.abilities.excavation.lucky_spades.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.excavation.lucky_spades.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Lucky Spades
+      desc: '{value}% added chance to get epic loot from digging.'
+      info: '+{value}% Epic Loot'
   archery:
     crit_chance:
-      name: '[lang]sk.abilities.archery.crit_chance.name[/lang]'
-      desc: '[lang]sk.abilities.archery.crit_chance.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.archery.crit_chance.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Crit Chance
+      desc: '+{value}% chance to deal a critical hit.'
+      info: '+{value}% Crit Chance'
     archer:
-      name: '[lang]sk.abilities.archery.archer.name[/lang]'
-      desc: '[lang]sk.abilities.archery.archer.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.archery.archer.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Archer
+      desc: 'Earn {value}% more Archery XP.'
+      info: '+{value}% XP'
     bow_master:
-      name: '[lang]sk.abilities.archery.bow_master.name[/lang]'
-      desc: '[lang]sk.abilities.archery.bow_master.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.archery.bow_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Bow Master
+      desc: 'Deal {value}% more damage with bows.'
+      info: '+{value}% Bow Damage'
     piercing:
-      name: '[lang]sk.abilities.archery.piercing.name[/lang]'
-      desc: '[lang]sk.abilities.archery.piercing.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.archery.piercing.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Piercing
+      desc: '{value}% chance for arrows to\n&7  pierce through mobs.'
+      info: '{value}% Pierce Chance'
     stun:
-      name: '[lang]sk.abilities.archery.stun.name[/lang]'
-      desc: '[lang]sk.abilities.archery.stun.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.archery.stun.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Stun
+      desc: '{value}% chance to decreases enemy\n&7  movement speed by 20% for 2 seconds.'
+      info: '{value}% Stun Chance'
   defense:
     shielding:
-      name: '[lang]sk.abilities.defense.shielding.name[/lang]'
-      desc: '[lang]sk.abilities.defense.shielding.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.defense.shielding.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Shielding
+      desc: 'Reduce incoming damage by {value}%\n&7  while sneaking.'
+      info: '-{value}% Incoming Dmg Sneaking'
     defender:
-      name: '[lang]sk.abilities.defense.defender.name[/lang]'
-      desc: '[lang]sk.abilities.defense.defender.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.defense.defender.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Defender
+      desc: 'Earn {value}% more Defense XP'
+      info: '+{value}% XP'
     mob_master:
-      name: '[lang]sk.abilities.defense.mob_master.name[/lang]'
-      desc: '[lang]sk.abilities.defense.mob_master.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.defense.mob_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Mob Master
+      desc: 'Reduce incoming damage from mobs by {value}%'
+      info: '-{value}% Mob Dmg'
     immunity:
-      name: '[lang]sk.abilities.defense.immunity.name[/lang]'
-      desc: '[lang]sk.abilities.defense.immunity.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.defense.immunity.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Immunity
+      desc: '{value}% chance to completely negate\n&7  an enemy attack.'
+      info: '{value}% Immune'
     no_debuff:
-      name: '[lang]sk.abilities.defense.no_debuff.name[/lang]'
-      desc: '[lang]sk.abilities.defense.no_debuff.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.defense.no_debuff.info[args][arg]{value}[/arg][/args][/lang]'
+      name: No Debuff
+      desc: '{value}% chance to negate a harmful\n&7  potion effect from being applied.'
+      info: '{value}% No Debuff'
   fighting:
     crit_damage:
-      name: '[lang]sk.abilities.fighting.crit_damage.name[/lang]'
-      desc: '[lang]sk.abilities.fighting.crit_damage.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fighting.crit_damage.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Crit Damage
+      desc: 'Increases critical hit damage by {value}%'
+      info: '+{value}% Crit Damage'
     fighter:
-      name: '[lang]sk.abilities.fighting.fighter.name[/lang]'
-      desc: '[lang]sk.abilities.fighting.fighter.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fighting.fighter.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Fighter
+      desc: 'Earn {value}% more Fighting XP'
+      info: '+{value}% XP'
     sword_master:
-      name: '[lang]sk.abilities.fighting.sword_master.name[/lang]'
-      desc: '[lang]sk.abilities.fighting.sword_master.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fighting.sword_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Sword Master
+      desc: 'Deal {value}% more damage with swords.'
+      info: '+{value}% Sword Damage'
     first_strike:
-      name: '[lang]sk.abilities.fighting.first_strike.name[/lang]'
-      desc: '[lang]sk.abilities.fighting.first_strike.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fighting.first_strike.info[args][arg]{value}[/arg][/args][/lang]'
-      dealt: '[lang]sk.abilities.fighting.first_strike.dealt[/lang]'
+      name: First Strike
+      desc: 'Deal {value}% more damage on the first hit.'
+      info: '+{value}% Dmg First Hit'
+      dealt: '&cFirst Strike Dealt!'
     bleed:
-      name: '[lang]sk.abilities.fighting.bleed.name[/lang]'
-      desc: '[lang]sk.abilities.fighting.bleed.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.fighting.bleed.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
-      enemy_bleeding: '[lang]sk.abilities.fighting.bleed.enemy_bleeding[/lang]'
-      self_bleeding: '[lang]sk.abilities.fighting.bleed.self_bleeding[/lang]'
-      stop: '[lang]sk.abilities.fighting.bleed.stop[/lang]'
+      name: Bleed
+      desc: '{value}% chance to make the enemy bleed for\n&7  3 bleed ticks, dealing {value_2} damage per tick.'
+      info: '{value}% Chance, {value_2} Damage'
+      enemy_bleeding: '&cEnemy Bleeding!'
+      self_bleeding: '&cYou are bleeding!'
+      stop: '&fThe bleeding has stopped'
   endurance:
     anti_hunger:
-      name: '[lang]sk.abilities.endurance.anti_hunger.name[/lang]'
-      desc: '[lang]sk.abilities.endurance.anti_hunger.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.endurance.anti_hunger.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Anti Hunger
+      desc: '{value}% chance to stop hunger loss.'
+      info: '{value}% No Hunger Loss'
     runner:
-      name: '[lang]sk.abilities.endurance.runner.name[/lang]'
-      desc: '[lang]sk.abilities.endurance.runner.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.endurance.runner.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Runner
+      desc: 'Earn {value} more Endurance XP.'
+      info: '+{value}% XP'
     golden_heal:
-      name: '[lang]sk.abilities.endurance.golden_heal.name[/lang]'
-      desc: '[lang]sk.abilities.endurance.golden_heal.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.endurance.golden_heal.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Golden Heal
+      desc: 'Increases regeneration effect\n&7  health gain by {value}%'
+      info: '+{value}% Effect Regen'
     recovery:
-      name: '[lang]sk.abilities.endurance.recovery.name[/lang]'
-      desc: '[lang]sk.abilities.endurance.recovery.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.endurance.recovery.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Recovery
+      desc: 'Increases natural regeneration when\n&7  at less than half health by {value}%'
+      info: '+{value}% Low HP Regen'
     meal_steal:
-      name: '[lang]sk.abilities.endurance.meal_steal.name[/lang]'
-      desc: '[lang]sk.abilities.endurance.meal_steal.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.endurance.meal_steal.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Meal Steal
+      desc: '{value}% chance to steal 1 hunger point\n&7  when attacking a player.'
+      info: '{value}% Hunger Steal'
   agility:
     light_fall:
-      name: '[lang]sk.abilities.agility.light_fall.name[/lang]'
-      desc: '[lang]sk.abilities.agility.light_fall.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.agility.light_fall.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Light Fall
+      desc: 'Reduces all fall damage by {value}%'
+      info: '-{value}% Fall Damage'
     jumper:
-      name: '[lang]sk.abilities.agility.jumper.name[/lang]'
-      desc: '[lang]sk.abilities.agility.jumper.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.agility.jumper.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Jumper
+      desc: 'Earn {value}% more Agility XP'
+      info: '+{value}% XP'
     sugar_rush:
-      name: '[lang]sk.abilities.agility.sugar_rush.name[/lang]'
-      desc: '[lang]sk.abilities.agility.sugar_rush.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.agility.sugar_rush.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Sugar Rush
+      desc: 'Consumed and splashed speed and jump boost\n&7  potions last {value}% longer.'
+      info: '{value}% Longer Speed'
     fleeting:
-      name: '[lang]sk.abilities.agility.fleeting.name[/lang]'
-      desc: '[lang]sk.abilities.agility.fleeting.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.agility.fleeting.info[args][arg]{value}[/arg][/args][/lang]'
-      start: '[lang]sk.abilities.agility.fleeting.start[args][arg]{value}[/arg][/args][/lang]'
-      end: '[lang]sk.abilities.agility.fleeting.end[/lang]'
+      name: Fleeting
+      desc: 'Gain +{value}% movement speed when below 20% health'
+      info: '+{value}% Speed'
+      start: '&fYou have gained a fleeting speed boost! &7(+{value}% Speed)'
+      end: '&7Fleeting speed boost has worn off'
     thunder_fall:
-      name: '[lang]sk.abilities.agility.thunder_fall.name[/lang]'
-      desc: '[lang]sk.abilities.agility.thunder_fall.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.agility.thunder_fall.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      name: Thunder Fall
+      desc: 'When sneaking during a fall, you have a {value}% chance\n&7  to deal {value_2}% of the fall damage expected to mobs\n&7  in a 3 block radius'
+      info: '{value}% Chance, {value_2}% Damage'
   alchemy:
     alchemist:
-      name: '[lang]sk.abilities.alchemy.alchemist.name[/lang]'
-      desc: '[lang]sk.abilities.alchemy.alchemist.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.alchemy.alchemist.info[args][arg]{value}[/arg][/args][/lang]'
-      lore: '[lang]sk.abilities.alchemy.alchemist.lore[args][arg]{duration}[/arg][/args][/lang]'
+      name: Alchemist
+      desc: 'Potions you brew have a {value}% longer\n&7  duration.'
+      info: '+{value}% Potion Duration'
+      lore: '&a(+{duration})'
     brewer:
-      name: '[lang]sk.abilities.alchemy.brewer.name[/lang]'
-      desc: '[lang]sk.abilities.alchemy.brewer.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.alchemy.brewer.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Brewer
+      desc: 'Earn {value}% more Alchemy XP'
+      info: '+{value}% XP'
     splasher:
-      name: '[lang]sk.abilities.alchemy.splasher.name[/lang]'
-      desc: '[lang]sk.abilities.alchemy.splasher.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.alchemy.splasher.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Splasher
+      desc: 'Potions you splash gain {value}% longer\n&7  duration for each player affected.'
+      info: '+{value}% Duration/Player'
     lingering:
-      name: '[lang]sk.abilities.alchemy.lingering.name[/lang]'
-      desc: '[lang]sk.abilities.alchemy.lingering.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.alchemy.lingering.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      name: Lingering
+      desc: 'Lingering potions naturally decay {value}%\n&7  slower and decay {value_2}% less per affected entity.'
+      info: '-{value}% Natural, -{value_2}% Entity Decay'
     wise_effect:
-      name: '[lang]sk.abilities.alchemy.wise_effect.name[/lang]'
-      desc: '[lang]sk.abilities.alchemy.wise_effect.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.alchemy.wise_effect.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Wise Effect
+      desc: 'Gain {value} Wisdom for every unique active\n&7  potion effect.'
+      info: '+{value} Wisdom/Effect'
   enchanting:
     xp_convert:
-      name: '[lang]sk.abilities.enchanting.xp_convert.name[/lang]'
-      desc: '[lang]sk.abilities.enchanting.xp_convert.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.enchanting.xp_convert.info[args][arg]{value}[/arg][/args][/lang]'
+      name: XP Convert
+      desc: 'Earn 1 Minecraft experience for every {value}\n&7  skill XP you gain.'
+      info: '1 EXP/{value} Skill XP'
     enchanter:
-      name: '[lang]sk.abilities.enchanting.enchanter.name[/lang]'
-      desc: '[lang]sk.abilities.enchanting.enchanter.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.enchanting.enchanter.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Enchanter
+      desc: 'Earn {value}% more Enchanting XP.'
+      info: '+{value}% XP'
     xp_warrior:
-      name: '[lang]sk.abilities.enchanting.xp_warrior.name[/lang]'
-      desc: '[lang]sk.abilities.enchanting.xp_warrior.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.enchanting.xp_warrior.info[args][arg]{value}[/arg][/args][/lang]'
+      name: XP Warrior
+      desc: 'Mobs you kill have a {value}% chance of\n&7  dropping double experience.'
+      info: '{value}% 2x Mob XP'
     enchanted_strength:
-      name: '[lang]sk.abilities.enchanting.enchanted_strength.name[/lang]'
-      desc: '[lang]sk.abilities.enchanting.enchanted_strength.desc[/lang]'
-      info: '[lang]sk.abilities.enchanting.enchanted_strength.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Enchanted Strength
+      desc: 'Gain {value} Strength for every unique\n&7  enchantment on the item held.'
+      info: '{value} Strength/Enchant'
     lucky_table:
-      name: '[lang]sk.abilities.enchanting.lucky_table.name[/lang]'
-      desc: '[lang]sk.abilities.enchanting.lucky_table.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.enchanting.lucky_table.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Lucky Table
+      desc: 'Items you enchant using the enchantment\n&7  table have a {value}% chance of upgrading the enchantment\n&7  level by 1 if not max level'
+      info: '{value}% Enchant Upgrade Chance'
   healing:
     life_essence:
-      name: '[lang]sk.abilities.healing.life_essence.name[/lang]'
-      desc: '[lang]sk.abilities.healing.life_essence.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.healing.life_essence.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Life Essence
+      desc: Instant Health potions heal {value}% more.
+      info: '+{value}% Instant Health'
     healer:
-      name: '[lang]sk.abilities.healing.healer.name[/lang]'
-      desc: '[lang]sk.abilities.healing.healer.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.healing.healer.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Healer
+      desc: Earn {value}% more Healing XP.
+      info: '+{value}% XP'
     life_steal:
-      name: '[lang]sk.abilities.healing.life_steal.name[/lang]'
-      desc: '[lang]sk.abilities.healing.life_steal.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.healing.life_steal.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Life Steal
+      desc: Heal {value}% of the max HP of hostile mobs\n&7  and players you kill.
+      info: 'Steal {value}% HP'
     golden_heart:
-      name: '[lang]sk.abilities.healing.golden_heart.name[/lang]'
-      desc: '[lang]sk.abilities.healing.golden_heart.desc[/lang]'
-      info: '[lang]sk.abilities.healing.golden_heart.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Golden Heart
+      desc: Damage done to your absorption hearts is\n&7  reduced by {value}%
+      info: '-{value}% Absorption Dmg'
     revival:
-      name: '[lang]sk.abilities.healing.revival.name[/lang]'
-      desc: '[lang]sk.abilities.healing.revival.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.healing.revival.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
-      message: '[lang]sk.abilities.healing.revival.message[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      name: Revival
+      desc: Gain &c+{value} Health &7and &6+{value_2} Regeneration\n&7  for 30 seconds after respawning.
+      info: '+{value} Health, +{value_2} Regen'
+      message: '&fYou gained a revival bonus for 30 seconds! &f(&c+{value} Health, &6+{value_2} Regeneration&f)'
   forging:
     disenchanter:
-      name: '[lang]sk.abilities.forging.disenchanter.name[/lang]'
-      desc: '[lang]sk.abilities.forging.disenchanter.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.forging.disenchanter.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Disenchanter
+      desc: Gain {value}% more experience when disenchanting\n&7  items using a grindstone.
+      info: '+{value}% Grindstone EXP'
     forger:
-      name: '[lang]sk.abilities.forging.forger.name[/lang]'
-      desc: '[lang]sk.abilities.forging.forger.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.forging.forger.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Forger
+      desc: Earn {value}% more Forging XP.
+      info: '+{value}% XP'
     repairing:
-      name: '[lang]sk.abilities.forging.repairing.name[/lang]'
-      desc: '[lang]sk.abilities.forging.repairing.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.forging.repairing.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Repairing
+      desc: Repairing items in an anvil using the raw\n&7  material the item was made from repairs\n&7  {value}% more durability.
+      info: '+{value}% Anvil Repair'
     anvil_master:
-      name: '[lang]sk.abilities.forging.anvil_master.name[/lang]'
-      desc: '[lang]sk.abilities.forging.anvil_master.desc[/lang]'
-      info: '[lang]sk.abilities.forging.anvil_master.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Anvil Master
+      desc: Increases the maximum repair cost of an anvil\n&7  before it is too expensive to {value} experience.
+      info: '{value} Max Cost'
     skill_mender:
-      name: '[lang]sk.abilities.forging.skill_mender.name[/lang]'
-      desc: '[lang]sk.abilities.forging.skill_mender.desc[args][arg]{value}[/arg][/args][/lang]'
-      info: '[lang]sk.abilities.forging.skill_mender.info[args][arg]{value}[/arg][/args][/lang]'
+      name: Skill Mender
+      desc: Gaining skill XP has a {value}% chance to repair\n&7  a held item or worn armor piece with the Mending\n&7  enchantment by 1 durability per 2 skill XP.
+      info: '{value}% Mend Chance'
 acf:
   core:
-    permission_denied: '[lang]sk.acf.core.permission_denied[/lang]'
-    permission_denied_parameter: '[lang]sk.acf.core.permission_denied_parameter[/lang]'
-    error_generic_logged: '[lang]sk.acf.core.error_generic_logged[/lang]'
-    unknown_command: '[lang]sk.acf.core.unknown_command[/lang]'
-    invalid_syntax: '[lang]sk.acf.core.invalid_syntax[args][arg]{command}[/arg][arg]{syntax}[/arg][/args][/lang]'
-    error_prefix: '[lang]sk.acf.core.error_prefix[args][arg]{message}[/arg][/args][/lang]'
-    error_performing_command: '[lang]sk.acf.core.error_performing_command[/lang]'
-    info_message: '[lang]sk.acf.core.info_message[args][arg]{message}[/arg][/args][/lang]'
-    please_specify_one_of: '[lang]sk.acf.core.please_specify_one_of[args][arg]{valid}[/arg][/args][/lang]'
-    must_be_a_number: '[lang]sk.acf.core.must_be_a_number[args][arg]{num}[/arg][/args][/lang]'
-    must_be_min_length: '[lang]sk.acf.core.must_be_min_length[args][arg]{min}[/arg][/args][/lang]'
-    must_be_max_length: '[lang]sk.acf.core.must_be_max_length[args][arg]{max}[/arg][/args][/lang]'
-    please_specify_at_most: '[lang]sk.acf.core.please_specify_at_most[args][arg]{max}[/arg][/args][/lang]'
-    please_specify_at_least: '[lang]sk.acf.core.please_specify_at_least[args][arg]{min}[/arg][/args][/lang]'
-    not_allowed_on_console: '[lang]sk.acf.core.not_allowed_on_console[/lang]'
-    could_not_find_player: '[lang]sk.acf.core.could_not_find_player[args][arg]{search}[/arg][/args][/lang]'
-    no_command_matched_search: '[lang]sk.acf.core.no_command_matched_search[args][arg]{search}[/arg][/args][/lang]'
-    help_page_information: '[lang]sk.acf.core.help_page_information[args][arg]{page}[/arg][arg]{totalpages}[/arg][arg]{results}[/arg][/args][/lang]'
-    help_no_results: '[lang]sk.acf.core.help_no_results[/lang]'
-    help_header: '[lang]sk.acf.core.help_header[args][arg]{commandprefix}[/arg][arg]{command}[/arg][/args][/lang]'
-    help_format: '[lang]sk.acf.core.help_format[args][arg]{commandprefix}[/arg][arg]{command}[/arg][arg]{parameters}[/arg][arg]{separator}[/arg][arg]{description}[/arg][/args][/lang]'
-    help_detailed_header: '[lang]sk.acf.core.help_detailed_header[args][arg]{commandprefix}[/arg][arg]{command}[/arg][/args][/lang]'
-    help_detailed_command_format: '[lang]sk.acf.core.help_detailed_command_format[args][arg]{command}[/arg][arg]{parameters}[/arg][arg]{separator}[/arg][arg]{description}[/arg][/args][/lang]'
-    help_detailed_parameter_format: '[lang]sk.acf.core.help_detailed_parameter_format[args][arg]{syntaxorname}[/arg][arg]{description}[/arg][/args][/lang]'
-    help_search_header: '[lang]sk.acf.core.help_search_header[args][arg]{commandprefix}[/arg][arg]{command}[/arg][arg]{search}[/arg][/args][/lang]'
+    permission_denied: '&cI''m sorry, but you do not have permission to perform this command.'
+    permission_denied_parameter: '&cI''m sorry, but you do not have permission to perform this command.'
+    error_generic_logged: '&cAn error occurred. This problem has been logged. Sorry for the inconvenience.'
+    unknown_command: '&cUnknown Command, please type &e/sk help'
+    invalid_syntax: '&eUsage: &e{command} &a{syntax}'
+    error_prefix: '&cError: {message}'
+    error_performing_command: "&cI'm sorry, but there was an error performing this command."
+    info_message: '{message}'
+    please_specify_one_of: '&cError: Please specify one of (&e{valid}&c)'
+    must_be_a_number: '&cError: {num} must be a number.'
+    must_be_min_length: '&cError: Must be at least {min} characters long.'
+    must_be_max_length: '&cError: Must be at most {max} characters long.'
+    please_specify_at_most: '&cError: Please specify a value at most {max}.'
+    please_specify_at_least: '&cError: Please specify a value at least {min}.'
+    not_allowed_on_console: '&cError: Console may not execute this command.'
+    could_not_find_player: '&cError: Could not find a player by the name: &e{search}'
+    no_command_matched_search: '&cNo command matched &e{search}.'
+    help_page_information: '&b - Showing page &a{page} &bof &a{totalpages} &b(&e{results}&b results).'
+    help_no_results: '&bError: No more results.'
+    help_header: '&e=== &bShowing help for &a{commandprefix}{command}&e ==='
+    help_format: '&b{commandprefix}{command} &a{parameters} &e{separator} {description}'
+    help_detailed_header: '&e=== &bShowing detailed help for &a{commandprefix}{command}&e ==='
+    help_detailed_command_format: '&b{command} &a{parameters} &e{separator} {description}'
+    help_detailed_parameter_format: '&a{syntaxorname}: &e{description}'
+    help_search_header: '&e=== &bSearch results for &a{commandprefix}{command} {search}&e ==='
   minecraft:
-    invalid_world: '[lang]sk.acf.minecraft.invalid_world[/lang]'
-    you_must_be_holding_item: '[lang]sk.acf.minecraft.you_must_be_holding_item[/lang]'
-    player_is_vanish_confirm: '[lang]sk.acf.minecraft.player_is_vanish_confirm[args][arg]{vanished}[/arg][arg]{vanished}[/arg][/args][/lang]'
-    username_too_short: '[lang]sk.acf.minecraft.username_too_short[/lang]'
-    is_not_a_valid_name: '[lang]sk.acf.minecraft.is_not_a_valid_name[args][arg]{name}[/arg][/args][/lang]'
-    multiple_players_match: '[lang]sk.acf.minecraft.multiple_players_match[args][arg]{search}[/arg][arg]{all}[/arg][/args][/lang]'
-    no_player_found_server: '[lang]sk.acf.minecraft.no_player_found_server[args][arg]{search}[/arg][/args][/lang]'
-    no_player_found_offline: '[lang]sk.acf.minecraft.no_player_found_offline[args][arg]{search}[/arg][/args][/lang]'
-    no_player_found: '[lang]sk.acf.minecraft.no_player_found[args][arg]{search}[/arg][/args][/lang]'
-    location_please_specify_world: '[lang]sk.acf.minecraft.location_please_specify_world[/lang]'
-    location_please_specify_xyz: '[lang]sk.acf.minecraft.location_please_specify_xyz[/lang]'
-    location_console_not_relative: '[lang]sk.acf.minecraft.location_console_not_relative[/lang]'
+    invalid_world: '&cError: That world does not exist.'
+    you_must_be_holding_item: '&cError: You must be holding an item in your main hand.'
+    player_is_vanish_confirm: '&eWarning: &a{vanished} &eis vanished. Do not blow their cover!\n&eTo confirm your action add &a:confirm &eto the end of their name.\n&eEx: {vanished}:confirm'
+    username_too_short: '&cError: Username too short, must be at least three characters.'
+    is_not_a_valid_name: '&cError: &e{name} &cis not a valid username.'
+    multiple_players_match: '&cError: Multiple players matched &b{search} &e({all})&c, please be more specific.'
+    no_player_found_server: '&cNo player matching &e{search} &cis connected to this server.'
+    no_player_found_offline: '&cNo player matching &e{search}&c could be found.'
+    no_player_found: '&cNo player matching &e{search}&c could be found.'
+    location_please_specify_world: '&cError: Please specify world. Example: &eworld:x,y,z.'
+    location_please_specify_xyz: '&cError: Please specify the coordinates x, y, and z. Example: &eworld:x,y,z.'
+    location_console_not_relative: '&cError: Console may not use relative coordinates for location.'
 action_bar:
-  idle: '[lang]sk.action_bar.idle[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-  xp: '[lang]sk.action_bar.xp[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_gained}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-  xp_removed: '[lang]sk.action_bar.xp_removed[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_removed}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-  maxed: '[lang]sk.action_bar.maxed[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_gained}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-  maxed_removed: '[lang]sk.action_bar.maxed_removed[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_removed}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-  ability: '[lang]sk.action_bar.ability[args][arg]{message}[/arg][/args][/lang]'
-  boss_bar_xp: '[lang]sk.action_bar.boss_bar_xp[args][arg]{skill}[/arg][arg]{level}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
-  boss_bar_maxed: '[lang]sk.action_bar.boss_bar_maxed[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+  idle: '&c{hp}/{max_hp}❤                 &b{mana}/{max_mana} {mana_unit}'
+  xp: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
+  xp_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
+  maxed: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
+  maxed_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
+  ability: '{message}'
+  boss_bar_xp: '&6{skill} {level} &7({current_xp}/{level_xp} {xp_unit})'
+  boss_bar_maxed: '&6{skill} {level} &7(MAXED)'
 commands:
-  prefix: '[lang]sk.commands.prefix[/lang]'
+  prefix: '&8[&bSkills&8]&r '
   armor:
     modifier:
       add:
-        added: '  [lang]sk.commands.armor.modifier.add.added[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
-        already_exists: '  [lang]sk.commands.armor.modifier.add.already_exists[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
-        lore: '  [lang]sk.commands.armor.modifier.add.lore[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
-        lore_subtract: '  [lang]sk.commands.armor.modifier.add.lore_subtract[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
+        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
+        already_exists: '&eAn armor modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk armor modifier remove'
+        lore: '&7{stat}: {color}+{value}'
+        lore_subtract: '&7{stat}: {color}-{value}'
       remove:
-        does_not_exist: '  [lang]sk.commands.armor.modifier.remove.does_not_exist[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
-        removed: '  [lang]sk.commands.armor.modifier.remove.removed[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
+        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
+        removed: '{color}{stat} &7modifier was removed from your item'
       list:
-        header: '[lang]sk.commands.armor.modifier.list.header[/lang]'
-        entry: '  [lang]sk.commands.armor.modifier.list.entry[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
+        header: '&fArmor modifiers found:'
+        entry: '  {color}{stat}&f - {value}'
       removeall:
-        removed: '[lang]sk.commands.armor.modifier.removeall.removed[/lang]'
-    requirement:
-      add:
-        added: '  [lang]sk.commands.armor.requirement.add.added[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
-        already_exists: '  [lang]sk.commands.armor.requirement.add.already_exists[args][arg]{skill}[/arg][/args][/lang]'
-        lore: '  [lang]sk.commands.armor.requirement.add.lore[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
-      remove:
-        does_not_exist: '  [lang]sk.commands.armor.requirement.remove.does_not_exist[args][arg]{skill}[/arg][/args][/lang]'
-        removed: '  [lang]sk.commands.armor.requirement.remove.removed[args][arg]{skill}[/arg][/args][/lang]'
-      list:
-        header: '[lang]sk.commands.armor.requirement.list.header[/lang]'
-        entry: '  [lang]sk.commands.armor.requirement.list.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
-      removeall:
-        removed: '[lang]sk.commands.armor.requirement.removeall.removed[/lang]'
-      equip: '[lang]sk.commands.armor.requirement.equip[args][arg]{requirements}[/arg][/args][/lang]'
-      entry: '[lang]sk.commands.armor.requirement.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+        removed: '&7All armor modifiers have been removed from your item'
     multiplier:
       add:
         added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
-        already_exists: '&eAn armor multiplier with target &b{target} &ealready exists
-          on your armor! Remove it first with /sk armor multiplier remove'
+        already_exists: '&eAn armor multiplier with target &b{target} &ealready exists on your armor! Remove it first with /sk armor multiplier remove'
         skill_lore: '&7When worn: &b+{value}% {skill} XP'
         skill_lore_subtract: '&7When worn: &b-{value}% {skill} XP'
         global_lore: '&7When worn: &9+{value}% Skill XP'
@@ -399,65 +384,57 @@ commands:
         entry: '  &b{target}&f - {value}'
       removeall:
         removed: '&7All armor multipliers have been removed from your item'
-  backup:
-    load:
-      confirm: '[lang]sk.commands.backup.load.confirm[/lang]'
-      loading: '[lang]sk.commands.backup.load.loading[/lang]'
-      loaded: '[lang]sk.commands.backup.load.loaded[/lang]'
-      error: '[lang]sk.commands.backup.load.error[args][arg]{error}[/arg][/args][/lang]'
-      must_be_yaml: '[lang]sk.commands.backup.load.must_be_yaml[/lang]'
-      file_not_found: '[lang]sk.commands.backup.load.file_not_found[/lang]'
-    save:
-      saving: '[lang]sk.commands.backup.save.saving[/lang]'
-      saved: '[lang]sk.commands.backup.save.saved[args][arg]{type}[/arg][arg]{file}[/arg][/args][/lang]'
-      error: '[lang]sk.commands.backup.save.error[args][arg]{type}[/arg][/args][/lang]'
-  claimitems:
-    no_items: '[lang]sk.commands.claimitems.no_items[/lang]'
-  item:
-    give:
-      sender: '[lang]sk.commands.item.give.sender[args][arg]{amount}[/arg][arg]{key}[/arg][arg]{player}[/arg][/args][/lang]'
-      receiver: '[lang]sk.commands.item.give.receiver[args][arg]{amount}[/arg][arg]{key}[/arg][/args][/lang]'
-    modifier:
-      add:
-        added: '  [lang]sk.commands.item.modifier.add.added[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
-        already_exists: '  [lang]sk.commands.item.modifier.add.already_exists[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
-        lore: '  [lang]sk.commands.item.modifier.add.lore[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
-        lore_subtract: '  [lang]sk.commands.item.modifier.add.lore_subtract[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
-      remove:
-        does_not_exist: '  [lang]sk.commands.item.modifier.remove.does_not_exist[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
-        removed: '  [lang]sk.commands.item.modifier.remove.removed[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
-      list:
-        header: '[lang]sk.commands.item.modifier.list.header[/lang]'
-        entry: '  [lang]sk.commands.item.modifier.list.entry[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
-      removeall:
-        removed: '[lang]sk.commands.item.modifier.removeall.removed[/lang]'
-    register:
-      registered: '[lang]sk.commands.item.register.registered[args][arg]{key}[/arg][/args][/lang]'
-      already_registered: '[lang]sk.commands.item.register.already_registered[args][arg]{key}[/arg][/args][/lang]'
-      no_spaces: '[lang]sk.commands.item.register.no_spaces[/lang]'
     requirement:
       add:
-        added: '  [lang]sk.commands.item.requirement.add.added[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
-        already_exists: '  [lang]sk.commands.item.requirement.add.already_exists[args][arg]{skill}[/arg][/args][/lang]'
-        lore: '  [lang]sk.commands.item.requirement.add.lore[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+        added: '&3{skill}&7 armor requirement with level &b{level}&7 was added to your item'
+        already_exists: '&eItem already has a &3{skill}&e armor requirement! Remove it first with &6/sk armor requirement remove'
+        lore: '&cRequires &3{skill} {level}'
       remove:
-        does_not_exist: '  [lang]sk.commands.item.requirement.remove.does_not_exist[args][arg]{skill}[/arg][/args][/lang]'
-        removed: '  [lang]sk.commands.item.requirement.remove.removed[args][arg]{skill}[/arg][/args][/lang]'
+        does_not_exist: '&eYour item does not have a &3{skill}&e armor requirement!'
+        removed: '&3{skill}&7 armor requirement was removed from your item'
       list:
-        header: '[lang]sk.commands.item.requirement.list.header[/lang]'
-        entry: '  [lang]sk.commands.item.requirement.list.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+        header: '&fArmor requirements found:'
+        entry: '  &3{skill} &f- &b{level}'
       removeall:
-        removed: '[lang]sk.commands.item.requirement.removeall.removed[/lang]'
-      use: '[lang]sk.commands.item.requirement.use[args][arg]{requirements}[/arg][/args][/lang]'
-      entry: '[lang]sk.commands.item.requirement.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
-    unregister:
-      unregistered: '[lang]sk.commands.item.unregister.unregistered[args][arg]{key}[/arg][/args][/lang]'
-      not_registered: '[lang]sk.commands.item.unregister.not_registered[args][arg]{key}[/arg][/args][/lang]'
+        removed: '&7All armor requirements have been removed from your item'
+      equip: '&eYou do not meet the requirements to equip this item: {requirements}'
+      entry: '&b{skill} {level}&7, '
+  backup:
+    load:
+      confirm: '&cLoading a backup will revert all skill data of players. This action is permanent and cannot be undone. You may want to save a backup before loading one. Type the command again to confirm this action'
+      loading: '&fLoading backup...'
+      loaded: '&aSuccessfully loaded backup'
+      error: '&cError loading backup: {error}'
+      must_be_yaml: '&eFile must be a .yml file!'
+      file_not_found: '&eA backup of this file name does not exist in the backups folder!'
+    save:
+      saving: '&fSaving backup...'
+      saved: '&fBacked up {type} data as {file}'
+      error: '&cError backing up {type} data! See error in console/below for details'
+  claimitems:
+    no_items: '&eYou have no items to claim'
+  item:
+    give:
+      sender: '&fGave &b{amount}x {key} &fto {player}'
+      receiver: '&fYou were given &b{amount}x {key}'
+    modifier:
+      add:
+        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
+        already_exists: '&eAn item modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk item modifier remove'
+        lore: '&7{stat}: {color}+{value}'
+        lore_subtract: '&7{stat}: {color}-{value}'
+      remove:
+        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
+        removed: '{color}{stat} &7modifier was removed from your item'
+      list:
+        header: '&fItem modifiers found:'
+        entry: '  {color}{stat}&f - {value}'
+      removeall:
+        removed: '&7All item modifiers have been removed from your item'
     multiplier:
       add:
         added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
-        already_exists: '&eAn item multiplier with target &b{target} &ealready exists
-          on your item! Remove it first with /sk item multiplier remove'
+        already_exists: '&eAn item multiplier with target &b{target} &ealready exists on your item! Remove it first with /sk item multiplier remove'
         skill_lore: '&7When held: &b+{value}% {skill} XP'
         skill_lore_subtract: '&7When held: &b-{value}% {skill} XP'
         global_lore: '&7When held: &9+{value}% Skill XP'
@@ -470,304 +447,325 @@ commands:
         entry: '  &b{target}&f - {value}'
       removeall:
         removed: '&7All item multipliers have been removed from your item'
+    register:
+      registered: '&fRegistered held item to key {key}'
+      already_registered: '&eThere is already an item registered to key &f{key}&e, use &f/skills item unregister &eto unregister it first'
+      no_spaces: '&eItem key cannot contain spaces!'
+    requirement:
+      add:
+        added: '&3{skill}&7 item requirement with level &b{level}&7 was added to your item'
+        already_exists: '&eItem already has a &3{skill}&e item requirement! Remove it first with &6/sk item requirement remove'
+        lore: '&cRequires &3{skill} {level}'
+      remove:
+        does_not_exist: '&eYour item does not have a &3{skill}&e item requirement!'
+        removed: '&3{skill}&7 item requirement was removed from your item'
+      list:
+        header: '&fItem requirements found:'
+        entry: '  &3{skill} &f- &b{level}'
+      removeall:
+        removed: '&7All item requirements have been removed from your item'
+      use: '&eYou do not meet the requirements to use this item: {requirements}'
+      entry: '&b{skill} {level}&7, '
+    unregister:
+      unregistered: '&fUnregistered item with key {key}'
+      not_registered: '&eThere is no item registered with key {key}'
   lang:
-    set: '[lang]sk.commands.lang.set[args][arg]{lang}[/arg][/args][/lang]'
-    not_found: '[lang]sk.commands.lang.not_found[/lang]'
+    set: '&7Language set to &b{lang}'
+    not_found: '&eLanguage not found!'
   mana:
-    display: '[lang]sk.commands.mana.display[args][arg]{mana_unit}[/arg][arg]{current}[/arg][arg]{max}[/arg][/args][/lang]'
-    display_other: '[lang]sk.commands.mana.display_other[args][arg]{mana_unit}[/arg][arg]{player}[/arg][arg]{current}[/arg][arg]{max}[/arg][/args][/lang]'
-    add: '[lang]sk.commands.mana.add[args][arg]{amount}[/arg][arg]{mana_unit}[/arg][arg]{player}[/arg][/args][/lang]'
-    remove: '[lang]sk.commands.mana.remove[args][arg]{amount}[/arg][arg]{mana_unit}[/arg][arg]{player}[/arg][/args][/lang]'
-    set: '[lang]sk.commands.mana.set[args][arg]{player}[/arg][arg]{amount}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    at_least_zero: '[lang]sk.commands.mana.at_least_zero[args][arg]{mana_unit}[/arg][/args][/lang]'
-    console_specify_player: '[lang]sk.commands.mana.console_specify_player[/lang]'
+    display: '&fYour {mana_unit}: &b{current}/{max}'
+    display_other: '&f{mana_unit} of {player}: &b{current}/{max}'
+    add: '&7Added &b{amount} {mana_unit} &7to player &6{player}'
+    remove: '&7Removed &b{amount} {mana_unit} &7from player &6{player}'
+    set: '&7Set player &6{player} &7to &b{amount} {mana_unit}'
+    at_least_zero: '&e{mana_unit} must be at least zero!'
+    console_specify_player: '&eConsole must specify a player!'
   modifier:
     add:
-      added: '[lang]sk.commands.modifier.add.added[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][arg]{name}[/arg][arg]{player}[/arg][/args][/lang]'
-      already_exists: '[lang]sk.commands.modifier.add.already_exists[args][arg]{name}[/arg][arg]{player}[/arg][arg]{player}[/arg][arg]{name}[/arg][/args][/lang]'
+      added: '{color}{stat} &7modifier level &b{value} &7with name &f{name} &7added to player &6{player}'
+      already_exists: '&eModifier with name {name} already exists on player &6{player}&e! Remove it with &6/sk modifier remove {player} {name}'
     remove:
-      not_found: '[lang]sk.commands.modifier.remove.not_found[args][arg]{name}[/arg][arg]{player}[/arg][/args][/lang]'
-      removed: '[lang]sk.commands.modifier.remove.removed[args][arg]{name}[/arg][arg]{player}[/arg][/args][/lang]'
+      not_found: '&eModifier {name} not found for player &6{player}'
+      removed: '&7Modifier &f{name} &7removed from player &6{player}'
     list:
-      all_stats_header: '[lang]sk.commands.modifier.list.all_stats_header[args][arg]{player}[/arg][/args][/lang]'
-      all_stats_entry: '[lang]sk.commands.modifier.list.all_stats_entry[args][arg]{name}[/arg][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
-      one_stat_header: '[lang]sk.commands.modifier.list.one_stat_header[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{player}[/arg][/args][/lang]'
-      one_stat_entry: '[lang]sk.commands.modifier.list.one_stat_entry[args][arg]{name}[/arg][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
-      players_only: '[lang]sk.commands.modifier.list.players_only[/lang]'
+      all_stats_header: '&7Stat modifiers for player &6{player}:'
+      all_stats_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
+      one_stat_header: '&7Stat modifiers ({color}{stat}&7) for player &6{player}:'
+      one_stat_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
+      players_only: '&eOnly players can list their own modifiers! Try specifying a player'
     removeall:
-      removed_all_stats: '[lang]sk.commands.modifier.removeall.removed_all_stats[args][arg]{num}[/arg][arg]{player}[/arg][/args][/lang]'
-      removed_one_stat: '[lang]sk.commands.modifier.removeall.removed_one_stat[args][arg]{num}[/arg][arg]{color}[/arg][arg]{stat}[/arg][arg]{player}[/arg][/args][/lang]'
-      players_only: '[lang]sk.commands.modifier.removeall.players_only[/lang]'
+      removed_all_stats: '&7Removed &b{num} &7stat modifiers from player &6{player}'
+      removed_one_stat: '&7Removed &b{num} {color}{stat} &7modifiers from player &6{player}'
+      players_only: '&eOnly players can remove their own modifiers! Try specifying a player'
   multiplier:
-    list: '[lang]sk.commands.multiplier.list[args][arg]{player}[/arg][arg]{multiplier}[/arg][arg]{percent}[/arg][/args][/lang]'
-    players_only: '[lang]sk.commands.multiplier.players_only[/lang]'
     global: Global
+    list: '&fGlobal XP multiplier for &6{player}&f: &b{multiplier}x / +{percent}%'
     skill_entry: '&b{skill} &fXP multiplier: &b{multiplier}x / +{percent}%'
+    players_only: '&eOnly players can list their own multiplier! Specify a player!'
   rank:
-    header: '[lang]sk.commands.rank.header[/lang]'
-    power: '[lang]sk.commands.rank.power[args][arg]{total}[/arg][arg]{rank}[/arg][/args][/lang]'
-    entry: '[lang]sk.commands.rank.entry[args][arg]{skill}[/arg][arg]{total}[/arg][arg]{rank}[/arg][/args][/lang]'
-  reload: '[lang]sk.commands.reload[/lang]'
+    header: '&b&lYour Skill Rankings'
+    power: '&ePower &7(All Skills): &f#{rank} of {total}'
+    entry: '&b{skill}&7: &f#{rank} of {total}'
+  reload: '&aConfig reloaded!'
   save:
-    already_saving: '[lang]sk.commands.save.already_saving[/lang]'
-    mysql_not_enabled: '[lang]sk.commands.save.mysql_not_enabled[/lang]'
-    saved: '[lang]sk.commands.save.saved[/lang]'
+    already_saving: '&eData is already saving!'
+    mysql_not_enabled: '&eMySQL was not enabled at server startup, saving to file instead!'
+    saved: '&aSkill data saved!'
   skill:
     reset:
-      reset_all: '[lang]sk.commands.skill.reset.reset_all[args][arg]{player}[/arg][/args][/lang]'
-      reset_skill: '[lang]sk.commands.skill.reset.reset_skill[args][arg]{skill}[/arg][arg]{player}[/arg][/args][/lang]'
+      reset_all: '&7All Skills set to level &b1 &7for player &6{player}'
+      reset_skill: '&7Skill &b{skill} &7set to level &b1 &7for player &6{player}'
     setall:
-      at_least_one: '[lang]sk.commands.skill.setall.at_least_one[/lang]'
-      set: '[lang]sk.commands.skill.setall.set[args][arg]{level}[/arg][arg]{player}[/arg][/args][/lang]'
+      at_least_one: '&eLevel must be at least 1!'
+      set: '&7All skills set to level &b{level} &7for player &6{player}'
     setlevel:
-      at_least_one: '[lang]sk.commands.skill.setlevel.at_least_one[/lang]'
-      set: '[lang]sk.commands.skill.setlevel.set[args][arg]{skill}[/arg][arg]{level}[/arg][arg]{player}[/arg][/args][/lang]'
+      at_least_one: '&eLevel must be at least 1!'
+      set: '&7Skill &b{skill} &7set to level &b{level} &7for player &6{player}'
   toggle:
-    enabled: '[lang]sk.commands.toggle.enabled[/lang]'
-    disabled: '[lang]sk.commands.toggle.disabled[/lang]'
-    not_enabled: '[lang]sk.commands.toggle.not_enabled[/lang]'
+    enabled: '&aYour skills action bar has been enabled'
+    disabled: '&cYour skills action bar has been disabled'
+    not_enabled: '&eSkills action bar is not enabled on this server!'
   top:
-    power_entry: '[lang]sk.commands.top.power_entry[args][arg]{rank}[/arg][arg]{player}[/arg][arg]{level}[/arg][/args][/lang]'
-    power_header: '[lang]sk.commands.top.power_header[/lang]'
-    power_header_page: '[lang]sk.commands.top.power_header_page[args][arg]{page}[/arg][/args][/lang]'
-    skill_header: '[lang]sk.commands.top.skill_header[args][arg]{skill}[/arg][/args][/lang]'
-    skill_header_page: '[lang]sk.commands.top.skill_header_page[args][arg]{skill}[/arg][arg]{page}[/arg][/args][/lang]'
-    skill_entry: '[lang]sk.commands.top.skill_entry[args][arg]{rank}[/arg][arg]{player}[/arg][arg]{level}[/arg][/args][/lang]'
-    average_header: '[lang]sk.commands.top.average_header[/lang]'
-    average_header_page: '[lang]sk.commands.top.average_header_page[args][arg]{page}[/arg][/args][/lang]'
-    average_entry: '[lang]sk.commands.top.average_entry[args][arg]{rank}[/arg][arg]{player}[/arg][arg]{level}[/arg][/args][/lang]'
-    usage: '[lang]sk.commands.top.usage[/lang]'
+    power_entry: '&f{rank}. &b{player} &f- {level}'
+    power_header: '&f--==&b&lAll Skills Leaderboard&f==--'
+    power_header_page: '&f--==&b&lAll Skills Leaderboard &f(Page {page})==--'
+    skill_header: '&f--==&b&l{skill} Leaderboard&f==--'
+    skill_header_page: '&f--==&b&l{skill} Leaderboard &f(Page {page})==--'
+    skill_entry: '&f{rank}. &b{player} &f- {level}'
+    average_header: '&f--==&b&lSkill Average Leaderboard&f==--'
+    average_header_page: '&f--==&b&lSkill Average Leaderboard &f(Page {page})==--'
+    average_entry: '&f{rank}. &b{player} &f- {level}'
+    usage: '&eUsage: &a/sk top &f<page> &7or &a/sk top &f[skill] <page>'
   updateleaderboards:
-    already_updating: '[lang]sk.commands.updateleaderboards.already_updating[/lang]'
-    updated: '[lang]sk.commands.updateleaderboards.updated[/lang]'
+    already_updating: '&eLeaderboard is already updating!'
+    updated: '&aLeaderboard updated!'
+  version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest version is &b{latest_version}'
   xp:
-    add: '[lang]sk.commands.xp.add[args][arg]{amount}[/arg][arg]{skill}[/arg][arg]{player}[/arg][/args][/lang]'
-    set: '[lang]sk.commands.xp.set[args][arg]{skill}[/arg][arg]{player}[/arg][arg]{amount}[/arg][/args][/lang]'
-    remove: '[lang]sk.commands.xp.remove[args][arg]{amount}[/arg][arg]{skill}[/arg][arg]{player}[/arg][/args][/lang]'
-  unknown_skill: '[lang]sk.commands.unknown_skill[/lang]'
-  no_profile: '[lang]sk.commands.no_profile[/lang]'
-  version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest
-    version is &b{latest_version}'
+    add: '&7Added &b{amount} {skill} &7XP to player &7{player}'
+    set: '&7Set &b{skill} &7XP for player &7{player} &7to {amount}'
+    remove: '&7Removed &b{amount} {skill} &7XP from player &6{player}'
+  unknown_skill: '&eUnknown skill!'
+  no_profile: '&ePlayer does not have a skills profile!'
 leveler:
-  title: '[lang]sk.leveler.title[args][arg]{skill}[/arg][/args][/lang]'
-  subtitle: '[lang]sk.leveler.subtitle[args][arg]{old}[/arg][arg]{new}[/arg][/args][/lang]'
-  level_up: '[lang]sk.leveler.level_up[args][arg]{skill}[/arg][arg]{old}[/arg][arg]{new}[/arg][arg]{stat_level}[/arg][arg]{ability_unlock}[/arg][arg]{ability_level_up}[/arg][arg]{mana_ability_unlock}[/arg][arg]{mana_ability_level_up}[/arg][arg]{money_reward}[/arg][/args][/lang]'
-  stat_level: '[lang]sk.leveler.stat_level[args][arg]{color}[/arg][arg]{num}[/arg][arg]{symbol}[/arg][arg]{stat}[/arg][/args][/lang]'
-  ability_unlock: '[lang]sk.leveler.ability_unlock[args][arg]{ability}[/arg][/args][/lang]'
-  ability_level_up: '[lang]sk.leveler.ability_level_up[args][arg]{ability}[/arg][arg]{level}[/arg][/args][/lang]'
-  mana_ability_unlock: '[lang]sk.leveler.mana_ability_unlock[args][arg]{mana_ability}[/arg][/args][/lang]'
-  mana_ability_level_up: '[lang]sk.leveler.mana_ability_level_up[args][arg]{mana_ability}[/arg][arg]{level}[/arg][/args][/lang]'
-  money_reward: '[lang]sk.leveler.money_reward[args][arg]{amount}[/arg][/args][/lang]'
-  unclaimed_item: '[lang]sk.leveler.unclaimed_item[/lang]'
+  title: '&a{skill} Level Up'
+  subtitle: '&6{old} ➜ {new}'
+  level_up: '&3&m----------------------------------------\n&r &3Skill Level Up! &b&l{skill} &8{old}➜&3&l{new}\n \n &bRewards:{stat_level}{ability_unlock}{ability_level_up}{mana_ability_unlock}{mana_ability_level_up}{money_reward}\n&3&m----------------------------------------'
+  stat_level: '\n  {color}+{num}{symbol} {stat}'
+  ability_unlock: '\n  &aAbility Unlock! &6&l{ability} &7has been unlocked'
+  ability_level_up: '\n  &aAbility Level Up! &6&l{ability} &7is now level &6{level}'
+  mana_ability_unlock: '\n  &dMana Ability Unlock! &9&l{mana_ability} &7has been unlocked'
+  mana_ability_level_up: '\n  &dMana Ability Level Up! &9&l{mana_ability} &7is now level &6{level}'
+  money_reward: '\n  &a${amount}'
+  unclaimed_item: '&cYou have unclaimed items because your inventory was full, use &e/skills claimitems &cto claim them'
 menus:
   common:
-    close: '[lang]sk.menus.common.close[/lang]'
-    level: '[lang]sk.menus.common.level[args][arg]{level}[/arg][/args][/lang]'
-    progress_to_level: '[lang]sk.menus.common.progress_to_level[args][arg]{level}[/arg][arg]{percent}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
-    max_level: '[lang]sk.menus.common.max_level[/lang]'
-    ability_levels: '[lang]sk.menus.common.ability_levels[args][arg]{ability_1}[/arg][arg]{ability_2}[/arg][arg]{ability_3}[/arg][arg]{ability_4}[/arg][arg]{ability_5}[/arg][/args][/lang]'
-    ability_level_entry: '[lang]sk.menus.common.ability_level_entry[args][arg]{ability}[/arg][arg]{level}[/arg][arg]{info}[/arg][/args][/lang]'
-    ability_level_entry_locked: '[lang]sk.menus.common.ability_level_entry_locked[args][arg]{ability}[/arg][/args][/lang]'
-    stats_leveled: '[lang]sk.menus.common.stats_leveled[args][arg]{stats}[/arg][/args][/lang]'
-    mana_ability: '[lang]sk.menus.common.mana_ability[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{duration}[/arg][arg]{mana_cost}[/arg][arg]{cooldown}[/arg][/args][/lang]'
+    close: '&cClose'
+    level: '&7Level: &e{level}'
+    progress_to_level: '&7Progress to Level {level}: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
+    max_level: '&6MAX LEVEL'
+    ability_levels: '&7Ability Levels:\n  {ability_1}\n  {ability_2}\n  {ability_3}\n  {ability_4}\n  {ability_5}\n '
+    ability_level_entry: '&6{ability} {level} &8({info})'
+    ability_level_entry_locked: '&8&m{ability}'
+    stats_leveled: '\n&7Stats Leveled: {stats}\n '
+    mana_ability: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Duration: &a{duration}s &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
   skills_menu:
-    skills_menu_title: '[lang]sk.menus.skills_menu.skills_menu_title[/lang]'
-    your_skills: '[lang]sk.menus.skills_menu.your_skills[args][arg]{player}[/arg][/args][/lang]'
-    your_skills_desc: '[lang]sk.menus.skills_menu.your_skills_desc[/lang]'
-    your_skills_hover: '[lang]sk.menus.skills_menu.your_skills_hover[/lang]'
-    your_skills_click: '[lang]sk.menus.skills_menu.your_skills_click[/lang]'
-    skill_click: '[lang]sk.menus.skills_menu.skill_click[/lang]'
-    skill_locked: '[lang]sk.menus.skills_menu.skill_locked[/lang]'
+    skills_menu_title: Your Skills
+    your_skills: '&bYour Skills - &6{player}'
+    your_skills_desc: '&7Upgrade Skills by doing various tasks\n&7to unlock valuable stat boosts,\n&7abilities, and more!'
+    your_skills_hover: '&eHover over a Skill for more information!'
+    your_skills_click: '&eClick on a Skill to view level progression!'
+    skill_click: '&eClick to view Level Progression!'
+    skill_locked: '&cYou do no have permission to view this skill!'
   level_progression_menu:
-    level_progression_menu_title: '[lang]sk.menus.level_progression_menu.level_progression_menu_title[args][arg]{skill}[/arg][arg]{page}[/arg][/args][/lang]'
-    your_ranking: '[lang]sk.menus.level_progression_menu.your_ranking[/lang]'
-    rank_out_of: '[lang]sk.menus.level_progression_menu.rank_out_of[args][arg]{total}[/arg][arg]{rank}[/arg][/args][/lang]'
-    rank_percent: '[lang]sk.menus.level_progression_menu.rank_percent[args][arg]{percent}[/arg][/args][/lang]'
-    back: '[lang]sk.menus.level_progression_menu.back[/lang]'
-    back_click: '[lang]sk.menus.level_progression_menu.back_click[/lang]'
-    next_page: '[lang]sk.menus.level_progression_menu.next_page[/lang]'
-    next_page_click: '[lang]sk.menus.level_progression_menu.next_page_click[/lang]'
-    previous_page: '[lang]sk.menus.level_progression_menu.previous_page[/lang]'
-    previous_page_click: '[lang]sk.menus.level_progression_menu.previous_page_click[/lang]'
-    level_unlocked: '[lang]sk.menus.level_progression_menu.level_unlocked[args][arg]{level}[/arg][/args][/lang]'
-    level_in_progress: '[lang]sk.menus.level_progression_menu.level_in_progress[args][arg]{level}[/arg][/args][/lang]'
-    level_locked: '[lang]sk.menus.level_progression_menu.level_locked[args][arg]{level}[/arg][/args][/lang]'
-    level_number: '[lang]sk.menus.level_progression_menu.level_number[args][arg]{level}[/arg][/args][/lang]'
-    unlocked: '[lang]sk.menus.level_progression_menu.unlocked[/lang]'
-    in_progress: '[lang]sk.menus.level_progression_menu.in_progress[/lang]'
-    locked: '[lang]sk.menus.level_progression_menu.locked[/lang]'
-    rewards: '[lang]sk.menus.level_progression_menu.rewards[args][arg]{rewards}[/arg][/args][/lang]'
-    rewards_entry: '[lang]sk.menus.level_progression_menu.rewards_entry[args][arg]{color}[/arg][arg]{num}[/arg][arg]{symbol}[/arg][arg]{stat}[/arg][/args][/lang]'
-    money_reward: '[lang]sk.menus.level_progression_menu.money_reward[args][arg]{amount}[/arg][/args][/lang]'
-    ability_unlock: '[lang]sk.menus.level_progression_menu.ability_unlock[args][arg]{ability}[/arg][arg]{desc}[/arg][/args][/lang]'
-    ability_level: '[lang]sk.menus.level_progression_menu.ability_level[args][arg]{ability}[/arg][arg]{level}[/arg][arg]{desc}[/arg][/args][/lang]'
-    mana_ability_unlock: '[lang]sk.menus.level_progression_menu.mana_ability_unlock[args][arg]{mana_ability}[/arg][arg]{desc}[/arg][/args][/lang]'
-    mana_ability_level: '[lang]sk.menus.level_progression_menu.mana_ability_level[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{desc}[/arg][/args][/lang]'
-    progress: '[lang]sk.menus.level_progression_menu.progress[args][arg]{percent}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
+    level_progression_menu_title: '{skill} Levels - Page {page}'
+    your_ranking: '&eYour Skill Ranking'
+    rank_out_of: '&fYou are ranked &6{rank}&f out of {total} players'
+    rank_percent: '&fYou are in the top &6{percent}%&f of players'
+    back: '&aGo Back'
+    back_click: '&7Back to Skills Menu'
+    next_page: '&6Next Page'
+    next_page_click: '&eClick to go to next page'
+    previous_page: '&6Previous Page'
+    previous_page_click: '&eClick to go to previous page'
+    level_unlocked: '&aLevel {level}'
+    level_in_progress: '&eLevel {level}'
+    level_locked: '&cLevel {level}'
+    level_number: '&7Level &f{level}'
+    unlocked: '&aUNLOCKED'
+    in_progress: '&eIN PROGRESS'
+    locked: '&cLOCKED'
+    rewards: '&7Rewards:{rewards}'
+    rewards_entry: '\n  {color}+{num} {symbol} {stat}'
+    money_reward: '\n  &a${amount}'
+    ability_unlock: '\n&6{ability} &a&lAbility Unlock\n&7  {desc}\n '
+    ability_level: '\n&6{ability} {level}\n&7  {desc}\n '
+    mana_ability_unlock: '\n&9{mana_ability} &d&lMana Ability Unlock\n&7  {desc}\n '
+    mana_ability_level: '\n&9{mana_ability} {level}\n&7  {desc}\n '
+    progress: '&7Progress: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
   stats_menu:
-    stats_menu_title: '[lang]sk.menus.stats_menu.stats_menu_title[/lang]'
-    player_stat_entry: '[lang]sk.menus.stats_menu.player_stat_entry[args][arg]{color}[/arg][arg]{symbol}[/arg][arg]{stat}[/arg][arg]{level}[/arg][/args][/lang]'
-    skills: '[lang]sk.menus.stats_menu.skills[args][arg]{skills}[/arg][/args][/lang]'
-    your_level: '[lang]sk.menus.stats_menu.your_level[args][arg]{color}[/arg][arg]{level}[/arg][/args][/lang]'
-    attack_damage: '[lang]sk.menus.stats_menu.attack_damage[args][arg]{value}[/arg][/args][/lang]'
-    hp: '[lang]sk.menus.stats_menu.hp[args][arg]{value}[/arg][/args][/lang]'
-    saturated_regen: '[lang]sk.menus.stats_menu.saturated_regen[args][arg]{value}[/arg][/args][/lang]'
-    full_hunger_regen: '[lang]sk.menus.stats_menu.full_hunger_regen[args][arg]{value}[/arg][/args][/lang]'
-    almost_full_hunger_regen: '[lang]sk.menus.stats_menu.almost_full_hunger_regen[args][arg]{value}[/arg][/args][/lang]'
-    mana_regen: '[lang]sk.menus.stats_menu.mana_regen[args][arg]{value}[/arg][/args][/lang]'
-    luck: '[lang]sk.menus.stats_menu.luck[args][arg]{value}[/arg][/args][/lang]'
-    double_drop_chance: '[lang]sk.menus.stats_menu.double_drop_chance[args][arg]{value}[/arg][/args][/lang]'
-    xp_gain: '[lang]sk.menus.stats_menu.xp_gain[args][arg]{value}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
-    anvil_cost_reduction: '[lang]sk.menus.stats_menu.anvil_cost_reduction[args][arg]{value}[/arg][/args][/lang]'
-    max_mana: '[lang]sk.menus.stats_menu.max_mana[args][arg]{value}[/arg][/args][/lang]'
-    incoming_damage: '[lang]sk.menus.stats_menu.incoming_damage[args][arg]{value}[/arg][/args][/lang]'
+    stats_menu_title: Your Stats
+    player_stat_entry: ' {color}{symbol} {stat} &f{level}'
+    skills: '\n&7Skills: &f{skills}'
+    your_level: '&7Your Level: {color}{level}'
+    attack_damage: '&4+{value}% Attack Damage'
+    hp: '&c+{value} ❤'
+    saturated_regen: '&6+{value} Saturated Regen'
+    full_hunger_regen: '&6+{value} Full Hunger Regen'
+    almost_full_hunger_regen: '&6+{value} Almost Full Hunger Regen'
+    mana_regen: '&b+{value} Mana/s Regen'
+    luck: '&2+{value} Luck'
+    double_drop_chance: '&2Double Drop Chance: {value}%'
+    xp_gain: '&9+{value}% {xp_unit} Gain'
+    anvil_cost_reduction: '&9Anvil Cost Reduction: {value}%'
+    max_mana: '&9Max Mana: {value}'
+    incoming_damage: '&5-{value}% Incoming Damage'
   unclaimed_items:
-    unclaimed_items_title: '[lang]sk.menus.unclaimed_items.unclaimed_items_title[/lang]'
-    inventory_full: '[lang]sk.menus.unclaimed_items.inventory_full[/lang]'
-    click_to_claim: '[lang]sk.menus.unclaimed_items.click_to_claim[/lang]'
+    unclaimed_items_title: 'Claim Items'
+    inventory_full: '&eYou do not have enough space in your inventory to claim that item'
+    click_to_claim: '&eClick to claim!'
 mana_abilities:
   replenish:
-    name: '[lang]sk.mana_abilities.replenish.name[/lang]'
-    desc: '[lang]sk.mana_abilities.replenish.desc[args][arg]{value}[/arg][/args][/lang]'
-    raise: '[lang]sk.mana_abilities.replenish.raise[/lang]'
-    lower: '[lang]sk.mana_abilities.replenish.lower[/lang]'
-    start: '[lang]sk.mana_abilities.replenish.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    end: '[lang]sk.mana_abilities.replenish.end[/lang]'
+    name: Replenish
+    desc: '&7Replants crops automatically for \n&7  {value} seconds. &e[Right click hoe and\n&e  break crop to activate]'
+    raise: '&7You raise your hoe'
+    lower: '&7You lower your hoe'
+    start: '&6Replenish Activated! &7(-{mana} {mana_unit})'
+    end: '&7Replenish has worn off'
   treecapitator:
-    name: '[lang]sk.mana_abilities.treecapitator.name[/lang]'
-    desc: '[lang]sk.mana_abilities.treecapitator.desc[args][arg]{value}[/arg][/args][/lang]'
-    raise: '[lang]sk.mana_abilities.treecapitator.raise[/lang]'
-    lower: '[lang]sk.mana_abilities.treecapitator.lower[/lang]'
-    start: '[lang]sk.mana_abilities.treecapitator.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    end: '[lang]sk.mana_abilities.treecapitator.end[/lang]'
+    name: Treecapitator
+    desc: '&7Breaks entire trees instantly for \n&7  {value} seconds. &e[Right click axe and\n&e  break log to activate]'
+    raise: '&7You raise your axe'
+    lower: '&7You lower your axe'
+    start: '&6Treecapitator Activated! &7(-{mana} {mana_unit})'
+    end: '&7Treecapitator has worn off'
   speed_mine:
-    name: '[lang]sk.mana_abilities.speed_mine.name[/lang]'
-    desc: '[lang]sk.mana_abilities.speed_mine.desc[args][arg]{haste_level}[/arg][arg]{value}[/arg][/args][/lang]'
-    raise: '[lang]sk.mana_abilities.speed_mine.raise[/lang]'
-    lower: '[lang]sk.mana_abilities.speed_mine.lower[/lang]'
-    start: '[lang]sk.mana_abilities.speed_mine.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    end: '[lang]sk.mana_abilities.speed_mine.end[/lang]'
+    name: Speed Mine
+    desc: '&7Gives Haste {haste_level} for {value} seconds.\n&e  [Right click pickaxe and mine\n&e  block to activate]'
+    raise: '&7You raise your pickaxe'
+    lower: '&7You lower your pickaxe'
+    start: '&6Speed Mine Activated! &7(-{mana} {mana_unit})'
+    end: '&7Speed Mine has worn off'
   absorption:
-    name: '[lang]sk.mana_abilities.absorption.name[/lang]'
-    desc: '[lang]sk.mana_abilities.absorption.desc[args][arg]{value}[/arg][/args][/lang]'
-    raise: '[lang]sk.mana_abilities.absorption.raise[/lang]'
-    lower: '[lang]sk.mana_abilities.absorption.lower[/lang]'
-    start: '[lang]sk.mana_abilities.absorption.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    end: '[lang]sk.mana_abilities.absorption.end[/lang]'
+    name: Absorption
+    desc: 'Incoming damage will decrease mana\n&7  by 2x Minecraft damage instead of your\n&7  health for {value} seconds. Mana will not\n&7  regenerate while Absorption is active.\n  &e[Left click shield and take damage to activate]'
+    raise: '&7You raise your shield'
+    lower: '&7You lower your shield'
+    start: '&6Absorption Activated! &7(-{mana} {mana_unit})'
+    end: '&7Absorption has worn off'
   terraform:
-    name: '[lang]sk.mana_abilities.terraform.name[/lang]'
-    desc: '[lang]sk.mana_abilities.terraform.desc[args][arg]{value}[/arg][/args][/lang]'
-    raise: '[lang]sk.mana_abilities.terraform.raise[/lang]'
-    lower: '[lang]sk.mana_abilities.terraform.lower[/lang]'
-    start: '[lang]sk.mana_abilities.terraform.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    end: '[lang]sk.mana_abilities.terraform.end[/lang]'
+    name: Terraform
+    desc: 'Break blocks instantly in a 4 block radius\n&7  in the same layer when digging for {value} seconds. You\n&7  must use a shovel and extra blocks broken must be\n&7  the same type and in a single connected vein.\n&7  &e[Right click shovel and dig block to activate]'
+    raise: '&7You raise your shovel'
+    lower: '&7You lower your shovel'
+    start: '&6Terraform Activated! &7(-{mana} {mana_unit})'
+    end: '&7Terraform has worn off'
   sharp_hook:
-    name: '[lang]sk.mana_abilities.sharp_hook.name[/lang]'
-    desc: '[lang]sk.mana_abilities.sharp_hook.desc[args][arg]{value}[/arg][/args][/lang]'
-    use: '[lang]sk.mana_abilities.sharp_hook.use[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    menu: '[lang]sk.mana_abilities.sharp_hook.menu[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{value}[/arg][arg]{mana_cost}[/arg][arg]{cooldown}[/arg][/args][/lang]'
+    name: Sharp Hook
+    desc: 'Deal {value} damage to a hooked entity\n&7  when left clicking with a fishing rod'
+    use: '&6Used Sharp Hook! &7(-{mana} {mana_unit})'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Damage: &c{value} &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
   charged_shot:
-    name: '[lang]sk.mana_abilities.charged_shot.name[/lang]'
-    desc: '[lang]sk.mana_abilities.charged_shot.desc[args][arg]{value}[/arg][/args][/lang]'
-    enable: '[lang]sk.mana_abilities.charged_shot.enable[/lang]'
-    disable: '[lang]sk.mana_abilities.charged_shot.disable[/lang]'
-    shoot: '[lang]sk.mana_abilities.charged_shot.shoot[args][arg]{percent}[/arg][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    menu: '[lang]sk.mana_abilities.charged_shot.menu[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{value}[/arg][arg]{mana_cost}[/arg][/args][/lang]'
+    name: Charged Shot
+    desc: 'Arrows you shoot will deal more damage\n&7  based on how far the bow was pulled back,\n&7  consuming mana in the process. Does {value}% more\n&7  damage per mana consumed. &e[Left click\n&e  a bow to toggle charged shot mode]'
+    enable: '&7Charged shot mode is now enabled'
+    disable: '&7Charged shot mode is now disabled'
+    shoot: '&6Used Charged Shot! &d+{percent}% DMG &7(-{mana} {mana_unit})'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Damage: &c+{value}% / Mana &7Max Mana Cost: &b{mana_cost}\n '
   lightning_blade:
-    name: '[lang]sk.mana_abilities.lightning_blade.name[/lang]'
-    desc: '[lang]sk.mana_abilities.lightning_blade.desc[args][arg]{value}[/arg][arg]{duration}[/arg][/args][/lang]'
-    raise: '[lang]sk.mana_abilities.lightning_blade.raise[/lang]'
-    lower: '[lang]sk.mana_abilities.lightning_blade.lower[/lang]'
-    start: '[lang]sk.mana_abilities.lightning_blade.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
-    end: '[lang]sk.mana_abilities.lightning_blade.end[/lang]'
-    menu: '[lang]sk.mana_abilities.lightning_blade.menu[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{value}[/arg][arg]{duration}[/arg][arg]{mana_cost}[/arg][arg]{cooldown}[/arg][/args][/lang]'
-  not_ready: '[lang]sk.mana_abilities.not_ready[args][arg]{cooldown}[/arg][/args][/lang]'
-  not_enough_mana: '[lang]sk.mana_abilities.not_enough_mana[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][arg]{current_mana}[/arg][arg]{max_mana}[/arg][/args][/lang]'
+    name: Lightning Blade
+    desc: Increases attack speed by {value}% for {duration} seconds.\n&e  [Right click sword and attack mob to activate]
+    raise: '&7You ready your sword'
+    lower: '&7You lower your sword'
+    start: '&6Lightning Blade Activated! &7(-{mana} {mana_unit})'
+    end: '&7Lightning Blade has worn off'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Attack Speed: &c+{value}% &7Duration: &a{duration}s\n &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
+  not_ready: '&cAbility not ready! &7({cooldown}s)'
+  not_enough_mana: '&eNot enough mana! &7({mana} {mana_unit} required, you have {current_mana}/{max_mana})'
 rewards:
   item:
-    default_menu_message: '[lang]sk.rewards.item.default_menu_message[args][arg]{display_name}[/arg][/args][/lang]'
-    default_menu_message_multiple: '[lang]sk.rewards.item.default_menu_message_multiple[args][arg]{display_name}[/arg][arg]{amount}[/arg][/args][/lang]'
-    default_chat_message: '[lang]sk.rewards.item.default_chat_message[args][arg]{display_name}[/arg][/args][/lang]'
-    default_chat_message_multiple: '[lang]sk.rewards.item.default_chat_message_multiple[args][arg]{display_name}[/arg][arg]{amount}[/arg][/args][/lang]'
+    default_menu_message: '\n  {display_name}'
+    default_menu_message_multiple: '\n  {display_name} {amount}x'
+    default_chat_message: '\n  {display_name}'
+    default_chat_message_multiple: '\n  {display_name} {amount}x'
 skills:
   farming:
-    name: '[lang]sk.skills.farming.name[/lang]'
-    desc: '[lang]sk.skills.farming.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Farming
+    desc: '&7Harvest crops to earn Farming {xp_unit}'
   foraging:
-    name: '[lang]sk.skills.foraging.name[/lang]'
-    desc: '[lang]sk.skills.foraging.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Foraging
+    desc: '&7Cut trees to earn Foraging {xp_unit}'
   mining:
-    name: '[lang]sk.skills.mining.name[/lang]'
-    desc: '[lang]sk.skills.mining.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Mining
+    desc: '&7Mine stone and ores to earn Mining {xp_unit}'
   fishing:
-    name: '[lang]sk.skills.fishing.name[/lang]'
-    desc: '[lang]sk.skills.fishing.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Fishing
+    desc: '&7Catch fish to earn Fishing {xp_unit}'
   excavation:
-    name: '[lang]sk.skills.excavation.name[/lang]'
-    desc: '[lang]sk.skills.excavation.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Excavation
+    desc: '&7Dig with a shovel to earn Excavation {xp_unit}'
   archery:
-    name: '[lang]sk.skills.archery.name[/lang]'
-    desc: '[lang]sk.skills.archery.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Archery
+    desc: '&7Shoot mobs and players with a bow to\n&7earn Archery {xp_unit}'
   defense:
-    name: '[lang]sk.skills.defense.name[/lang]'
-    desc: '[lang]sk.skills.defense.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Defense
+    desc: '&7Take damage from entities to earn Defense {xp_unit}'
   fighting:
-    name: '[lang]sk.skills.fighting.name[/lang]'
-    desc: '[lang]sk.skills.fighting.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Fighting
+    desc: '&7Fight mobs with melee weapons to earn\n&7Fighting {xp_unit}'
   endurance:
-    name: '[lang]sk.skills.endurance.name[/lang]'
-    desc: '[lang]sk.skills.endurance.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Endurance
+    desc: '&7Walk and run to earn Endurance {xp_unit}'
   agility:
-    name: '[lang]sk.skills.agility.name[/lang]'
-    desc: '[lang]sk.skills.agility.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Agility
+    desc: '&7Jump and take fall damage to earn\n&7Agility {xp_unit}'
   alchemy:
-    name: '[lang]sk.skills.alchemy.name[/lang]'
-    desc: '[lang]sk.skills.alchemy.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Alchemy
+    desc: '&7Brew potions to earn Alchemy {xp_unit}'
   enchanting:
-    name: '[lang]sk.skills.enchanting.name[/lang]'
-    desc: '[lang]sk.skills.enchanting.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Enchanting
+    desc: '&7Enchant items and books to earn\n&7Enchanting {xp_unit}'
   sorcery:
-    name: '[lang]sk.skills.sorcery.name[/lang]'
-    desc: '[lang]sk.skills.sorcery.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Sorcery
+    desc: '&7Use mana abilities to earn Sorcery {xp_unit}'
   healing:
-    name: '[lang]sk.skills.healing.name[/lang]'
-    desc: '[lang]sk.skills.healing.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Healing
+    desc: '&7Drink and splash potions to earn\n&7Healing {xp_unit}'
   forging:
-    name: '[lang]sk.skills.forging.name[/lang]'
-    desc: '[lang]sk.skills.forging.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+    name: Forging
+    desc: '&7Combine and apply books in an anvil to\n&7earn Forging {xp_unit}'
 stats:
   strength:
-    name: '[lang]sk.stats.strength.name[/lang]'
-    desc: '[lang]sk.stats.strength.desc[/lang]'
-    color: '[lang]sk.stats.strength.color[/lang]'
-    symbol: '[lang]sk.stats.strength.symbol[/lang]'
+    name: Strength
+    desc: '&7Strength increases your attack damage\n&7with various different weapons'
+    color: '&4'
+    symbol: '➽'
   health:
-    name: '[lang]sk.stats.health.name[/lang]'
-    desc: '[lang]sk.stats.health.desc[args][arg]{hp_unit}[/arg][/args][/lang]'
-    color: '[lang]sk.stats.health.color[/lang]'
-    symbol: '[lang]sk.stats.health.symbol[/lang]'
+    name: Health
+    desc: '&7Health increases the amount of {hp_unit} you\n&7have, allowing you to last longer in\n&7fights'
+    color: '&c'
+    symbol: '❤'
   regeneration:
-    name: '[lang]sk.stats.regeneration.name[/lang]'
-    desc: '[lang]sk.stats.regeneration.desc[/lang]'
-    color: '[lang]sk.stats.regeneration.color[/lang]'
-    symbol: '[lang]sk.stats.regeneration.symbol[/lang]'
+    name: Regeneration
+    desc: '&7Regeneration increases how fast you\n&7recover both health and mana'
+    color: '&6'
+    symbol: '❥'
   luck:
-    name: '[lang]sk.stats.luck.name[/lang]'
-    desc: '[lang]sk.stats.luck.desc[/lang]'
-    color: '[lang]sk.stats.luck.color[/lang]'
-    symbol: '[lang]sk.stats.luck.symbol[/lang]'
+    name: Luck
+    desc: '&7Luck increases your chances of getting\n&7rare loot from mobs, fishing, and more'
+    color: '&2'
+    symbol: '☘'
   wisdom:
-    name: '[lang]sk.stats.wisdom.name[/lang]'
-    desc: '[lang]sk.stats.wisdom.desc[/lang]'
-    color: '[lang]sk.stats.wisdom.color[/lang]'
-    symbol: '[lang]sk.stats.wisdom.symbol[/lang]'
+    name: Wisdom
+    desc: '&7Wisdom increases your max mana, increases\n&7experience gain, and decreases anvil costs'
+    color: '&9'
+    symbol: '✿'
   toughness:
-    name: '[lang]sk.stats.toughness.name[/lang]'
-    desc: '[lang]sk.stats.toughness.desc[/lang]'
-    color: '[lang]sk.stats.toughness.color[/lang]'
-    symbol: '[lang]sk.stats.toughness.symbol[/lang]'
+    name: Toughness
+    desc: '&7Toughness increases the amount of\n&7damage reduced from enemy attacks'
+    color: '&5'
+    symbol: '✦'
 units:
-  mana: '[lang]sk.units.mana[/lang]'
-  hp: '[lang]sk.units.hp[/lang]'
-  xp: '[lang]sk.units.xp[/lang]'
+  mana: Mana
+  hp: HP
+  xp: XP
 file_version: 24

@@ -1,9 +1,0 @@
-[submodule "BungeeCord"]
-	path = BungeeCord/BungeeCord
-	url = https://github.com/SpigotMC/BungeeCord.git
-[submodule "QuickShop-Reremake"]
-	path = QuickShop-Reremake/QuickShop-Reremake
-	url = https://github.com/Ghost-chu/QuickShop-Reremake.git
-[submodule "GriefPrevention"]
-	path = GriefPrevention/GriefPrevention
-	url = https://github.com/TechFortress/GriefPrevention.git

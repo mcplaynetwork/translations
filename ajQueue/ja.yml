@@ -3,21 +3,21 @@ one:
     three: four
 status:
   offline:
-    base: '&c{SERVER} is {STATUS}. &7You are in position &f{POS}&7 of &f{LEN}&7.'
+    base: '&c{SERVER}は{STATUS}です。&7あなたは待機列&f{LEN}&7番中の&f{POS}&7番目にいます。'
     offline: オンフライン
     restarting: 再起動中
-    full: full
+    full: 満員
     restricted: restricted
     paused: paused
-    whitelisted: whitelisted
+    whitelisted: ホワイトリスト
   online:
-    base: '&7You are in position &f{POS}&7 of &f{LEN}&7. Estimated time: {TIME}'
+    base: '&7あなたは待機列&f{LEN}&7番中の&f{POS}&7番目にいます。予想時間: {TIME}'
   left-last-queue: '&aYou left the last queue you were in.'
   now-in-queue: |-
     &aYou are now queued for {SERVER}! &7You are in position &f{POS}&7 of &f{LEN}&7.
     &7Type &f/leavequeue&7 or &f<click:run_command:/leavequeue {SERVERNAME}>click here</click>&7 to leave the queue!
   now-in-empty-queue: ''
-  sending-now: '&aSending you to &f{SERVER} &anow..'
+  sending-now: '&a現在、あなたを&f{SERVER}&aに送っています...'
 errors:
   server-not-exist: '&cThe server {SERVER} does not exist!'
   already-queued: '&cYou are already queued for that server!'
@@ -27,7 +27,7 @@ errors:
   deny-joining-from-server: '&cYou are not allowed to join queues from this server!'
   wrong-version:
     base: <red>You must be on {VERSIONS} to join this server!
-    or: ' or '
+    or: ' もしくは '
     comma: ', '
 commands:
   leave-queue: '&aYou left the queue for {SERVER}!'

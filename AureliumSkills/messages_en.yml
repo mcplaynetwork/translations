@@ -1,0 +1,773 @@
+abilities:
+  farming:
+    bountiful_harvest:
+      name: '[lang]sk.abilities.farming.bountiful_harvest.name[/lang]'
+      desc: '[lang]sk.abilities.farming.bountiful_harvest.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.farming.bountiful_harvest.info[args][arg]{value}[/arg][/args][/lang]'
+    farmer:
+      name: '[lang]sk.abilities.farming.farmer.name[/lang]'
+      desc: '[lang]sk.abilities.farming.farmer.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.farming.farmer.info[args][arg]{value}[/arg][/args][/lang]'
+    scythe_master:
+      name: '[lang]sk.abilities.farming.scythe_master.name[/lang]'
+      desc: '[lang]sk.abilities.farming.scythe_master.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.farming.scythe_master.info[args][arg]{value}[/arg][/args][/lang]'
+    geneticist:
+      name: '[lang]sk.abilities.farming.geneticist.name[/lang]'
+      desc: '[lang]sk.abilities.farming.geneticist.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.farming.geneticist.info[args][arg]{value}[/arg][/args][/lang]'
+    triple_harvest:
+      name: '[lang]sk.abilities.farming.triple_harvest.name[/lang]'
+      desc: '[lang]sk.abilities.farming.triple_harvest.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.farming.triple_harvest.info[args][arg]{value}[/arg][/args][/lang]'
+  foraging:
+    lumberjack:
+      name: '[lang]sk.abilities.foraging.lumberjack.name[/lang]'
+      desc: '[lang]sk.abilities.foraging.lumberjack.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.foraging.lumberjack.info[args][arg]{value}[/arg][/args][/lang]'
+    forager:
+      name: '[lang]sk.abilities.foraging.forager.name[/lang]'
+      desc: '[lang]sk.abilities.foraging.forager.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.foraging.forager.info[args][arg]{value}[/arg][/args][/lang]'
+    axe_master:
+      name: '[lang]sk.abilities.foraging.axe_master.name[/lang]'
+      desc: '[lang]sk.abilities.foraging.axe_master.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.foraging.axe_master.info[args][arg]{value}[/arg][/args][/lang]'
+    valor:
+      name: '[lang]sk.abilities.foraging.valor.name[/lang]'
+      desc: '[lang]sk.abilities.foraging.valor.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.foraging.valor.info[args][arg]{value}[/arg][/args][/lang]'
+    shredder:
+      name: '[lang]sk.abilities.foraging.shredder.name[/lang]'
+      desc: '[lang]sk.abilities.foraging.shredder.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.foraging.shredder.info[args][arg]{value}[/arg][/args][/lang]'
+  mining:
+    lucky_miner:
+      name: '[lang]sk.abilities.mining.lucky_miner.name[/lang]'
+      desc: '[lang]sk.abilities.mining.lucky_miner.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.mining.lucky_miner.info[args][arg]{value}[/arg][/args][/lang]'
+    miner:
+      name: '[lang]sk.abilities.mining.miner.name[/lang]'
+      desc: '[lang]sk.abilities.mining.miner.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.mining.miner.info[args][arg]{value}[/arg][/args][/lang]'
+    pick_master:
+      name: '[lang]sk.abilities.mining.pick_master.name[/lang]'
+      desc: '[lang]sk.abilities.mining.pick_master.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.mining.pick_master.info[args][arg]{value}[/arg][/args][/lang]'
+    stamina:
+      name: '[lang]sk.abilities.mining.stamina.name[/lang]'
+      desc: '[lang]sk.abilities.mining.stamina.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.mining.stamina.info[args][arg]{value}[/arg][/args][/lang]'
+    hardened_armor:
+      name: '[lang]sk.abilities.mining.hardened_armor.name[/lang]'
+      desc: '[lang]sk.abilities.mining.hardened_armor.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.mining.hardened_armor.info[args][arg]{value}[/arg][/args][/lang]'
+  fishing:
+    lucky_catch:
+      name: '[lang]sk.abilities.fishing.lucky_catch.name[/lang]'
+      desc: '[lang]sk.abilities.fishing.lucky_catch.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fishing.lucky_catch.info[args][arg]{value}[/arg][/args][/lang]'
+    fisher:
+      name: '[lang]sk.abilities.fishing.fisher.name[/lang]'
+      desc: '[lang]sk.abilities.fishing.fisher.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fishing.fisher.info[args][arg]{value}[/arg][/args][/lang]'
+    treasure_hunter:
+      name: '[lang]sk.abilities.fishing.treasure_hunter.name[/lang]'
+      desc: '[lang]sk.abilities.fishing.treasure_hunter.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fishing.treasure_hunter.info[args][arg]{value}[/arg][/args][/lang]'
+    grappler:
+      name: '[lang]sk.abilities.fishing.grappler.name[/lang]'
+      desc: '[lang]sk.abilities.fishing.grappler.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fishing.grappler.info[args][arg]{value}[/arg][/args][/lang]'
+    epic_catch:
+      name: '[lang]sk.abilities.fishing.epic_catch.name[/lang]'
+      desc: '[lang]sk.abilities.fishing.epic_catch.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fishing.epic_catch.info[args][arg]{value}[/arg][/args][/lang]'
+  excavation:
+    metal_detector:
+      name: '[lang]sk.abilities.excavation.metal_detector.name[/lang]'
+      desc: '[lang]sk.abilities.excavation.metal_detector.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.excavation.metal_detector.info[args][arg]{value}[/arg][/args][/lang]'
+    excavator:
+      name: '[lang]sk.abilities.excavation.excavator.name[/lang]'
+      desc: '[lang]sk.abilities.excavation.excavator.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.excavation.excavator.info[args][arg]{value}[/arg][/args][/lang]'
+    spade_master:
+      name: '[lang]sk.abilities.excavation.spade_master.name[/lang]'
+      desc: '[lang]sk.abilities.excavation.spade_master.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.excavation.spade_master.info[args][arg]{value}[/arg][/args][/lang]'
+    bigger_scoop:
+      name: '[lang]sk.abilities.excavation.bigger_scoop.name[/lang]'
+      desc: '[lang]sk.abilities.excavation.bigger_scoop.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.excavation.bigger_scoop.info[args][arg]{value}[/arg][/args][/lang]'
+    lucky_spades:
+      name: '[lang]sk.abilities.excavation.lucky_spades.name[/lang]'
+      desc: '[lang]sk.abilities.excavation.lucky_spades.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.excavation.lucky_spades.info[args][arg]{value}[/arg][/args][/lang]'
+  archery:
+    crit_chance:
+      name: '[lang]sk.abilities.archery.crit_chance.name[/lang]'
+      desc: '[lang]sk.abilities.archery.crit_chance.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.archery.crit_chance.info[args][arg]{value}[/arg][/args][/lang]'
+    archer:
+      name: '[lang]sk.abilities.archery.archer.name[/lang]'
+      desc: '[lang]sk.abilities.archery.archer.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.archery.archer.info[args][arg]{value}[/arg][/args][/lang]'
+    bow_master:
+      name: '[lang]sk.abilities.archery.bow_master.name[/lang]'
+      desc: '[lang]sk.abilities.archery.bow_master.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.archery.bow_master.info[args][arg]{value}[/arg][/args][/lang]'
+    piercing:
+      name: '[lang]sk.abilities.archery.piercing.name[/lang]'
+      desc: '[lang]sk.abilities.archery.piercing.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.archery.piercing.info[args][arg]{value}[/arg][/args][/lang]'
+    stun:
+      name: '[lang]sk.abilities.archery.stun.name[/lang]'
+      desc: '[lang]sk.abilities.archery.stun.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.archery.stun.info[args][arg]{value}[/arg][/args][/lang]'
+  defense:
+    shielding:
+      name: '[lang]sk.abilities.defense.shielding.name[/lang]'
+      desc: '[lang]sk.abilities.defense.shielding.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.defense.shielding.info[args][arg]{value}[/arg][/args][/lang]'
+    defender:
+      name: '[lang]sk.abilities.defense.defender.name[/lang]'
+      desc: '[lang]sk.abilities.defense.defender.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.defense.defender.info[args][arg]{value}[/arg][/args][/lang]'
+    mob_master:
+      name: '[lang]sk.abilities.defense.mob_master.name[/lang]'
+      desc: '[lang]sk.abilities.defense.mob_master.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.defense.mob_master.info[args][arg]{value}[/arg][/args][/lang]'
+    immunity:
+      name: '[lang]sk.abilities.defense.immunity.name[/lang]'
+      desc: '[lang]sk.abilities.defense.immunity.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.defense.immunity.info[args][arg]{value}[/arg][/args][/lang]'
+    no_debuff:
+      name: '[lang]sk.abilities.defense.no_debuff.name[/lang]'
+      desc: '[lang]sk.abilities.defense.no_debuff.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.defense.no_debuff.info[args][arg]{value}[/arg][/args][/lang]'
+  fighting:
+    crit_damage:
+      name: '[lang]sk.abilities.fighting.crit_damage.name[/lang]'
+      desc: '[lang]sk.abilities.fighting.crit_damage.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fighting.crit_damage.info[args][arg]{value}[/arg][/args][/lang]'
+    fighter:
+      name: '[lang]sk.abilities.fighting.fighter.name[/lang]'
+      desc: '[lang]sk.abilities.fighting.fighter.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fighting.fighter.info[args][arg]{value}[/arg][/args][/lang]'
+    sword_master:
+      name: '[lang]sk.abilities.fighting.sword_master.name[/lang]'
+      desc: '[lang]sk.abilities.fighting.sword_master.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fighting.sword_master.info[args][arg]{value}[/arg][/args][/lang]'
+    first_strike:
+      name: '[lang]sk.abilities.fighting.first_strike.name[/lang]'
+      desc: '[lang]sk.abilities.fighting.first_strike.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fighting.first_strike.info[args][arg]{value}[/arg][/args][/lang]'
+      dealt: '[lang]sk.abilities.fighting.first_strike.dealt[/lang]'
+    bleed:
+      name: '[lang]sk.abilities.fighting.bleed.name[/lang]'
+      desc: '[lang]sk.abilities.fighting.bleed.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.fighting.bleed.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      enemy_bleeding: '[lang]sk.abilities.fighting.bleed.enemy_bleeding[/lang]'
+      self_bleeding: '[lang]sk.abilities.fighting.bleed.self_bleeding[/lang]'
+      stop: '[lang]sk.abilities.fighting.bleed.stop[/lang]'
+  endurance:
+    anti_hunger:
+      name: '[lang]sk.abilities.endurance.anti_hunger.name[/lang]'
+      desc: '[lang]sk.abilities.endurance.anti_hunger.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.endurance.anti_hunger.info[args][arg]{value}[/arg][/args][/lang]'
+    runner:
+      name: '[lang]sk.abilities.endurance.runner.name[/lang]'
+      desc: '[lang]sk.abilities.endurance.runner.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.endurance.runner.info[args][arg]{value}[/arg][/args][/lang]'
+    golden_heal:
+      name: '[lang]sk.abilities.endurance.golden_heal.name[/lang]'
+      desc: '[lang]sk.abilities.endurance.golden_heal.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.endurance.golden_heal.info[args][arg]{value}[/arg][/args][/lang]'
+    recovery:
+      name: '[lang]sk.abilities.endurance.recovery.name[/lang]'
+      desc: '[lang]sk.abilities.endurance.recovery.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.endurance.recovery.info[args][arg]{value}[/arg][/args][/lang]'
+    meal_steal:
+      name: '[lang]sk.abilities.endurance.meal_steal.name[/lang]'
+      desc: '[lang]sk.abilities.endurance.meal_steal.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.endurance.meal_steal.info[args][arg]{value}[/arg][/args][/lang]'
+  agility:
+    light_fall:
+      name: '[lang]sk.abilities.agility.light_fall.name[/lang]'
+      desc: '[lang]sk.abilities.agility.light_fall.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.agility.light_fall.info[args][arg]{value}[/arg][/args][/lang]'
+    jumper:
+      name: '[lang]sk.abilities.agility.jumper.name[/lang]'
+      desc: '[lang]sk.abilities.agility.jumper.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.agility.jumper.info[args][arg]{value}[/arg][/args][/lang]'
+    sugar_rush:
+      name: '[lang]sk.abilities.agility.sugar_rush.name[/lang]'
+      desc: '[lang]sk.abilities.agility.sugar_rush.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.agility.sugar_rush.info[args][arg]{value}[/arg][/args][/lang]'
+    fleeting:
+      name: '[lang]sk.abilities.agility.fleeting.name[/lang]'
+      desc: '[lang]sk.abilities.agility.fleeting.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.agility.fleeting.info[args][arg]{value}[/arg][/args][/lang]'
+      start: '[lang]sk.abilities.agility.fleeting.start[args][arg]{value}[/arg][/args][/lang]'
+      end: '[lang]sk.abilities.agility.fleeting.end[/lang]'
+    thunder_fall:
+      name: '[lang]sk.abilities.agility.thunder_fall.name[/lang]'
+      desc: '[lang]sk.abilities.agility.thunder_fall.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.agility.thunder_fall.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+  alchemy:
+    alchemist:
+      name: '[lang]sk.abilities.alchemy.alchemist.name[/lang]'
+      desc: '[lang]sk.abilities.alchemy.alchemist.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.alchemy.alchemist.info[args][arg]{value}[/arg][/args][/lang]'
+      lore: '[lang]sk.abilities.alchemy.alchemist.lore[args][arg]{duration}[/arg][/args][/lang]'
+    brewer:
+      name: '[lang]sk.abilities.alchemy.brewer.name[/lang]'
+      desc: '[lang]sk.abilities.alchemy.brewer.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.alchemy.brewer.info[args][arg]{value}[/arg][/args][/lang]'
+    splasher:
+      name: '[lang]sk.abilities.alchemy.splasher.name[/lang]'
+      desc: '[lang]sk.abilities.alchemy.splasher.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.alchemy.splasher.info[args][arg]{value}[/arg][/args][/lang]'
+    lingering:
+      name: '[lang]sk.abilities.alchemy.lingering.name[/lang]'
+      desc: '[lang]sk.abilities.alchemy.lingering.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.alchemy.lingering.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+    wise_effect:
+      name: '[lang]sk.abilities.alchemy.wise_effect.name[/lang]'
+      desc: '[lang]sk.abilities.alchemy.wise_effect.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.alchemy.wise_effect.info[args][arg]{value}[/arg][/args][/lang]'
+  enchanting:
+    xp_convert:
+      name: '[lang]sk.abilities.enchanting.xp_convert.name[/lang]'
+      desc: '[lang]sk.abilities.enchanting.xp_convert.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.enchanting.xp_convert.info[args][arg]{value}[/arg][/args][/lang]'
+    enchanter:
+      name: '[lang]sk.abilities.enchanting.enchanter.name[/lang]'
+      desc: '[lang]sk.abilities.enchanting.enchanter.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.enchanting.enchanter.info[args][arg]{value}[/arg][/args][/lang]'
+    xp_warrior:
+      name: '[lang]sk.abilities.enchanting.xp_warrior.name[/lang]'
+      desc: '[lang]sk.abilities.enchanting.xp_warrior.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.enchanting.xp_warrior.info[args][arg]{value}[/arg][/args][/lang]'
+    enchanted_strength:
+      name: '[lang]sk.abilities.enchanting.enchanted_strength.name[/lang]'
+      desc: '[lang]sk.abilities.enchanting.enchanted_strength.desc[/lang]'
+      info: '[lang]sk.abilities.enchanting.enchanted_strength.info[args][arg]{value}[/arg][/args][/lang]'
+    lucky_table:
+      name: '[lang]sk.abilities.enchanting.lucky_table.name[/lang]'
+      desc: '[lang]sk.abilities.enchanting.lucky_table.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.enchanting.lucky_table.info[args][arg]{value}[/arg][/args][/lang]'
+  healing:
+    life_essence:
+      name: '[lang]sk.abilities.healing.life_essence.name[/lang]'
+      desc: '[lang]sk.abilities.healing.life_essence.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.healing.life_essence.info[args][arg]{value}[/arg][/args][/lang]'
+    healer:
+      name: '[lang]sk.abilities.healing.healer.name[/lang]'
+      desc: '[lang]sk.abilities.healing.healer.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.healing.healer.info[args][arg]{value}[/arg][/args][/lang]'
+    life_steal:
+      name: '[lang]sk.abilities.healing.life_steal.name[/lang]'
+      desc: '[lang]sk.abilities.healing.life_steal.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.healing.life_steal.info[args][arg]{value}[/arg][/args][/lang]'
+    golden_heart:
+      name: '[lang]sk.abilities.healing.golden_heart.name[/lang]'
+      desc: '[lang]sk.abilities.healing.golden_heart.desc[/lang]'
+      info: '[lang]sk.abilities.healing.golden_heart.info[args][arg]{value}[/arg][/args][/lang]'
+    revival:
+      name: '[lang]sk.abilities.healing.revival.name[/lang]'
+      desc: '[lang]sk.abilities.healing.revival.desc[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.healing.revival.info[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+      message: '[lang]sk.abilities.healing.revival.message[args][arg]{value}[/arg][arg]{value_2}[/arg][/args][/lang]'
+  forging:
+    disenchanter:
+      name: '[lang]sk.abilities.forging.disenchanter.name[/lang]'
+      desc: '[lang]sk.abilities.forging.disenchanter.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.forging.disenchanter.info[args][arg]{value}[/arg][/args][/lang]'
+    forger:
+      name: '[lang]sk.abilities.forging.forger.name[/lang]'
+      desc: '[lang]sk.abilities.forging.forger.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.forging.forger.info[args][arg]{value}[/arg][/args][/lang]'
+    repairing:
+      name: '[lang]sk.abilities.forging.repairing.name[/lang]'
+      desc: '[lang]sk.abilities.forging.repairing.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.forging.repairing.info[args][arg]{value}[/arg][/args][/lang]'
+    anvil_master:
+      name: '[lang]sk.abilities.forging.anvil_master.name[/lang]'
+      desc: '[lang]sk.abilities.forging.anvil_master.desc[/lang]'
+      info: '[lang]sk.abilities.forging.anvil_master.info[args][arg]{value}[/arg][/args][/lang]'
+    skill_mender:
+      name: '[lang]sk.abilities.forging.skill_mender.name[/lang]'
+      desc: '[lang]sk.abilities.forging.skill_mender.desc[args][arg]{value}[/arg][/args][/lang]'
+      info: '[lang]sk.abilities.forging.skill_mender.info[args][arg]{value}[/arg][/args][/lang]'
+acf:
+  core:
+    permission_denied: '[lang]sk.acf.core.permission_denied[/lang]'
+    permission_denied_parameter: '[lang]sk.acf.core.permission_denied_parameter[/lang]'
+    error_generic_logged: '[lang]sk.acf.core.error_generic_logged[/lang]'
+    unknown_command: '[lang]sk.acf.core.unknown_command[/lang]'
+    invalid_syntax: '[lang]sk.acf.core.invalid_syntax[args][arg]{command}[/arg][arg]{syntax}[/arg][/args][/lang]'
+    error_prefix: '[lang]sk.acf.core.error_prefix[args][arg]{message}[/arg][/args][/lang]'
+    error_performing_command: '[lang]sk.acf.core.error_performing_command[/lang]'
+    info_message: '[lang]sk.acf.core.info_message[args][arg]{message}[/arg][/args][/lang]'
+    please_specify_one_of: '[lang]sk.acf.core.please_specify_one_of[args][arg]{valid}[/arg][/args][/lang]'
+    must_be_a_number: '[lang]sk.acf.core.must_be_a_number[args][arg]{num}[/arg][/args][/lang]'
+    must_be_min_length: '[lang]sk.acf.core.must_be_min_length[args][arg]{min}[/arg][/args][/lang]'
+    must_be_max_length: '[lang]sk.acf.core.must_be_max_length[args][arg]{max}[/arg][/args][/lang]'
+    please_specify_at_most: '[lang]sk.acf.core.please_specify_at_most[args][arg]{max}[/arg][/args][/lang]'
+    please_specify_at_least: '[lang]sk.acf.core.please_specify_at_least[args][arg]{min}[/arg][/args][/lang]'
+    not_allowed_on_console: '[lang]sk.acf.core.not_allowed_on_console[/lang]'
+    could_not_find_player: '[lang]sk.acf.core.could_not_find_player[args][arg]{search}[/arg][/args][/lang]'
+    no_command_matched_search: '[lang]sk.acf.core.no_command_matched_search[args][arg]{search}[/arg][/args][/lang]'
+    help_page_information: '[lang]sk.acf.core.help_page_information[args][arg]{page}[/arg][arg]{totalpages}[/arg][arg]{results}[/arg][/args][/lang]'
+    help_no_results: '[lang]sk.acf.core.help_no_results[/lang]'
+    help_header: '[lang]sk.acf.core.help_header[args][arg]{commandprefix}[/arg][arg]{command}[/arg][/args][/lang]'
+    help_format: '[lang]sk.acf.core.help_format[args][arg]{commandprefix}[/arg][arg]{command}[/arg][arg]{parameters}[/arg][arg]{separator}[/arg][arg]{description}[/arg][/args][/lang]'
+    help_detailed_header: '[lang]sk.acf.core.help_detailed_header[args][arg]{commandprefix}[/arg][arg]{command}[/arg][/args][/lang]'
+    help_detailed_command_format: '[lang]sk.acf.core.help_detailed_command_format[args][arg]{command}[/arg][arg]{parameters}[/arg][arg]{separator}[/arg][arg]{description}[/arg][/args][/lang]'
+    help_detailed_parameter_format: '[lang]sk.acf.core.help_detailed_parameter_format[args][arg]{syntaxorname}[/arg][arg]{description}[/arg][/args][/lang]'
+    help_search_header: '[lang]sk.acf.core.help_search_header[args][arg]{commandprefix}[/arg][arg]{command}[/arg][arg]{search}[/arg][/args][/lang]'
+  minecraft:
+    invalid_world: '[lang]sk.acf.minecraft.invalid_world[/lang]'
+    you_must_be_holding_item: '[lang]sk.acf.minecraft.you_must_be_holding_item[/lang]'
+    player_is_vanish_confirm: '[lang]sk.acf.minecraft.player_is_vanish_confirm[args][arg]{vanished}[/arg][arg]{vanished}[/arg][/args][/lang]'
+    username_too_short: '[lang]sk.acf.minecraft.username_too_short[/lang]'
+    is_not_a_valid_name: '[lang]sk.acf.minecraft.is_not_a_valid_name[args][arg]{name}[/arg][/args][/lang]'
+    multiple_players_match: '[lang]sk.acf.minecraft.multiple_players_match[args][arg]{search}[/arg][arg]{all}[/arg][/args][/lang]'
+    no_player_found_server: '[lang]sk.acf.minecraft.no_player_found_server[args][arg]{search}[/arg][/args][/lang]'
+    no_player_found_offline: '[lang]sk.acf.minecraft.no_player_found_offline[args][arg]{search}[/arg][/args][/lang]'
+    no_player_found: '[lang]sk.acf.minecraft.no_player_found[args][arg]{search}[/arg][/args][/lang]'
+    location_please_specify_world: '[lang]sk.acf.minecraft.location_please_specify_world[/lang]'
+    location_please_specify_xyz: '[lang]sk.acf.minecraft.location_please_specify_xyz[/lang]'
+    location_console_not_relative: '[lang]sk.acf.minecraft.location_console_not_relative[/lang]'
+action_bar:
+  idle: '[lang]sk.action_bar.idle[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+  xp: '[lang]sk.action_bar.xp[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_gained}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+  xp_removed: '[lang]sk.action_bar.xp_removed[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_removed}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+  maxed: '[lang]sk.action_bar.maxed[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_gained}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+  maxed_removed: '[lang]sk.action_bar.maxed_removed[args][arg]{hp}[/arg][arg]{max_hp}[/arg][arg]{xp_removed}[/arg][arg]{skill}[/arg][arg]{xp_unit}[/arg][arg]{mana}[/arg][arg]{max_mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+  ability: '[lang]sk.action_bar.ability[args][arg]{message}[/arg][/args][/lang]'
+  boss_bar_xp: '[lang]sk.action_bar.boss_bar_xp[args][arg]{skill}[/arg][arg]{level}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
+  boss_bar_maxed: '[lang]sk.action_bar.boss_bar_maxed[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+commands:
+  prefix: '[lang]sk.commands.prefix[/lang]'
+  armor:
+    modifier:
+      add:
+        added: '  [lang]sk.commands.armor.modifier.add.added[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
+        already_exists: '  [lang]sk.commands.armor.modifier.add.already_exists[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
+        lore: '  [lang]sk.commands.armor.modifier.add.lore[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
+        lore_subtract: '  [lang]sk.commands.armor.modifier.add.lore_subtract[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
+      remove:
+        does_not_exist: '  [lang]sk.commands.armor.modifier.remove.does_not_exist[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
+        removed: '  [lang]sk.commands.armor.modifier.remove.removed[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
+      list:
+        header: '[lang]sk.commands.armor.modifier.list.header[/lang]'
+        entry: '  [lang]sk.commands.armor.modifier.list.entry[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
+      removeall:
+        removed: '[lang]sk.commands.armor.modifier.removeall.removed[/lang]'
+    requirement:
+      add:
+        added: '  [lang]sk.commands.armor.requirement.add.added[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+        already_exists: '  [lang]sk.commands.armor.requirement.add.already_exists[args][arg]{skill}[/arg][/args][/lang]'
+        lore: '  [lang]sk.commands.armor.requirement.add.lore[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+      remove:
+        does_not_exist: '  [lang]sk.commands.armor.requirement.remove.does_not_exist[args][arg]{skill}[/arg][/args][/lang]'
+        removed: '  [lang]sk.commands.armor.requirement.remove.removed[args][arg]{skill}[/arg][/args][/lang]'
+      list:
+        header: '[lang]sk.commands.armor.requirement.list.header[/lang]'
+        entry: '  [lang]sk.commands.armor.requirement.list.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+      removeall:
+        removed: '[lang]sk.commands.armor.requirement.removeall.removed[/lang]'
+      equip: '[lang]sk.commands.armor.requirement.equip[args][arg]{requirements}[/arg][/args][/lang]'
+      entry: '[lang]sk.commands.armor.requirement.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+    multiplier:
+      add:
+        added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
+        already_exists: '&eAn armor multiplier with target &b{target} &ealready exists
+          on your armor! Remove it first with /sk armor multiplier remove'
+        skill_lore: '&7When worn: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7When worn: &b-{value}% {skill} XP'
+        global_lore: '&7When worn: &9+{value}% Skill XP'
+        global_lore_subtract: '&7When worn: &9-{value}% Skill XP'
+      remove:
+        does_not_exist: '&eYour item does not have a &b{target} &earmor multiplier!'
+        removed: '&b{target} &7armor multiplier was removed from your item'
+      list:
+        header: '&fArmor multipliers found:'
+        entry: '  &b{target}&f - {value}'
+      removeall:
+        removed: '&7All armor multipliers have been removed from your item'
+  backup:
+    load:
+      confirm: '[lang]sk.commands.backup.load.confirm[/lang]'
+      loading: '[lang]sk.commands.backup.load.loading[/lang]'
+      loaded: '[lang]sk.commands.backup.load.loaded[/lang]'
+      error: '[lang]sk.commands.backup.load.error[args][arg]{error}[/arg][/args][/lang]'
+      must_be_yaml: '[lang]sk.commands.backup.load.must_be_yaml[/lang]'
+      file_not_found: '[lang]sk.commands.backup.load.file_not_found[/lang]'
+    save:
+      saving: '[lang]sk.commands.backup.save.saving[/lang]'
+      saved: '[lang]sk.commands.backup.save.saved[args][arg]{type}[/arg][arg]{file}[/arg][/args][/lang]'
+      error: '[lang]sk.commands.backup.save.error[args][arg]{type}[/arg][/args][/lang]'
+  claimitems:
+    no_items: '[lang]sk.commands.claimitems.no_items[/lang]'
+  item:
+    give:
+      sender: '[lang]sk.commands.item.give.sender[args][arg]{amount}[/arg][arg]{key}[/arg][arg]{player}[/arg][/args][/lang]'
+      receiver: '[lang]sk.commands.item.give.receiver[args][arg]{amount}[/arg][arg]{key}[/arg][/args][/lang]'
+    modifier:
+      add:
+        added: '  [lang]sk.commands.item.modifier.add.added[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
+        already_exists: '  [lang]sk.commands.item.modifier.add.already_exists[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
+        lore: '  [lang]sk.commands.item.modifier.add.lore[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
+        lore_subtract: '  [lang]sk.commands.item.modifier.add.lore_subtract[args][arg]{stat}[/arg][arg]{color}[/arg][arg]{value}[/arg][/args][/lang]'
+      remove:
+        does_not_exist: '  [lang]sk.commands.item.modifier.remove.does_not_exist[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
+        removed: '  [lang]sk.commands.item.modifier.remove.removed[args][arg]{color}[/arg][arg]{stat}[/arg][/args][/lang]'
+      list:
+        header: '[lang]sk.commands.item.modifier.list.header[/lang]'
+        entry: '  [lang]sk.commands.item.modifier.list.entry[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
+      removeall:
+        removed: '[lang]sk.commands.item.modifier.removeall.removed[/lang]'
+    register:
+      registered: '[lang]sk.commands.item.register.registered[args][arg]{key}[/arg][/args][/lang]'
+      already_registered: '[lang]sk.commands.item.register.already_registered[args][arg]{key}[/arg][/args][/lang]'
+      no_spaces: '[lang]sk.commands.item.register.no_spaces[/lang]'
+    requirement:
+      add:
+        added: '  [lang]sk.commands.item.requirement.add.added[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+        already_exists: '  [lang]sk.commands.item.requirement.add.already_exists[args][arg]{skill}[/arg][/args][/lang]'
+        lore: '  [lang]sk.commands.item.requirement.add.lore[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+      remove:
+        does_not_exist: '  [lang]sk.commands.item.requirement.remove.does_not_exist[args][arg]{skill}[/arg][/args][/lang]'
+        removed: '  [lang]sk.commands.item.requirement.remove.removed[args][arg]{skill}[/arg][/args][/lang]'
+      list:
+        header: '[lang]sk.commands.item.requirement.list.header[/lang]'
+        entry: '  [lang]sk.commands.item.requirement.list.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+      removeall:
+        removed: '[lang]sk.commands.item.requirement.removeall.removed[/lang]'
+      use: '[lang]sk.commands.item.requirement.use[args][arg]{requirements}[/arg][/args][/lang]'
+      entry: '[lang]sk.commands.item.requirement.entry[args][arg]{skill}[/arg][arg]{level}[/arg][/args][/lang]'
+    unregister:
+      unregistered: '[lang]sk.commands.item.unregister.unregistered[args][arg]{key}[/arg][/args][/lang]'
+      not_registered: '[lang]sk.commands.item.unregister.not_registered[args][arg]{key}[/arg][/args][/lang]'
+    multiplier:
+      add:
+        added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
+        already_exists: '&eAn item multiplier with target &b{target} &ealready exists
+          on your item! Remove it first with /sk item multiplier remove'
+        skill_lore: '&7When held: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7When held: &b-{value}% {skill} XP'
+        global_lore: '&7When held: &9+{value}% Skill XP'
+        global_lore_subtract: '&7When held: &9-{value}% Skill XP'
+      remove:
+        does_not_exist: '&eYour item does not have a &b{target} &eitem multiplier!'
+        removed: '&b{target} &7item multiplier was removed from your item'
+      list:
+        header: '&fItem multipliers found:'
+        entry: '  &b{target}&f - {value}'
+      removeall:
+        removed: '&7All item multipliers have been removed from your item'
+  lang:
+    set: '[lang]sk.commands.lang.set[args][arg]{lang}[/arg][/args][/lang]'
+    not_found: '[lang]sk.commands.lang.not_found[/lang]'
+  mana:
+    display: '[lang]sk.commands.mana.display[args][arg]{mana_unit}[/arg][arg]{current}[/arg][arg]{max}[/arg][/args][/lang]'
+    display_other: '[lang]sk.commands.mana.display_other[args][arg]{mana_unit}[/arg][arg]{player}[/arg][arg]{current}[/arg][arg]{max}[/arg][/args][/lang]'
+    add: '[lang]sk.commands.mana.add[args][arg]{amount}[/arg][arg]{mana_unit}[/arg][arg]{player}[/arg][/args][/lang]'
+    remove: '[lang]sk.commands.mana.remove[args][arg]{amount}[/arg][arg]{mana_unit}[/arg][arg]{player}[/arg][/args][/lang]'
+    set: '[lang]sk.commands.mana.set[args][arg]{player}[/arg][arg]{amount}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    at_least_zero: '[lang]sk.commands.mana.at_least_zero[args][arg]{mana_unit}[/arg][/args][/lang]'
+    console_specify_player: '[lang]sk.commands.mana.console_specify_player[/lang]'
+  modifier:
+    add:
+      added: '[lang]sk.commands.modifier.add.added[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][arg]{name}[/arg][arg]{player}[/arg][/args][/lang]'
+      already_exists: '[lang]sk.commands.modifier.add.already_exists[args][arg]{name}[/arg][arg]{player}[/arg][arg]{player}[/arg][arg]{name}[/arg][/args][/lang]'
+    remove:
+      not_found: '[lang]sk.commands.modifier.remove.not_found[args][arg]{name}[/arg][arg]{player}[/arg][/args][/lang]'
+      removed: '[lang]sk.commands.modifier.remove.removed[args][arg]{name}[/arg][arg]{player}[/arg][/args][/lang]'
+    list:
+      all_stats_header: '[lang]sk.commands.modifier.list.all_stats_header[args][arg]{player}[/arg][/args][/lang]'
+      all_stats_entry: '[lang]sk.commands.modifier.list.all_stats_entry[args][arg]{name}[/arg][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
+      one_stat_header: '[lang]sk.commands.modifier.list.one_stat_header[args][arg]{color}[/arg][arg]{stat}[/arg][arg]{player}[/arg][/args][/lang]'
+      one_stat_entry: '[lang]sk.commands.modifier.list.one_stat_entry[args][arg]{name}[/arg][arg]{color}[/arg][arg]{stat}[/arg][arg]{value}[/arg][/args][/lang]'
+      players_only: '[lang]sk.commands.modifier.list.players_only[/lang]'
+    removeall:
+      removed_all_stats: '[lang]sk.commands.modifier.removeall.removed_all_stats[args][arg]{num}[/arg][arg]{player}[/arg][/args][/lang]'
+      removed_one_stat: '[lang]sk.commands.modifier.removeall.removed_one_stat[args][arg]{num}[/arg][arg]{color}[/arg][arg]{stat}[/arg][arg]{player}[/arg][/args][/lang]'
+      players_only: '[lang]sk.commands.modifier.removeall.players_only[/lang]'
+  multiplier:
+    list: '[lang]sk.commands.multiplier.list[args][arg]{player}[/arg][arg]{multiplier}[/arg][arg]{percent}[/arg][/args][/lang]'
+    players_only: '[lang]sk.commands.multiplier.players_only[/lang]'
+    global: Global
+    skill_entry: '&b{skill} &fXP multiplier: &b{multiplier}x / +{percent}%'
+  rank:
+    header: '[lang]sk.commands.rank.header[/lang]'
+    power: '[lang]sk.commands.rank.power[args][arg]{total}[/arg][arg]{rank}[/arg][/args][/lang]'
+    entry: '[lang]sk.commands.rank.entry[args][arg]{skill}[/arg][arg]{total}[/arg][arg]{rank}[/arg][/args][/lang]'
+  reload: '[lang]sk.commands.reload[/lang]'
+  save:
+    already_saving: '[lang]sk.commands.save.already_saving[/lang]'
+    mysql_not_enabled: '[lang]sk.commands.save.mysql_not_enabled[/lang]'
+    saved: '[lang]sk.commands.save.saved[/lang]'
+  skill:
+    reset:
+      reset_all: '[lang]sk.commands.skill.reset.reset_all[args][arg]{player}[/arg][/args][/lang]'
+      reset_skill: '[lang]sk.commands.skill.reset.reset_skill[args][arg]{skill}[/arg][arg]{player}[/arg][/args][/lang]'
+    setall:
+      at_least_one: '[lang]sk.commands.skill.setall.at_least_one[/lang]'
+      set: '[lang]sk.commands.skill.setall.set[args][arg]{level}[/arg][arg]{player}[/arg][/args][/lang]'
+    setlevel:
+      at_least_one: '[lang]sk.commands.skill.setlevel.at_least_one[/lang]'
+      set: '[lang]sk.commands.skill.setlevel.set[args][arg]{skill}[/arg][arg]{level}[/arg][arg]{player}[/arg][/args][/lang]'
+  toggle:
+    enabled: '[lang]sk.commands.toggle.enabled[/lang]'
+    disabled: '[lang]sk.commands.toggle.disabled[/lang]'
+    not_enabled: '[lang]sk.commands.toggle.not_enabled[/lang]'
+  top:
+    power_entry: '[lang]sk.commands.top.power_entry[args][arg]{rank}[/arg][arg]{player}[/arg][arg]{level}[/arg][/args][/lang]'
+    power_header: '[lang]sk.commands.top.power_header[/lang]'
+    power_header_page: '[lang]sk.commands.top.power_header_page[args][arg]{page}[/arg][/args][/lang]'
+    skill_header: '[lang]sk.commands.top.skill_header[args][arg]{skill}[/arg][/args][/lang]'
+    skill_header_page: '[lang]sk.commands.top.skill_header_page[args][arg]{skill}[/arg][arg]{page}[/arg][/args][/lang]'
+    skill_entry: '[lang]sk.commands.top.skill_entry[args][arg]{rank}[/arg][arg]{player}[/arg][arg]{level}[/arg][/args][/lang]'
+    average_header: '[lang]sk.commands.top.average_header[/lang]'
+    average_header_page: '[lang]sk.commands.top.average_header_page[args][arg]{page}[/arg][/args][/lang]'
+    average_entry: '[lang]sk.commands.top.average_entry[args][arg]{rank}[/arg][arg]{player}[/arg][arg]{level}[/arg][/args][/lang]'
+    usage: '[lang]sk.commands.top.usage[/lang]'
+  updateleaderboards:
+    already_updating: '[lang]sk.commands.updateleaderboards.already_updating[/lang]'
+    updated: '[lang]sk.commands.updateleaderboards.updated[/lang]'
+  xp:
+    add: '[lang]sk.commands.xp.add[args][arg]{amount}[/arg][arg]{skill}[/arg][arg]{player}[/arg][/args][/lang]'
+    set: '[lang]sk.commands.xp.set[args][arg]{skill}[/arg][arg]{player}[/arg][arg]{amount}[/arg][/args][/lang]'
+    remove: '[lang]sk.commands.xp.remove[args][arg]{amount}[/arg][arg]{skill}[/arg][arg]{player}[/arg][/args][/lang]'
+  unknown_skill: '[lang]sk.commands.unknown_skill[/lang]'
+  no_profile: '[lang]sk.commands.no_profile[/lang]'
+  version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest
+    version is &b{latest_version}'
+leveler:
+  title: '[lang]sk.leveler.title[args][arg]{skill}[/arg][/args][/lang]'
+  subtitle: '[lang]sk.leveler.subtitle[args][arg]{old}[/arg][arg]{new}[/arg][/args][/lang]'
+  level_up: '[lang]sk.leveler.level_up[args][arg]{skill}[/arg][arg]{old}[/arg][arg]{new}[/arg][arg]{stat_level}[/arg][arg]{ability_unlock}[/arg][arg]{ability_level_up}[/arg][arg]{mana_ability_unlock}[/arg][arg]{mana_ability_level_up}[/arg][arg]{money_reward}[/arg][/args][/lang]'
+  stat_level: '[lang]sk.leveler.stat_level[args][arg]{color}[/arg][arg]{num}[/arg][arg]{symbol}[/arg][arg]{stat}[/arg][/args][/lang]'
+  ability_unlock: '[lang]sk.leveler.ability_unlock[args][arg]{ability}[/arg][/args][/lang]'
+  ability_level_up: '[lang]sk.leveler.ability_level_up[args][arg]{ability}[/arg][arg]{level}[/arg][/args][/lang]'
+  mana_ability_unlock: '[lang]sk.leveler.mana_ability_unlock[args][arg]{mana_ability}[/arg][/args][/lang]'
+  mana_ability_level_up: '[lang]sk.leveler.mana_ability_level_up[args][arg]{mana_ability}[/arg][arg]{level}[/arg][/args][/lang]'
+  money_reward: '[lang]sk.leveler.money_reward[args][arg]{amount}[/arg][/args][/lang]'
+  unclaimed_item: '[lang]sk.leveler.unclaimed_item[/lang]'
+menus:
+  common:
+    close: '[lang]sk.menus.common.close[/lang]'
+    level: '[lang]sk.menus.common.level[args][arg]{level}[/arg][/args][/lang]'
+    progress_to_level: '[lang]sk.menus.common.progress_to_level[args][arg]{level}[/arg][arg]{percent}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
+    max_level: '[lang]sk.menus.common.max_level[/lang]'
+    ability_levels: '[lang]sk.menus.common.ability_levels[args][arg]{ability_1}[/arg][arg]{ability_2}[/arg][arg]{ability_3}[/arg][arg]{ability_4}[/arg][arg]{ability_5}[/arg][/args][/lang]'
+    ability_level_entry: '[lang]sk.menus.common.ability_level_entry[args][arg]{ability}[/arg][arg]{level}[/arg][arg]{info}[/arg][/args][/lang]'
+    ability_level_entry_locked: '[lang]sk.menus.common.ability_level_entry_locked[args][arg]{ability}[/arg][/args][/lang]'
+    stats_leveled: '[lang]sk.menus.common.stats_leveled[args][arg]{stats}[/arg][/args][/lang]'
+    mana_ability: '[lang]sk.menus.common.mana_ability[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{duration}[/arg][arg]{mana_cost}[/arg][arg]{cooldown}[/arg][/args][/lang]'
+  skills_menu:
+    skills_menu_title: '[lang]sk.menus.skills_menu.skills_menu_title[/lang]'
+    your_skills: '[lang]sk.menus.skills_menu.your_skills[args][arg]{player}[/arg][/args][/lang]'
+    your_skills_desc: '[lang]sk.menus.skills_menu.your_skills_desc[/lang]'
+    your_skills_hover: '[lang]sk.menus.skills_menu.your_skills_hover[/lang]'
+    your_skills_click: '[lang]sk.menus.skills_menu.your_skills_click[/lang]'
+    skill_click: '[lang]sk.menus.skills_menu.skill_click[/lang]'
+    skill_locked: '[lang]sk.menus.skills_menu.skill_locked[/lang]'
+  level_progression_menu:
+    level_progression_menu_title: '[lang]sk.menus.level_progression_menu.level_progression_menu_title[args][arg]{skill}[/arg][arg]{page}[/arg][/args][/lang]'
+    your_ranking: '[lang]sk.menus.level_progression_menu.your_ranking[/lang]'
+    rank_out_of: '[lang]sk.menus.level_progression_menu.rank_out_of[args][arg]{total}[/arg][arg]{rank}[/arg][/args][/lang]'
+    rank_percent: '[lang]sk.menus.level_progression_menu.rank_percent[args][arg]{percent}[/arg][/args][/lang]'
+    back: '[lang]sk.menus.level_progression_menu.back[/lang]'
+    back_click: '[lang]sk.menus.level_progression_menu.back_click[/lang]'
+    next_page: '[lang]sk.menus.level_progression_menu.next_page[/lang]'
+    next_page_click: '[lang]sk.menus.level_progression_menu.next_page_click[/lang]'
+    previous_page: '[lang]sk.menus.level_progression_menu.previous_page[/lang]'
+    previous_page_click: '[lang]sk.menus.level_progression_menu.previous_page_click[/lang]'
+    level_unlocked: '[lang]sk.menus.level_progression_menu.level_unlocked[args][arg]{level}[/arg][/args][/lang]'
+    level_in_progress: '[lang]sk.menus.level_progression_menu.level_in_progress[args][arg]{level}[/arg][/args][/lang]'
+    level_locked: '[lang]sk.menus.level_progression_menu.level_locked[args][arg]{level}[/arg][/args][/lang]'
+    level_number: '[lang]sk.menus.level_progression_menu.level_number[args][arg]{level}[/arg][/args][/lang]'
+    unlocked: '[lang]sk.menus.level_progression_menu.unlocked[/lang]'
+    in_progress: '[lang]sk.menus.level_progression_menu.in_progress[/lang]'
+    locked: '[lang]sk.menus.level_progression_menu.locked[/lang]'
+    rewards: '[lang]sk.menus.level_progression_menu.rewards[args][arg]{rewards}[/arg][/args][/lang]'
+    rewards_entry: '[lang]sk.menus.level_progression_menu.rewards_entry[args][arg]{color}[/arg][arg]{num}[/arg][arg]{symbol}[/arg][arg]{stat}[/arg][/args][/lang]'
+    money_reward: '[lang]sk.menus.level_progression_menu.money_reward[args][arg]{amount}[/arg][/args][/lang]'
+    ability_unlock: '[lang]sk.menus.level_progression_menu.ability_unlock[args][arg]{ability}[/arg][arg]{desc}[/arg][/args][/lang]'
+    ability_level: '[lang]sk.menus.level_progression_menu.ability_level[args][arg]{ability}[/arg][arg]{level}[/arg][arg]{desc}[/arg][/args][/lang]'
+    mana_ability_unlock: '[lang]sk.menus.level_progression_menu.mana_ability_unlock[args][arg]{mana_ability}[/arg][arg]{desc}[/arg][/args][/lang]'
+    mana_ability_level: '[lang]sk.menus.level_progression_menu.mana_ability_level[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{desc}[/arg][/args][/lang]'
+    progress: '[lang]sk.menus.level_progression_menu.progress[args][arg]{percent}[/arg][arg]{current_xp}[/arg][arg]{level_xp}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
+  stats_menu:
+    stats_menu_title: '[lang]sk.menus.stats_menu.stats_menu_title[/lang]'
+    player_stat_entry: '[lang]sk.menus.stats_menu.player_stat_entry[args][arg]{color}[/arg][arg]{symbol}[/arg][arg]{stat}[/arg][arg]{level}[/arg][/args][/lang]'
+    skills: '[lang]sk.menus.stats_menu.skills[args][arg]{skills}[/arg][/args][/lang]'
+    your_level: '[lang]sk.menus.stats_menu.your_level[args][arg]{color}[/arg][arg]{level}[/arg][/args][/lang]'
+    attack_damage: '[lang]sk.menus.stats_menu.attack_damage[args][arg]{value}[/arg][/args][/lang]'
+    hp: '[lang]sk.menus.stats_menu.hp[args][arg]{value}[/arg][/args][/lang]'
+    saturated_regen: '[lang]sk.menus.stats_menu.saturated_regen[args][arg]{value}[/arg][/args][/lang]'
+    full_hunger_regen: '[lang]sk.menus.stats_menu.full_hunger_regen[args][arg]{value}[/arg][/args][/lang]'
+    almost_full_hunger_regen: '[lang]sk.menus.stats_menu.almost_full_hunger_regen[args][arg]{value}[/arg][/args][/lang]'
+    mana_regen: '[lang]sk.menus.stats_menu.mana_regen[args][arg]{value}[/arg][/args][/lang]'
+    luck: '[lang]sk.menus.stats_menu.luck[args][arg]{value}[/arg][/args][/lang]'
+    double_drop_chance: '[lang]sk.menus.stats_menu.double_drop_chance[args][arg]{value}[/arg][/args][/lang]'
+    xp_gain: '[lang]sk.menus.stats_menu.xp_gain[args][arg]{value}[/arg][arg]{xp_unit}[/arg][/args][/lang]'
+    anvil_cost_reduction: '[lang]sk.menus.stats_menu.anvil_cost_reduction[args][arg]{value}[/arg][/args][/lang]'
+    max_mana: '[lang]sk.menus.stats_menu.max_mana[args][arg]{value}[/arg][/args][/lang]'
+    incoming_damage: '[lang]sk.menus.stats_menu.incoming_damage[args][arg]{value}[/arg][/args][/lang]'
+  unclaimed_items:
+    unclaimed_items_title: '[lang]sk.menus.unclaimed_items.unclaimed_items_title[/lang]'
+    inventory_full: '[lang]sk.menus.unclaimed_items.inventory_full[/lang]'
+    click_to_claim: '[lang]sk.menus.unclaimed_items.click_to_claim[/lang]'
+mana_abilities:
+  replenish:
+    name: '[lang]sk.mana_abilities.replenish.name[/lang]'
+    desc: '[lang]sk.mana_abilities.replenish.desc[args][arg]{value}[/arg][/args][/lang]'
+    raise: '[lang]sk.mana_abilities.replenish.raise[/lang]'
+    lower: '[lang]sk.mana_abilities.replenish.lower[/lang]'
+    start: '[lang]sk.mana_abilities.replenish.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    end: '[lang]sk.mana_abilities.replenish.end[/lang]'
+  treecapitator:
+    name: '[lang]sk.mana_abilities.treecapitator.name[/lang]'
+    desc: '[lang]sk.mana_abilities.treecapitator.desc[args][arg]{value}[/arg][/args][/lang]'
+    raise: '[lang]sk.mana_abilities.treecapitator.raise[/lang]'
+    lower: '[lang]sk.mana_abilities.treecapitator.lower[/lang]'
+    start: '[lang]sk.mana_abilities.treecapitator.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    end: '[lang]sk.mana_abilities.treecapitator.end[/lang]'
+  speed_mine:
+    name: '[lang]sk.mana_abilities.speed_mine.name[/lang]'
+    desc: '[lang]sk.mana_abilities.speed_mine.desc[args][arg]{haste_level}[/arg][arg]{value}[/arg][/args][/lang]'
+    raise: '[lang]sk.mana_abilities.speed_mine.raise[/lang]'
+    lower: '[lang]sk.mana_abilities.speed_mine.lower[/lang]'
+    start: '[lang]sk.mana_abilities.speed_mine.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    end: '[lang]sk.mana_abilities.speed_mine.end[/lang]'
+  absorption:
+    name: '[lang]sk.mana_abilities.absorption.name[/lang]'
+    desc: '[lang]sk.mana_abilities.absorption.desc[args][arg]{value}[/arg][/args][/lang]'
+    raise: '[lang]sk.mana_abilities.absorption.raise[/lang]'
+    lower: '[lang]sk.mana_abilities.absorption.lower[/lang]'
+    start: '[lang]sk.mana_abilities.absorption.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    end: '[lang]sk.mana_abilities.absorption.end[/lang]'
+  terraform:
+    name: '[lang]sk.mana_abilities.terraform.name[/lang]'
+    desc: '[lang]sk.mana_abilities.terraform.desc[args][arg]{value}[/arg][/args][/lang]'
+    raise: '[lang]sk.mana_abilities.terraform.raise[/lang]'
+    lower: '[lang]sk.mana_abilities.terraform.lower[/lang]'
+    start: '[lang]sk.mana_abilities.terraform.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    end: '[lang]sk.mana_abilities.terraform.end[/lang]'
+  sharp_hook:
+    name: '[lang]sk.mana_abilities.sharp_hook.name[/lang]'
+    desc: '[lang]sk.mana_abilities.sharp_hook.desc[args][arg]{value}[/arg][/args][/lang]'
+    use: '[lang]sk.mana_abilities.sharp_hook.use[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    menu: '[lang]sk.mana_abilities.sharp_hook.menu[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{value}[/arg][arg]{mana_cost}[/arg][arg]{cooldown}[/arg][/args][/lang]'
+  charged_shot:
+    name: '[lang]sk.mana_abilities.charged_shot.name[/lang]'
+    desc: '[lang]sk.mana_abilities.charged_shot.desc[args][arg]{value}[/arg][/args][/lang]'
+    enable: '[lang]sk.mana_abilities.charged_shot.enable[/lang]'
+    disable: '[lang]sk.mana_abilities.charged_shot.disable[/lang]'
+    shoot: '[lang]sk.mana_abilities.charged_shot.shoot[args][arg]{percent}[/arg][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    menu: '[lang]sk.mana_abilities.charged_shot.menu[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{value}[/arg][arg]{mana_cost}[/arg][/args][/lang]'
+  lightning_blade:
+    name: '[lang]sk.mana_abilities.lightning_blade.name[/lang]'
+    desc: '[lang]sk.mana_abilities.lightning_blade.desc[args][arg]{value}[/arg][arg]{duration}[/arg][/args][/lang]'
+    raise: '[lang]sk.mana_abilities.lightning_blade.raise[/lang]'
+    lower: '[lang]sk.mana_abilities.lightning_blade.lower[/lang]'
+    start: '[lang]sk.mana_abilities.lightning_blade.start[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][/args][/lang]'
+    end: '[lang]sk.mana_abilities.lightning_blade.end[/lang]'
+    menu: '[lang]sk.mana_abilities.lightning_blade.menu[args][arg]{mana_ability}[/arg][arg]{level}[/arg][arg]{value}[/arg][arg]{duration}[/arg][arg]{mana_cost}[/arg][arg]{cooldown}[/arg][/args][/lang]'
+  not_ready: '[lang]sk.mana_abilities.not_ready[args][arg]{cooldown}[/arg][/args][/lang]'
+  not_enough_mana: '[lang]sk.mana_abilities.not_enough_mana[args][arg]{mana}[/arg][arg]{mana_unit}[/arg][arg]{current_mana}[/arg][arg]{max_mana}[/arg][/args][/lang]'
+rewards:
+  item:
+    default_menu_message: '[lang]sk.rewards.item.default_menu_message[args][arg]{display_name}[/arg][/args][/lang]'
+    default_menu_message_multiple: '[lang]sk.rewards.item.default_menu_message_multiple[args][arg]{display_name}[/arg][arg]{amount}[/arg][/args][/lang]'
+    default_chat_message: '[lang]sk.rewards.item.default_chat_message[args][arg]{display_name}[/arg][/args][/lang]'
+    default_chat_message_multiple: '[lang]sk.rewards.item.default_chat_message_multiple[args][arg]{display_name}[/arg][arg]{amount}[/arg][/args][/lang]'
+skills:
+  farming:
+    name: '[lang]sk.skills.farming.name[/lang]'
+    desc: '[lang]sk.skills.farming.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  foraging:
+    name: '[lang]sk.skills.foraging.name[/lang]'
+    desc: '[lang]sk.skills.foraging.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  mining:
+    name: '[lang]sk.skills.mining.name[/lang]'
+    desc: '[lang]sk.skills.mining.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  fishing:
+    name: '[lang]sk.skills.fishing.name[/lang]'
+    desc: '[lang]sk.skills.fishing.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  excavation:
+    name: '[lang]sk.skills.excavation.name[/lang]'
+    desc: '[lang]sk.skills.excavation.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  archery:
+    name: '[lang]sk.skills.archery.name[/lang]'
+    desc: '[lang]sk.skills.archery.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  defense:
+    name: '[lang]sk.skills.defense.name[/lang]'
+    desc: '[lang]sk.skills.defense.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  fighting:
+    name: '[lang]sk.skills.fighting.name[/lang]'
+    desc: '[lang]sk.skills.fighting.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  endurance:
+    name: '[lang]sk.skills.endurance.name[/lang]'
+    desc: '[lang]sk.skills.endurance.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  agility:
+    name: '[lang]sk.skills.agility.name[/lang]'
+    desc: '[lang]sk.skills.agility.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  alchemy:
+    name: '[lang]sk.skills.alchemy.name[/lang]'
+    desc: '[lang]sk.skills.alchemy.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  enchanting:
+    name: '[lang]sk.skills.enchanting.name[/lang]'
+    desc: '[lang]sk.skills.enchanting.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  sorcery:
+    name: '[lang]sk.skills.sorcery.name[/lang]'
+    desc: '[lang]sk.skills.sorcery.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  healing:
+    name: '[lang]sk.skills.healing.name[/lang]'
+    desc: '[lang]sk.skills.healing.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+  forging:
+    name: '[lang]sk.skills.forging.name[/lang]'
+    desc: '[lang]sk.skills.forging.desc[args][arg]{xp_unit}[/arg][/args][/lang]'
+stats:
+  strength:
+    name: '[lang]sk.stats.strength.name[/lang]'
+    desc: '[lang]sk.stats.strength.desc[/lang]'
+    color: '[lang]sk.stats.strength.color[/lang]'
+    symbol: '[lang]sk.stats.strength.symbol[/lang]'
+  health:
+    name: '[lang]sk.stats.health.name[/lang]'
+    desc: '[lang]sk.stats.health.desc[args][arg]{hp_unit}[/arg][/args][/lang]'
+    color: '[lang]sk.stats.health.color[/lang]'
+    symbol: '[lang]sk.stats.health.symbol[/lang]'
+  regeneration:
+    name: '[lang]sk.stats.regeneration.name[/lang]'
+    desc: '[lang]sk.stats.regeneration.desc[/lang]'
+    color: '[lang]sk.stats.regeneration.color[/lang]'
+    symbol: '[lang]sk.stats.regeneration.symbol[/lang]'
+  luck:
+    name: '[lang]sk.stats.luck.name[/lang]'
+    desc: '[lang]sk.stats.luck.desc[/lang]'
+    color: '[lang]sk.stats.luck.color[/lang]'
+    symbol: '[lang]sk.stats.luck.symbol[/lang]'
+  wisdom:
+    name: '[lang]sk.stats.wisdom.name[/lang]'
+    desc: '[lang]sk.stats.wisdom.desc[/lang]'
+    color: '[lang]sk.stats.wisdom.color[/lang]'
+    symbol: '[lang]sk.stats.wisdom.symbol[/lang]'
+  toughness:
+    name: '[lang]sk.stats.toughness.name[/lang]'
+    desc: '[lang]sk.stats.toughness.desc[/lang]'
+    color: '[lang]sk.stats.toughness.color[/lang]'
+    symbol: '[lang]sk.stats.toughness.symbol[/lang]'
+units:
+  mana: '[lang]sk.units.mana[/lang]'
+  hp: '[lang]sk.units.hp[/lang]'
+  xp: '[lang]sk.units.xp[/lang]'
+file_version: 24

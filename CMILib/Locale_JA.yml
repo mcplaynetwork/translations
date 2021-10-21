@@ -843,7 +843,7 @@ Chat:
   privateHover: '&eSent time: &6%server_time_hh:mm:ss%'
   staffHover: '&eSent time: &6%server_time_hh:mm:ss%'
   helpopHover: '&eSent time: &6%server_time_hh:mm:ss%'
-  link: '&l&4[&7LINK&4]'
+  link: '&l&4[&7リンク&4]'
   item: '&7[%cmi_iteminhand_displayname%[amount]&7]'
   itemAmount: ' x[amount]'
   itemEmpty: '&7[Mighty fist]'
@@ -855,7 +855,7 @@ command:
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
       explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Help&e &e======= ------'
+      title: '&e------ ======= &6ヘルプ&e &e======= ------'
   nocmd:
     help:
       info: '&eShows all available commands'

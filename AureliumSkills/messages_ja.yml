@@ -10,20 +10,20 @@ abilities:
       desc: 'ファーミングXPが{value}%増加します。'
       info: '+{value}% XP'
     scythe_master:
-      name: Scythe Master
+      name: 大鎌使い
       desc: '桑のダメージを{value}%増加させます。'
       info: '+{value}% 桑ダメージ'
     geneticist:
-      name: Geneticist
+      name: 遺伝学者
       desc: '植物性食品からの満腹度獲得を\n&7  {value}だけ増加させます。'
       info: '+{value} 満腹度'
     triple_harvest:
-      name: Triple Harvest
+      name: 三倍収穫
       desc: '{value}}%の確率で作物から\n&7  3倍のドロップを得ることができます。'
       info: '{value}% 3xドロップ'
   foraging:
     lumberjack:
-      name: Lumberjack
+      name: 木こり
       desc: '{value}%の確率で原木から\n&7  2倍のドロップを得ることができます。'
       info: '{value}% 2xドロップ'
     forager:
@@ -31,7 +31,7 @@ abilities:
       desc: 'フォージングXPが{value}%増加します。'
       info: '+{value}% XP'
     axe_master:
-      name: Axe Master
+      name: 斧使い
       desc: '斧のダメージを{value}}%増加させます。'
       info: '+{value}% 斧ダメージ'
     valor:
@@ -61,7 +61,7 @@ abilities:
       info: '+{value} Toughness'
     hardened_armor:
       name: Hardened Armor
-      desc: '{value}%の確率でアーマーの耐久性ダメージを無効化する。'
+      desc: '{value}%の確率でアーマーのダメージを無効化する。'
       info: '{value}% 耐久低下なし'
   fishing:
     lucky_catch:
@@ -74,7 +74,7 @@ abilities:
       info: '+{value}% XP'
     treasure_hunter:
       name: Treasure Hunter
-      desc: '釣りで{value}%の確率で レアルートを\n&7  手に入れるようになります。'
+      desc: '釣りで{value}%の確率で レアルートを\n&7 を手に入れるようになります。'
       info: '+{value}% レアルート'
     grappler:
       name: Grappler
@@ -295,7 +295,7 @@ abilities:
       desc: '金床にあるアイテムを、そのアイテムが作られた\n&7 原材料を使って修理すると、耐久度が{value}%向上します。'
       info: '+{value}% 鉄床修理'
     anvil_master:
-      name: 鉄床マスター
+      name: 鉄床使い
       desc: '経験値が高くなりすぎる前に、金床の最大修理コストを増加させます。'
       info: '{value} 最大コスト'
     skill_mender:
@@ -408,7 +408,7 @@ commands:
         skill_lore_subtract: '&7When worn: &b-{value}% {skill} XP'
         global_lore: '&7When worn: &9+{value}% Skill XP'
         global_lore_subtract: '&7When worn: &9-{value}% Skill XP'
-        added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
+        added: '&b{target} &7値を持つ乗数 &b{value} &7がアイテムに追加されました。'
         already_exists: '&eAn armor multiplier with target &b{target} &ealready exists
           on your armor! Remove it first with /sk armor multiplier remove'
       remove:

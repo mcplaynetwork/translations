@@ -399,7 +399,7 @@ Messages:
   IgnoreClaimsAdvertisement:
     Text: To override, use /IgnoreClaims.
   NoPermissionForCommand:
-    Text: You don't have permission to do that.
+    Text: 権限がありません。
   ClaimsListNoPermission:
     Text: You don't have permission to get information about another player's land
       claims.

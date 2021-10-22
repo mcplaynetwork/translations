@@ -32,7 +32,8 @@ commands:
     less-than-one: "&cCount must be positive."
     invalid-item: "&cInvalid item."
   aegive:
-    invalid-material: "&cInvalid material. Please reference the 'materials.yml' file for all valid materials."
+    invalid-material: "&cInvalid material. Please reference the 'materials.yml' file\
+      \ for all valid materials."
     invalid-item-flag: "&cInvalid ItemFlag! You can choose from the following: %itemflags%"
     invalid-enchantment: "&cInvalid Enchantment!"
     success: "&aGave &2%amount%x %material% &ato %player%&a!"
@@ -94,10 +95,10 @@ commands:
     admin:
       invalid-page: "&cInvalid page"
     info:
-      - "&eInformation about &6%enchant% &eenchantment&7:"
-      - "&6Description&7: &e%description%"
-      - "&6Applies to&7: &e%applies%"
-      - "&6Max level&7: &e%max-level%"
+    - "&eInformation about &6%enchant% &eenchantment&7:"
+    - "&6Description&7: &e%description%"
+    - "&6Applies to&7: &e%applies%"
+    - "&6Max level&7: &e%max-level%"
 
     pastetypes: "&aEnchantment type list: %url%"
     pasteenchants: "&aEnchantments list: %url%"
@@ -113,18 +114,20 @@ enchanter:
   re-buy: "&cPlease re-buy the item from the enchanter."
   disabled-in-world: "&cThe Enchanter is disabled in this world."
   full-inventory: "&cYour inventory is full!"
-  examine-book: "&7You examined %group-color%%group%&7 book and found %enchant-color% %level%"
-  unknown-payment-method: "&cFailed to validate %paymentType% payment method, please contact an administrator."
+  examine-book: "&7You examined %group-color%%group%&7 book and found %enchant-color%\
+    \ %level%"
+  unknown-payment-method: "&cFailed to validate %paymentType% payment method, please\
+    \ contact an administrator."
   successful-purchase: "&aPurchase successful!"
   cannot-afford:
-    - "&cYou do not have enough EXP to purchase that."
-    - "&7Your XP: %exp%"
+  - "&cYou do not have enough EXP to purchase that."
+  - "&7Your XP: %exp%"
 
 tinkerer:
   trade-accepted: "&aTrade accepted!"
   non-tradeable-item:
-    - "&cThe Server Tinkerer doesn't want that item!"
-    - "&7It will only accept custom enchanted equipment"
+  - "&cThe Server Tinkerer doesn't want that item!"
+  - "&7It will only accept custom enchanted equipment"
 
 alchemist:
   doesnt-accept: "&cThe Alchemist doesn't accept this item!"
@@ -151,7 +154,8 @@ orbs:
 
 sets:
   commands:
-    unknown-command: "&cCommand not found! Type \"/asets\" for a list of all valid commands."
+    unknown-command: "&cCommand not found! Type \"/asets\" for a list of all valid\
+      \ commands."
     invalid-usage: "&cInvalid usage! Please reference /asets for the proper usage."
     invalid-set: "&cSet is invalid."
     invalid-set-piece: "&cInvalid set piece, you may use one of these: \n%set pieces%"
@@ -201,8 +205,10 @@ enchant-limitations:
   cannot-be-modified: "&cThis item cannot be modified!"
 
 applying:
-  not-applicable-with: "&cThe &4%enchant1% &cenchantment cannot be applied together with the &4%enchant2%&7 &cenchant!"
-  requires-enchant: "&cThe &4%enchant1% &cenchantment requires the &4%enchant2%&7 &cenchant to be applied!"
+  not-applicable-with: "&cThe &4%enchant1% &cenchantment cannot be applied together\
+    \ with the &4%enchant2%&7 &cenchant!"
+  requires-enchant: "&cThe &4%enchant1% &cenchantment requires the &4%enchant2%&7\
+    \ &cenchant to be applied!"
   already-applied: "&cThe item already has this enchantment."
   applied: "&aEnchantment was applied to your item."
   max-level: "&cThis enchantment is already at max level!"

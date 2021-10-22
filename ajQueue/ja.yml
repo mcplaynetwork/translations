@@ -19,7 +19,7 @@ status:
   now-in-empty-queue: ''
   sending-now: '&a現在、あなたを&f{SERVER}&aに送っています...'
 errors:
-  server-not-exist: '&cサーバー{SERVER}が存在しません。'
+  server-not-exist: '&cサーバー{SERVER}が存在しません！'
   already-queued: '&cすでにそのサーバーのキューに入っています！'
   player-only: '&cこのコマンドは、プレイヤーとしてのみ実行可能です！'
   already-connected: '&cすでにこのサーバーに接続されています！'
@@ -42,12 +42,12 @@ commands:
   pause:
     more-args: '&c使い方: /ajqueue pause <サーバー> [on/off]'
     no-server: '&cそのサーバーは存在しません！'
-    success: '&f{SERVER}&aのキューが&f{PAUSED}&aになりました。'
+    success: '&f{SERVER}&aのキューが&f{PAUSED}&aになりました'
     paused:
       'true': '&e一時停止'
       'false': '&a一時停止解除'
   send:
-    player-not-found: '&cそのプレーヤーは見つかりませんでした。相手がオンラインであることを確認してください。'
+    player-not-found: '&cそのプレーヤーは見つかりませんでした。相手がオンラインであることを確認してください！'
     usage: '<red>使い方: /ajqueue send <プレイヤー> <サーバー>'
   listqueues:
     header: '&9キュー:'
@@ -66,7 +66,7 @@ spigot:
   actionbar:
     online: '&7あなたは&f{SERVER}&7のキューに入っています。キューの&f{LEN}&7番中の&f{POS}&7番目にいます。予想時間: {TIME}'
     offline: '&7あなたは&f{SERVER}&7のキューに入っています。キューの&f{LEN}&7番中の&f{POS}&7番目にいます。'
-send: '&f{SERVER}&aのキューに&f{PLAYER}&aを追加しました。'
+send: '&f{SERVER}&aのキューに&f{PLAYER}&aを追加しました'
 remove: '&f{PLAYER}&aが参加していたすべてのキューから削除されました。'
 placeholders:
   queued:
@@ -87,6 +87,6 @@ updater:
         or running <gray>/ajQueue update</click>
     <gray><strikethrough>                                                         <reset>
   no-update: <red>アップデートはありません
-  success: <green>アップデートのダウンロードが完了しました！サーバーを再起動してください。
+  success: <green>アップデートのダウンロードが完了しました！サーバーを再起動してください
   fail: <red>アップデートのダウンロード中にエラーが発生しました。詳細はコンソールで確認してください。
   already-downloaded: <red>アップデートはすでにダウンロードされています。

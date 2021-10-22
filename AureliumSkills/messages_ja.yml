@@ -481,6 +481,23 @@ commands:
     unregister:
       unregistered: '&fUnregistered item with key {key}'
       not_registered: '&eThere is no item registered with key {key}'
+    multiplier:
+      removeall:
+        removed: '&7All item multipliers have been removed from your item'
+      add:
+        added: '&b{target} &7値を持つ乗数 &b{value} &7がアイテムに追加されました。'
+        already_exists: '&eAn item multiplier with target &b{target} &ealready exists
+          on your item! Remove it first with /sk item multiplier remove'
+        skill_lore: '&7When held: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7When held: &b-{value}% {skill} XP'
+        global_lore: '&7When held: &9+{value}% Skill XP'
+        global_lore_subtract: '&7When held: &9-{value}% Skill XP'
+      remove:
+        does_not_exist: '&eYour item does not have a &b{target} &eitem multiplier!'
+        removed: '&b{target} &7item multiplier was removed from your item'
+      list:
+        header: '&fItem multipliers found:'
+        entry: '  &b{target}&f - {value}'
   lang:
     set: '&7Language set to &b{lang}'
     not_found: '&eLanguage not found!'
@@ -516,6 +533,8 @@ commands:
   multiplier:
     list: '&fXP multiplier for &6{player}&f: &b{multiplier}x / +{percent}%'
     players_only: '&eOnly players can list their own multiplier! Specify a player!'
+    global: Global
+    skill_entry: '&b{skill} &fXP multiplier: &b{multiplier}x / +{percent}%'
   rank:
     header: '&b&lあなたのスキルランキング'
     power: '&eパワー &7(全てのスキル): &f{total}中の#{rank}'
@@ -560,6 +579,8 @@ commands:
     remove: '&7Removed &b{amount} {skill} &7XP from player &6{player}'
   unknown_skill: '&eUnknown skill!'
   no_profile: '&ePlayer does not have a skills profile!'
+  version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest
+    version is &b{latest_version}'
 leveler:
   title: '&a{skill} レベルアップ'
   subtitle: '&6{old} ➜ {new}'

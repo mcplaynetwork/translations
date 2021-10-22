@@ -275,13 +275,13 @@ info:
   afkSymbolOff: ''
   nextPageConsole: '&fFor next page perform &5[command]'
   prevPage: '&2----<< &6Prev '
-  prevPageGui: '&6Previous page '
+  prevPageGui: '&6前のページ '
   prevPageClean: '&6Prev '
   prevPageOff: '&2----<< &7Prev '
   prevPageHover: '&7<<<'
   firstPageHover: '&7|<'
   nextPage: '&6 Next &2>>----'
-  nextPageGui: '&6Next Page'
+  nextPageGui: '&6次のページ'
   nextPageClean: '&6 Next'
   nextPageOff: '&7 Next &2>>----'
   nextPageHover: '&7>>>'
@@ -564,7 +564,7 @@ info:
     knockback:
     - Knockback
     luck:
-    - Luck
+    - 幸運
     binding_curse:
     - BindingCurse
     loot_bonus_blocks:

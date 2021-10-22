@@ -55,13 +55,13 @@
 info:
   # Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMI&e] '
-  NoPermission: '&cYou don''t have permission!'
-  CantHavePermission: '&cYou can''t have this permission!'
+  NoPermission: '&c権限がありません！'
+  CantHavePermission: '&c権限がありません！'
   WrongGroup: '&cYou are in wrong group for this!'
   NoPlayerPermission: '&c[playerName] doesn''t have permission for: [permission]'
   Ingame: '&cYou can only use this in game!'
   NoInformation: '&cNo information found!'
-  Console: '&6Server'
+  Console: '&6サーバー'
   FromConsole: '&cYou can only use this in the console!'
   NotOnline: '&cThe player is not online!'
   NobodyOnline: '&cThere is no one online!'
@@ -275,13 +275,13 @@ info:
   afkSymbolOff: ''
   nextPageConsole: '&fFor next page perform &5[command]'
   prevPage: '&2----<< &6Prev '
-  prevPageGui: '&6Previous page '
+  prevPageGui: '&6前のページ '
   prevPageClean: '&6Prev '
   prevPageOff: '&2----<< &7Prev '
   prevPageHover: '&7<<<'
   firstPageHover: '&7|<'
   nextPage: '&6 Next &2>>----'
-  nextPageGui: '&6Next Page'
+  nextPageGui: '&6次のページ'
   nextPageClean: '&6 Next'
   nextPageOff: '&7 Next &2>>----'
   nextPageHover: '&7>>>'
@@ -564,7 +564,7 @@ info:
     knockback:
     - Knockback
     luck:
-    - Luck
+    - 幸運
     binding_curse:
     - BindingCurse
     loot_bonus_blocks:
@@ -843,7 +843,7 @@ Chat:
   privateHover: '&eSent time: &6%server_time_hh:mm:ss%'
   staffHover: '&eSent time: &6%server_time_hh:mm:ss%'
   helpopHover: '&eSent time: &6%server_time_hh:mm:ss%'
-  link: '&l&4[&7LINK&4]'
+  link: '&l&4[&7リンク&4]'
   item: '&7[%cmi_iteminhand_displayname%[amount]&7]'
   itemAmount: ' x[amount]'
   itemEmpty: '&7[Mighty fist]'
@@ -855,7 +855,7 @@ command:
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
       explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Help&e &e======= ------'
+      title: '&e------ ======= &6ヘルプ&e &e======= ------'
   nocmd:
     help:
       info: '&eShows all available commands'

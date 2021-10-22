@@ -69,7 +69,7 @@ command:
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
       explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Help&e &e======= ------'
+      title: '&e------ ======= &6ヘルプ&e &e======= ------'
   nocmd:
     help:
       info: '&eShows all available commands'

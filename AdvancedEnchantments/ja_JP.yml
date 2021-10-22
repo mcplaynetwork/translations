@@ -7,7 +7,7 @@ effects:
   steal-money: "&6%attacker% &7stole &6%amount% &7from &6%victim%&7!"
 
 commands:
-  no-permission: "&cYou don't have permission to do that!"
+  no-permission: "&c権限がありません！"
   offline-player: "&cThat player is not online!"
   enchantment-not-found: "&cEnchantment &c&n%enchant%&c could not be found."
   invalid-amount: "&cInvalid amount. Must be between 1-64."

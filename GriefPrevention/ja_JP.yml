@@ -7,8 +7,8 @@ Messages:
   IgnoringClaims:
     Text: Now ignoring claims.
   SuccessfulAbandon:
-    Text: Claims abandoned.  You now have {0} available claim blocks.
-    Notes: '0: remaining blocks'
+    Text: クレームが放棄されました。 現在、利用可能なクレームブロックは{0}です。
+    Notes: '0：残りのブロック'
   RestoreNatureActivate:
     Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims
       to stop.
@@ -20,7 +20,7 @@ Messages:
     Text: Fill mode activated with radius {0}.  Right click an area to fill.
     Notes: '0: fill radius'
   TransferClaimPermission:
-    Text: That command requires the administrative claims permission.
+    Text: そのコマンドを使用するには管理者権限が必要です。
   TransferClaimMissing:
     Text: There's no claim here.  Stand in the administrative claim you want to transfer.
   TransferClaimAdminOnly:

@@ -99,7 +99,7 @@ Messages:
   DeleteSuccess:
     Text: Claim deleted.
   CantDeleteAdminClaim:
-    Text: You don't have permission to delete administrative claims.
+    Text: 管理された土地を削除する権限がありません。
   DeleteAllSuccess:
     Text: Deleted all of {0}'s claims.
     Notes: '0: owner''s name'
@@ -138,8 +138,7 @@ Messages:
     Text: You're still on siege cooldown for this defender or claim.  Find another
       victim.
   SiegeAlert:
-    Text: You're under siege!  If you log out now, you will die.  You must defeat
-      {0}, wait for him to give up, or escape.
+    Text: あなたは包囲されています！ 今、ログアウトすると死んでしまいます。{0}を倒すか、彼が諦めるのを待つか、脱出するしかありません。
     Notes: '0: attacker name'
   SiegeConfirmed:
     Text: The siege has begun!  If you log out now, you will die.  You must defeat
@@ -412,11 +411,11 @@ Messages:
   ClaimExplosivesAdvertisement:
     Text: To allow explosives to destroy blocks in this land claim, use /ClaimExplosions.
   PlayerInPvPSafeZone:
-    Text: That player is in a PvP safe zone.
+    Text: そのプレイヤーはPvPセーフゾーンにいます。
   NoPistonsOutsideClaims:
-    Text: 'Warning: Pistons won''t move blocks outside land claims.'
+    Text: "警告:\tピストンはランドクレームの外ではブロックを動かしません。"
   SoftMuted:
-    Text: Soft-muted {0}.
+    Text: ソフトミュート {0}。
     Notes: '0: The changed player''s name.'
   UnSoftMuted:
     Text: Un-soft-muted {0}.
@@ -460,10 +459,10 @@ Messages:
   CreateClaimFailOverlapRegion:
     Text: You can't claim all of this because you're not allowed to build here.
   ResizeFailOverlapRegion:
-    Text: You don't have permission to build there, so you can't claim that area.
+    Text: そこに建築をする許可を得ていないので、そのエリアを主張することはできません。
   ShowNearbyClaims:
-    Text: Found {0} land claims.
-    Notes: '0: Number of claims found.'
+    Text: '{0}のランドクレームが見つかりました。'
+    Notes: '0: 見つかったクレーム数'
   NoChatUntilMove:
     Text: Sorry, but you have to move a little more before you can chat.  We get lots
       of spam bots here.  :)
@@ -490,11 +489,11 @@ Messages:
   Build:
     Text: Build
   Containers:
-    Text: Containers
+    Text: コンテナ
   Access:
-    Text: Access
+    Text: アクセス
   HasSubclaimRestriction:
-    Text: This subclaim does not inherit permissions from the parent
+    Text: このサブクレームは、親からの権限を継承しません。
   StartBlockMath:
     Text: '{0} blocks from play + {1} bonus = {2} total.'
   ClaimsListHeader:
@@ -544,9 +543,9 @@ Messages:
   IsIgnoringYou:
     Text: That player is ignoring you.
   MustHoldModificationToolForThat:
-    Text: You must be holding a golden shovel to do that.
+    Text: 金のシャベルを持っていないとできません。
   StandInClaimToResize:
-    Text: Stand inside the land claim you want to resize.
+    Text: サイズの変更をしたい土地の内側に立ってください。
   ClaimsExtendToSky:
     Text: Land claims always extend to max build height.
   ClaimsAutoExtendDownward:

@@ -543,7 +543,7 @@ Messages:
   IsIgnoringYou:
     Text: That player is ignoring you.
   MustHoldModificationToolForThat:
-    Text: 金のシャベルを持っていないとできません。
+    Text: 金のシャベルを持っている必要があります。
   StandInClaimToResize:
     Text: サイズの変更をしたい土地の内側に立ってください。
   ClaimsExtendToSky:

@@ -16,7 +16,7 @@ status:
   now-in-queue: |-
     &aあなたは現在{SERVER}のキューに入っています！ &7あなたは&f{LEN}&7番中の&f{POS}&7番目にいます。
     &7キューを抜けるには、&f/leavequeue&7または&f<click:run_command:/leavequeue {SERVERNAME}>ここをクリック</click>&7を入力してください！
-  now-in-empty-queue: ''
+  now-in-empty-queue: ' '
   sending-now: '&a現在、あなたを&f{SERVER}&aに送っています...'
 errors:
   server-not-exist: '&cサーバー{SERVER}が存在しません！'
@@ -76,7 +76,7 @@ placeholders:
 max-tries-reached: '&c{SERVER}への接続ができません。再試行回数が最大になりました。'
 auto-queued: '&aあなたがキックされたため、{SERVER}に自動キューされました。'
 title:
-  title: ''
+  title: ' '
   subtitle: <gold>あなたは<green>#{POS}<gold>番目にいます！
 velocity-kick-message: '<red>{SERVER}に参加しようとしてキックされました: <white>{REASON}'
 updater:

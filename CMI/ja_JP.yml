@@ -64,7 +64,7 @@ info:
 command:
   help:
     output:
-      usage: '&eUsage: &7%usage%'
+      usage: '&e使い方: &7%usage%'
       cmdInfoFormat: '[command] &f- &e[description]'
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
@@ -139,7 +139,7 @@ command:
       alias: '&6[alias]'
       commandList: ' &e/[command]  '
       commandListDelay: ' &6[command]  '
-      permRequirements: Permission
+      permRequirements: 権限
       permReqExplanation: '&7Will require &6cmi.customalias.[alias] &7to use it'
       tab: ' TabComplete'
       tabCompleteExplanation: '&7When disabled tabcomplete will not work'

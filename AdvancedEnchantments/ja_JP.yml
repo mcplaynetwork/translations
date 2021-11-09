@@ -7,8 +7,8 @@ effects:
   steal-money: "&6%attacker% &7stole &6%amount% &7from &6%victim%&7!"
 
 commands:
-  no-permission: "&cYou don't have permission to do that!"
-  offline-player: "&cThat player is not online!"
+  no-permission: "&c権限がありません！"
+  offline-player: "&cそのプレイヤーはオンラインではありません！"
   enchantment-not-found: "&cEnchantment &c&n%enchant%&c could not be found."
   invalid-amount: "&cInvalid amount. Must be between 1-64."
   invalid-enchant: "&c%enchant% is not a valid enchant!"
@@ -30,9 +30,9 @@ commands:
   withdrawsouls:
     invalid-usage: "&cUsage: /withdrawsouls <count>"
     less-than-one: "&cCount must be positive."
-    invalid-item: "&cInvalid item."
+    invalid-item: "&c無効なアイテムです。"
   aegive:
-    invalid-material: "&cInvalid material. Please reference the 'materials.yml' file for all valid materials."
+    invalid-material: "&c無効な素材です。すべての有効な素材については、 'materials.yml' ファイルを参照してください。"
     invalid-item-flag: "&cInvalid ItemFlag! You can choose from the following: %itemflags%"
     invalid-enchantment: "&cInvalid Enchantment!"
     success: "&aGave &2%amount%x %material% &ato %player%&a!"
@@ -94,10 +94,10 @@ commands:
     admin:
       invalid-page: "&cInvalid page"
     info:
-      - "&eInformation about &6%enchant% &eenchantment&7:"
-      - "&6Description&7: &e%description%"
-      - "&6Applies to&7: &e%applies%"
-      - "&6Max level&7: &e%max-level%"
+    - "&eInformation about &6%enchant% &eenchantment&7:"
+    - "&6Description&7: &e%description%"
+    - "&6Applies to&7: &e%applies%"
+    - "&6Max level&7: &e%max-level%"
 
     pastetypes: "&aEnchantment type list: %url%"
     pasteenchants: "&aEnchantments list: %url%"
@@ -113,29 +113,31 @@ enchanter:
   re-buy: "&cPlease re-buy the item from the enchanter."
   disabled-in-world: "&cThe Enchanter is disabled in this world."
   full-inventory: "&cYour inventory is full!"
-  examine-book: "&7You examined %group-color%%group%&7 book and found %enchant-color% %level%"
-  unknown-payment-method: "&cFailed to validate %paymentType% payment method, please contact an administrator."
+  examine-book: "&7You examined %group-color%%group%&7 book and found %enchant-color%\
+    \ %level%"
+  unknown-payment-method: "&cFailed to validate %paymentType% payment method, please\
+    \ contact an administrator."
   successful-purchase: "&aPurchase successful!"
   cannot-afford:
-    - "&cYou do not have enough EXP to purchase that."
-    - "&7Your XP: %exp%"
+  - "&cYou do not have enough EXP to purchase that."
+  - "&7Your XP: %exp%"
 
 tinkerer:
   trade-accepted: "&aTrade accepted!"
   non-tradeable-item:
-    - "&cThe Server Tinkerer doesn't want that item!"
-    - "&7It will only accept custom enchanted equipment"
+  - "&cThe Server Tinkerer doesn't want that item!"
+  - "&7It will only accept custom enchanted equipment"
 
 alchemist:
-  doesnt-accept: "&cThe Alchemist doesn't accept this item!"
-  trade-cancelled: "&cTrade cancelled."
-  cannot-afford: "&cYou cannot afford this transaction!"
-  exceeds-max-level: "&cYour combined level exceeds maximum enchantment level!"
+  doesnt-accept: "&c錬金術師はこのアイテムを受け付けません。"
+  trade-cancelled: "&cトレードがキャンセルされました。"
+  cannot-afford: "&cあなたはこの取引をすることはできません。"
+  exceeds-max-level: "&cあなたのレベルの合計が最大エンチャントレベルを超えています。"
 
 gkits:
-  no-permission: "&eYou don't have permissions to use &e%gkit%&6 kit."
-  cooldown: "&eYou cannot use this kit yet, kit &6%gkit%&e is on cooldown &7(%cooldown%)"
-  used-kit: "&eYou have used kit &6%gkit%."
+  no-permission: "&e &e%gkit%&6キットを使用する権限がありません。"
+  cooldown: "&eこのキットはまだ使用できません。キット「 &6%gkit%&e 」はクールダウン中です。 &7(%cooldown%)"
+  used-kit: "&eキットを使用しました。 &6%gkit%."
   missing-permission: "&cGkit %gkit%'s permission is invalid or non-existent"
   unknown-gkit: "&cGKit %gkit% does not exist!"
   unknown-enchant: "&7Enchant %enchant% cannot be resolved."
@@ -151,7 +153,8 @@ orbs:
 
 sets:
   commands:
-    unknown-command: "&cCommand not found! Type \"/asets\" for a list of all valid commands."
+    unknown-command: "&cCommand not found! Type \"/asets\" for a list of all valid\
+      \ commands."
     invalid-usage: "&cInvalid usage! Please reference /asets for the proper usage."
     invalid-set: "&cSet is invalid."
     invalid-set-piece: "&cInvalid set piece, you may use one of these: \n%set pieces%"
@@ -201,8 +204,10 @@ enchant-limitations:
   cannot-be-modified: "&cThis item cannot be modified!"
 
 applying:
-  not-applicable-with: "&cThe &4%enchant1% &cenchantment cannot be applied together with the &4%enchant2%&7 &cenchant!"
-  requires-enchant: "&cThe &4%enchant1% &cenchantment requires the &4%enchant2%&7 &cenchant to be applied!"
+  not-applicable-with: "&cThe &4%enchant1% &cenchantment cannot be applied together\
+    \ with the &4%enchant2%&7 &cenchant!"
+  requires-enchant: "&cThe &4%enchant1% &cenchantment requires the &4%enchant2%&7\
+    \ &cenchant to be applied!"
   already-applied: "&cThe item already has this enchantment."
   applied: "&aEnchantment was applied to your item."
   max-level: "&cThis enchantment is already at max level!"

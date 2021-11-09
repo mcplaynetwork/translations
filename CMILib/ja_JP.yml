@@ -276,14 +276,14 @@ info:
   nextPageConsole: '&fFor next page perform &5[command]'
   prevPage: '&2----<< &6Prev '
   prevPageGui: '&6前のページ '
-  prevPageClean: '&6Prev '
-  prevPageOff: '&2----<< &7Prev '
+  prevPageClean: '&6前へ '
+  prevPageOff: '&2----<< &7前へ '
   prevPageHover: '&7<<<'
   firstPageHover: '&7|<'
-  nextPage: '&6 Next &2>>----'
+  nextPage: '&6 次へ &2>>----'
   nextPageGui: '&6次のページ'
-  nextPageClean: '&6 Next'
-  nextPageOff: '&7 Next &2>>----'
+  nextPageClean: '&6 次へ'
+  nextPageOff: '&7 次へ &2>>----'
   nextPageHover: '&7>>>'
   lastPageHover: '&7>|'
   pageCount: '&2[current]&7/&2[total]'
@@ -850,7 +850,7 @@ Chat:
 command:
   help:
     output:
-      usage: '&eUsage: &7%usage%'
+      usage: '&e使い方: &7%usage%'
       cmdInfoFormat: '[command] &f- &e[description]'
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'

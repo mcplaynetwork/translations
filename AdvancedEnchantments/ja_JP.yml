@@ -4,29 +4,29 @@
 prefix: "&7[&9Enchantments&7]&r "
 
 effects:
-  steal-money: "&6%attacker% &7stole &6%amount% &7from &6%victim%&7!"
+  steal-money: "&6%攻撃者% &7被害者 &6%金額% &から &6%被害者%&7!"
 
 commands:
   no-permission: "&c権限がありません！"
   offline-player: "&cそのプレイヤーはオンラインではありません！"
-  enchantment-not-found: "&cEnchantment &c&n%enchant%&c could not be found."
-  invalid-amount: "&cInvalid amount. Must be between 1-64."
-  invalid-enchant: "&c%enchant% is not a valid enchant!"
-  invalid-level: "&cInvalid enchant level! Try using: %levels%"
-  invalid-usage: "&cUsage: %usage%"
-  not-a-number: "&c%number% is not a number!"
-  not-holding-item: "&cYou must be holding an item!"
+  enchantment-not-found: "&cEnchantment &c&n%enchant%&c が見つかりませんでした。"
+  invalid-amount: "&c無効な金額です。1-64の間でなければなりません。"
+  invalid-enchant: "&c%enchant% は有効なエンチャントではありません!"
+  invalid-level: "&c無効なエンチャント・レベルです。こちらを使用してみてください: %levels%"
+  invalid-usage: "&c使用方法: %usage%"
+  not-a-number: "&c%number% は数値ではありません!"
+  not-holding-item: "&cあなたはアイテムを持っていなければなりません"
   enchantment-info:
-    invalid-usage: "&cInvalid usage! Proper usage: %command% <enchantment>"
+    invalid-usage: "&c無効な使い方です。正しい使い方は %command% <enchantment>です。"
     open-menu-message: "&7Information about &e%enchant% &7enchantment."
   enchants:
-    open-menu-message: "&7Showing list of all enchantments..."
+    open-menu-message: "&7すべてのエンチャントのリストを表示しています。"
   apply:
-    cooldown: "&cYou will be able to use this command in %seconds% seconds."
-    no-args: "&cPlease specify which player should be affected."
-    reapplied: "&aYour armor has been re-applied."
-    reapplied-other: "&aArmor has been reapplied for %player%."
-    reapplied-for-all: "&aArmor has been reapplied for everyone!"
+    cooldown: "&cこのコマンドが使えるようになるのは、%seconds% 秒後です。"
+    no-args: "&cどのプレーヤーが影響を受けるかを明記してください。"
+    reapplied: "&aあなたのアーマーは再装着されました。"
+    reapplied-other: "&aアーマーが %player%に再適用されました。"
+    reapplied-for-all: "&aアーマーは全員に再適用されました。"
   withdrawsouls:
     invalid-usage: "&cUsage: /withdrawsouls <count>"
     less-than-one: "&cCount must be positive."

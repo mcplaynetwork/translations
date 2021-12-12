@@ -52,6 +52,11 @@ commands:
   listqueues:
     header: '&9キュー:'
     format: '<hover:show_text:''&7ステータス: {STATUS}''>{COLOR}{NAME}&7: {COUNT} queued</hover>'
+  kick:
+    usage: '<red>使い方: /ajqueue kick <player> [queue]'
+    no-player: '&c{PLAYER}が見つかりません！キューに入っているか確認してください！'
+    unknown-server: '&cキュー{QUEUE}が見つかりませんでした。スペルが正しいか確認してください！'
+    success: <green> {NUM}キューから<white>{PLAYER} <green>をキックしました！
 noperm: '&c権限がありません！'
 format:
   time:

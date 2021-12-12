@@ -5,7 +5,7 @@
 ## Settings
 
 **Prefix:** `ajqueue.`  
-**Variable Regex:** `(\[\w+\]|\<\w+\>)`  
+**Variable Regex:** `(\[\w+\]|\<\w+\>|\{\w+\})`  
 **Ignore keys:**
 
 ```

@@ -1,6 +1,6 @@
 one:
   two:
-    three: 四
+    three: '4'
 status:
   offline:
     base: '&c{SERVER}は{STATUS}です。&7あなたは待機列&f{LEN}&7番中の&f{POS}&7番目にいます。'

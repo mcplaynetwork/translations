@@ -4,7 +4,7 @@
 prefix: "&7[&9Enchantments&7]&r "
 
 effects:
-  steal-money: "&6%攻撃者% &7被害者 &6%金額% &から &6%被害者%&7!"
+  steal-money: "&6%attacker% &7stole &6%amount% &7from &6%victim%&7!"
 
 commands:
   no-permission: "&c権限がありません！"

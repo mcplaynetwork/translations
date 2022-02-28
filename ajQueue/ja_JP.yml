@@ -1,90 +1,90 @@
 ---
 one:
   two:
-    three: four
+    three: '4'
 status:
   offline:
-    base: '&c{SERVER} is {STATUS}. &7You are in position &f{POS}&7 of &f{LEN}&7.'
-    offline: offline
-    restarting: restarting
-    full: full
-    restricted: restricted
-    paused: paused
-    whitelisted: whitelisted
+    base: '&c{SERVER}は{STATUS}です。&7あなたは待機列&f{LEN}&7番中の&f{POS}&7番目にいます。'
+    offline: オンフライン
+    restarting: 再起動中
+    full: 満員
+    restricted: 制限付き
+    paused: 一時停止
+    whitelisted: ホワイトリスト
   online:
-    base: '&7You are in position &f{POS}&7 of &f{LEN}&7. Estimated time: {TIME}'
-  left-last-queue: '&aYou left the last queue you were in.'
+    base: '&7あなたはキューの&f{LEN}&7番中の&f{POS}&7番目にいます。予想時間: {TIME}'
+  left-last-queue: '&a最後にいたキューから出ました。'
   now-in-queue: |-
-    &aYou are now queued for {SERVER}! &7You are in position &f{POS}&7 of &f{LEN}&7.
-    &7Type &f/leavequeue&7 or &f<click:run_command:/leavequeue {SERVERNAME}>click here</click>&7 to leave the queue!
-  now-in-empty-queue: ''
-  sending-now: '&aSending you to &f{SERVER} &anow..'
+    &aあなたは現在{SERVER}のキューに入っています！ &7あなたは&f{LEN}&7番中の&f{POS}&7番目にいます。
+    &7キューを抜けるには、&f/leavequeue&7または&f<click:run_command:/leavequeue {SERVERNAME}>ここをクリック</click>&7を入力してください！
+  now-in-empty-queue: ' '
+  sending-now: '&a現在、あなたを&f{SERVER}&aに送っています...'
 errors:
-  server-not-exist: '&cThe server {SERVER} does not exist!'
-  already-queued: '&cYou are already queued for that server!'
-  player-only: '&cThis command can only be executed as a player!'
-  already-connected: '&cYou are already connected to this server!'
-  cant-join-paused: '&cYou cannot join the queue for {SERVER} because it is paused.'
-  deny-joining-from-server: '&cYou are not allowed to join queues from this server!'
+  server-not-exist: '&cサーバー{SERVER}が存在しません！'
+  already-queued: '&cすでにそのサーバーのキューに入っています！'
+  player-only: '&cこのコマンドは、プレイヤーとしてのみ実行可能です！'
+  already-connected: '&cすでにこのサーバーに接続されています！'
+  cant-join-paused: '&c{SERVER}のキューが一時停止しているため、キューに参加できません。'
+  deny-joining-from-server: '&cこのサーバーからキューに参加することはできません！'
   wrong-version:
-    base: <red>You must be on {VERSIONS} to join this server!
-    or: ' or '
+    base: <red>このサーバーに参加するには、{VERSIONS}である必要があります！
+    or: ' もしくは '
     comma: ', '
 commands:
-  leave-queue: '&aYou left the queue for {SERVER}!'
-  reload: '&aConfig and messages reloaded successfully!'
+  leave-queue: '&a{SERVER}のキューを出ました!'
+  reload: '&a設定とメッセージの再読み込みに成功しました！'
   joinqueue:
-    usage: '&cUsage: /joinqueue <server>'
-  kick:
-    usage: '<red>Usage: /ajqueue kick <player> [queue]'
-    no-player: '&cCould not find {PLAYER}! Make sure they are in a queue!'
-    unknown-server: '&cCould not find queue {QUEUE}. Make sure you spelled it correctly!'
-    success: <green>Kicked <white>{PLAYER} <green>from {NUM} queue{s}!
+    usage: '&c使い方: /joinqueue <サーバー>'
   leave:
-    more-args: '&cPlease specify which queue you want to leave! &7You are in these queues: {QUEUES}'
+    more-args: '&cどのキューから抜けたいかを指定してください！&7あなたは次のキューに入っています: {QUEUES}'
     queues-list-format: '&f{NAME}&7, '
-    not-queued: '&cYou are not queued for that server! &7You are in these queues: {QUEUES}'
-    no-queues: '&cYou are not queued!'
+    not-queued: '&cそのサーバーのキューに入っていません！&7あなたは次のキューに入っています: {QUEUES}'
+    no-queues: '&cキューに入っていません！'
   pause:
-    more-args: '&cUsage: /ajqueue pause <server> [on/off]'
-    no-server: '&cThat server does not exist!'
-    success: '&aThe queue for &f{SERVER} &ais now {PAUSED}'
+    more-args: '&c使い方: /ajqueue pause <サーバー> [on/off]'
+    no-server: '&cそのサーバーは存在しません！'
+    success: '&f{SERVER}&aのキューが&f{PAUSED}&aになりました'
     paused:
-      'true': '&epaused'
-      'false': '&aun-paused'
+      'true': '&e一時停止'
+      'false': '&a一時停止解除'
   send:
-    player-not-found: '&cThat player could not be found. Make sure they are online!'
-    usage: '<red>Usage: /ajqueue send <player> <server>'
+    player-not-found: '&cそのプレーヤーは見つかりませんでした。相手がオンラインであることを確認してください！'
+    usage: '<red>使い方: /ajqueue send <プレイヤー> <サーバー>'
   listqueues:
-    header: '&9Queues:'
-    format: '<hover:show_text:''&7Status: {STATUS}''>{COLOR}{NAME}&7: {COUNT} queued</hover>'
-noperm: '&cYou do not have permission to do this!'
+    header: '&9キュー:'
+    format: '<hover:show_text:''&7ステータス: {STATUS}''>{COLOR}{NAME}&7: {COUNT} queued</hover>'
+  kick:
+    usage: '<red>使い方: /ajqueue kick <player> [queue]'
+    no-player: '&c{PLAYER}が見つかりません！キューに入っているか確認してください！'
+    unknown-server: '&cキュー{QUEUE}が見つかりませんでした。スペルが正しいか確認してください！'
+    success: <green> {NUM}キューから<white>{PLAYER} <green>をキックしました！
+noperm: '&c権限がありません！'
 format:
   time:
-    mins: '{m}m {s}s'
-    secs: '{s} seconds'
+    mins: '{m}分 {s}秒'
+    secs: '{s} 秒'
 list:
   format: '&b{SERVER} &7({COUNT}): {LIST}'
   playerlist: '&9{NAME}&7, '
-  total: '&7Total players in queues: &f{TOTAL}'
-  none: '&7None'
+  total: '&7待機列に並んでいるプレーヤーの総数: &f{TOTAL}'
+  none: '&7なし'
 spigot:
   actionbar:
-    online: '&7You are queued for &f{SERVER}&7. You are in position &f{POS}&7 of &f{LEN}&7. Estimated time: {TIME}'
-    offline: '&7You are queued for &f{SERVER}&7. &7You are in position &f{POS}&7 of &f{LEN}&7.'
-send: '&aAdded &f{PLAYER}&a to the queue for &f{SERVER}'
-remove: '&aRemoved &f{PLAYER} from all queues they were in.'
+    online: '&7あなたは&f{SERVER}&7のキューに入っています。キューの&f{LEN}&7番中の&f{POS}&7番目にいます。予想時間: {TIME}'
+    offline: '&7あなたは&f{SERVER}&7のキューに入っています。キューの&f{LEN}&7番中の&f{POS}&7番目にいます。'
+send: '&f{SERVER}&aのキューに&f{PLAYER}&aを追加しました'
+remove: '&f{PLAYER}&aが参加していたすべてのキューから削除されました。'
 placeholders:
   queued:
-    none: None
+    none: なし
   position:
-    none: None
+    none: なし
+max-tries-reached: '&c{SERVER}への接続ができません。再試行回数が最大になりました。'
+auto-queued: '&aあなたがキックされたため、{SERVER}に自動キューされました。'
 title:
-  title: ''
-  subtitle: '<gold>You are <green>#{POS} <gold>in the queue!'
-max-tries-reached: '&cUnable to connect to {SERVER}. Max retries reached.'
-auto-queued: '&aYou''ve been auto-queued for {SERVER} because you were kicked.'
-velocity-kick-message: '<red>You were kicked while trying to join {SERVER}: <white>{REASON}'
+  title: ' '
+  subtitle: '<gold>あなたは<green>#{POS}<gold>番目にいます！'
+velocity-kick-message: '<red>{SERVER}に参加しようとしてキックされました: <white>{REASON}'
 updater:
   update-available: |-
     <gray><strikethrough>                                                         <reset>
@@ -92,7 +92,7 @@ updater:
     <dark_green>You can download it by <click:run_command:/ajqueue update><bold>clicking here</bold>
     or running <gray>/ajQueue update</click>
     <gray><strikethrough>                                                         <reset>
-  no-update: <red>There is not an update available
-  success: <green>The update has been downloaded! Now just restart the server
-  fail: <red>An error occurred while downloading the update. Check the console for more info.
-  already-downloaded: <red>The update has already been downloaded.
+  no-update: <red>アップデートはありません
+  success: <green>アップデートのダウンロードが完了しました！サーバーを再起動してください
+  fail: <red>アップデートのダウンロード中にエラーが発生しました。詳細はコンソールで確認してください。
+  already-downloaded: <red>アップデートはすでにダウンロードされています。

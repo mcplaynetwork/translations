@@ -1,3 +1,4 @@
+---
 economy:
   error:
     nomoney: '&a&lJobs &8&l» &cSorry, no money left in national bank!'
@@ -27,13 +28,11 @@ general:
   error:
     noHelpPage: '&a&lJobs &8&l» &cThere is no help page by this number!'
     notNumber: '&a&lJobs &8&l» &ePlease use numbers!'
-    job: '&a&lJobs &8&l» &cThe job you selected does not exist or you''re not joined
-      to it!'
+    job: '&a&lJobs &8&l» &cThe job you selected does not exist or you''re not joined to it!'
     noCommand: '&a&lJobs &8&l» &cThere is no command by this name!'
     permission: '&a&lJobs &8&l» &cYou do not have permission to do that!'
     noinfo: '&a&lJobs &8&l» &cNo information found!'
-    noinfoByPlayer: '&a&lJobs &8&l» &7No information found by &c(%playername%)&7 player
-      name!'
+    noinfoByPlayer: '&a&lJobs &8&l» &7No information found by &c(%playername%)&7 player name!'
     ingame: '&a&lJobs &8&l» &7You can use this &ccommand&7 only in game!'
     fromconsole: '&a&lJobs &8&l» &cYou can use this command only from console!'
     worldisdisabled: '&a&lJobs &8&l» &cYou can''t use command in this world!'
@@ -42,8 +41,7 @@ general:
 command:
   help:
     output:
-      info: '&a&lJobs &8&l» &7Type &a/jobs [cmd] ? &7for more information about a
-        command.'
+      info: '&a&lJobs &8&l» &7Type &a/jobs [cmd] ? &7for more information about a command.'
       cmdUsage: '&a&lJobs &8&l» &7Usage: &a[command]'
       label: Jobs
       cmdInfoFormat: '[command] &8- &7[description]'
@@ -68,8 +66,7 @@ command:
       allreset: '&a&lJobs &8&l» &cAll money boosts turned off'
       jobsboostreset: '&a&lJobs &8&l» &7Money boost has been turned off for &c(%jobname%)'
       nothingtoreset: '&a&lJobs &8&l» &cNothing to reset'
-      boostalladded: '&a&lJobs &8&l» &7Money boost of &a(x%boost%) &7added for all
-        jobs!'
+      boostalladded: '&a&lJobs &8&l» &7Money boost of &a(x%boost%) &7added for all jobs!'
       boostadded: '&a&lJobs &8&l» &7Money boost of &a(x%boost% &aadded for &a&n%jobname%&a)'
       infostats: '&7-----> &aMoney rate x%boost% enabled&7 <-------'
   pointboost:
@@ -80,8 +77,7 @@ command:
       allreset: '&a&lJobs &8&l» &cAll point boosts turned off'
       jobsboostreset: '&a&lJobs &8&l» &7Point boost has been turned off for &c(%jobname%)'
       nothingtoreset: '&a&lJobs &8&l» &cNothing to reset'
-      boostalladded: '&a&lJobs &8&l» &7Points boost of &e(x%boost%) &7added for all
-        jobs!'
+      boostalladded: '&a&lJobs &8&l» &7Points boost of &e(x%boost%) &7added for all jobs!'
       boostadded: '&a&lJobs &8&l» &7Points boost of &e(x%boost% &eadded for &e&n%jobname%&e)'
       infostats: '&7-----> &ePoints rate x%boost% enabled&7 <-------'
   expboost:
@@ -135,8 +131,7 @@ command:
       finalExplanation: ' &cDoes not include Petpay and Near spawner bonus/penalty'
   convert:
     help:
-      info: Converts the database system from one system to another. If you are currently
-        running SQLite, this will convert it to MySQL and vice versa.
+      info: Converts the database system from one system to another. If you are currently running SQLite, this will convert it to MySQL and vice versa.
       args: ''
   limit:
     help:
@@ -150,17 +145,12 @@ command:
       pointstime: '&a&lJobs &8&l» &7Time left until &ePoint limit&7 resets: &e%time%'
       pointsLimit: '&a&lJobs &8&l» &7Point limit: &e(%current% &7/ &e%total%)'
       reachedmoneylimit: '&a&lJobs &8&l» &4You have reached money limit in given time!'
-      reachedmoneylimit2: '&a&lJobs &8&l» &7You can check your limit with &a/jobs
-        limit &7command'
-      reachedmoneylimit3: '&a&lJobs &8&l» &cMoney earned is now reduced exponentially...
-        But you still earn a little!'
+      reachedmoneylimit2: '&a&lJobs &8&l» &7You can check your limit with &a/jobs limit &7command'
+      reachedmoneylimit3: '&a&lJobs &8&l» &cMoney earned is now reduced exponentially... But you still earn a little!'
       reachedexplimit: '&a&lJobs &8&l» &4You have reached exp limit in given time!'
-      reachedexplimit2: '&a&lJobs &8&l» &7You can check your limit with &a/jobs limit
-        &7command'
-      reachedpointslimit: '&a&lJobs &8&l» &4You have reached point limit in given
-        time!'
-      reachedpointslimit2: '&a&lJobs &8&l» &7You can check your limit with &a/jobs
-        limit &7command'
+      reachedexplimit2: '&a&lJobs &8&l» &7You can check your limit with &a/jobs limit &7command'
+      reachedpointslimit: '&a&lJobs &8&l» &4You have reached point limit in given time!'
+      reachedpointslimit2: '&a&lJobs &8&l» &7You can check your limit with &a/jobs limit &7command'
       notenabled: '&a&lJobs &8&l» &c&nMoney limit is not enabled'
   resetlimit:
     help:
@@ -187,10 +177,8 @@ command:
       args: set/add/take [playername] [amount]
     output:
       set: '&a&lJobs &8&l» &7Players &a(%playername%)&7 points was set to &e%amount%'
-      add: '&a&lJobs &8&l» &7Player &a(%playername%)&7 got additional &a+%amount%
-        &7points. Now they have &e%total%'
-      take: '&a&lJobs &8&l» &7Player &a(%playername%)&7 lost &c-%amount% &7points.
-        Now they have &e%total%'
+      add: '&a&lJobs &8&l» &7Player &a(%playername%)&7 got additional &a+%amount% &7points. Now they have &e%total%'
+      take: '&a&lJobs &8&l» &7Player &a(%playername%)&7 lost &c-%amount% &7points. Now they have &e%total%'
   editjobs:
     help:
       info: Edit current jobs.
@@ -272,8 +260,7 @@ command:
     output:
       message: 'Level %joblevel% for %jobname%: %jobxp%/%jobmaxxp% xp'
       max-level: '     &cMax level   -   %jobname%'
-    bossBarOutput: '&8【 &7Job %jobname% ❖ %joblevel%l &8» &d(%jobxp%%gain% &d| %jobmaxxp%
-      xp) &8】'
+    bossBarOutput: '&8【 &7Job %jobname% ❖ %joblevel%l &8» &d(%jobxp%%gain% &d| %jobmaxxp% xp) &8】'
     bossBarGain: ' &7(&f%gain%&7)'
   shop:
     help:
@@ -290,11 +277,9 @@ command:
       reqJobsLevelColor: '&d'
       reqTotalLevelColor: '&5'
       cantOpen: '&a&lJobs &8&l» &cCan''t open this page'
-      NoPermForItem: '&a&lJobs &8&l» &cYou don''t have required permissions for this
-        item!'
+      NoPermForItem: '&a&lJobs &8&l» &cYou don''t have required permissions for this item!'
       NoPermToBuy: '&a&lJobs &8&l» &cNo permissions to buy this item'
-      NoJobReqForitem: '&a&lJobs &8&l» &7You don''t have the required job &c(%jobname%)&7
-        with required &d(%joblevel%)&7 level'
+      NoJobReqForitem: '&a&lJobs &8&l» &7You don''t have the required job &c(%jobname%)&7 with required &d(%joblevel%)&7 level'
       NoPoints: '&a&lJobs &8&l» &7You don''t have enough &epoints'
       NoTotalLevel: '&a&lJobs &8&l» &7Total jobs level is too low &5(%totalLevel%)'
       Paid: '&a&lJobs &8&l» &7You have paid &e(%amount%) &7for this item'
@@ -315,10 +300,8 @@ command:
     help:
       title: '&2*** &eJobs&2 ***'
       info: Show how much each job is getting paid and for what.
-      penalty: '&eThis job has a penalty of &c[penalty]% &ebecause there are too many
-        players working in it.'
-      bonus: '&eThis job has a bonus of &2[bonus]% &ebecause there are not enough
-        players working in it.'
+      penalty: '&eThis job has a penalty of &c[penalty]% &ebecause there are too many players working in it.'
+      bonus: '&eThis job has a bonus of &2[bonus]% &ebecause there are not enough players working in it.'
       args: '[jobname] [action]'
       actions: '&eValid actions are: &f%actions%'
       max: ' - &emax level:&f '
@@ -423,8 +406,7 @@ command:
       args: '[jobname]'
     error:
       alreadyin: '&a&lJobs &8&l» &7You are already in the job %jobname%.'
-      fullslots: '&a&lJobs &8&l» &7You cannot join the job %jobname%&7, there are
-        no slots available.'
+      fullslots: '&a&lJobs &8&l» &7You cannot join the job %jobname%&7, there are no slots available.'
       maxjobs: '&a&lJobs &8&l» &cYou have already joined too many jobs.'
       rejoin: '&a&lJobs &8&l» &7Can''t rejoin this job. Wait &e[time]'
     rejoin: '&a&lJobs &8&l» &aClick to rejoin this job: '
@@ -435,16 +417,14 @@ command:
       info: Leave the selected job.
       args: '[oldplayerjob]'
     success: '&a&lJobs &8&l» &7You have left the job %jobname%.'
-    confirmationNeed: '&cAre you sure you want to leave from&e [jobname]&c job? Type
-      the command again within&6 [time] seconds &cto confirm!'
+    confirmationNeed: '&cAre you sure you want to leave from&e [jobname]&c job? Type the command again within&6 [time] seconds &cto confirm!'
   leaveall:
     help:
       info: Leave all your jobs.
     error:
       nojobs: '&a&lJobs &8&l» &4You do not have any jobs to leave!'
     success: '&a&lJobs &8&l» &cYou have left all your jobs.'
-    confirmationNeed: '&cAre you sure you want to leave from all jobs? Type the command
-      again within&6 [time] seconds &cto confirm!'
+    confirmationNeed: '&cAre you sure you want to leave from all jobs? Type the command again within&6 [time] seconds &cto confirm!'
   explored:
     help:
       info: Check who visited this chunk
@@ -491,8 +471,7 @@ command:
       info: Clear block ownership
       args: '[playername]'
     output:
-      cleared: '&a&lJobs &8&l» &7Removed &c[furnaces] &7furnaces and &e[brewing] &7brewing
-        stands'
+      cleared: '&a&lJobs &8&l» &7Removed &c[furnaces] &7furnaces and &e[brewing] &7brewing stands'
       lost: '&cLost ownership of &7[type] &cat [location]'
   skipquest:
     help:
@@ -516,8 +495,7 @@ command:
       questLine: '[progress] &7&l[questName]&a ([done] &8| &2[required])'
       skip: '&cClick to skip this quest'
       skips: '&7Left skips: &c[skips]'
-      hover: "&a&l[jobName]&7 \n&aDescription: \n[desc] \n \n&c» &7New quest in: [time]\
-        \ \n&f"
+      hover: "&a&l[jobName]&7 \n&aDescription: \n[desc] \n \n&c» &7New quest in: [time]\\ \\ \n&f"
   fire:
     help:
       info: Fire the player from the job.
@@ -540,8 +518,7 @@ command:
       args: '[playername] [jobname]'
     error:
       alreadyin: '&a&lJobs &8&l» &7Player is already in the job &a%jobname%.'
-      fullslots: '&a&lJobs &8&l» &7You cannot join the job &a%jobname%&7, there are
-        no slots available.'
+      fullslots: '&a&lJobs &8&l» &7You cannot join the job &a%jobname%&7, there are no slots available.'
     output:
       target: '&a&lJobs &8&l» &7You have been employed as a &a%jobname%.'
   top:
@@ -572,14 +549,12 @@ command:
     help:
       info: Modify restricted areas.
       args: add/remove/info/list
-      addUsage: '&a&lJobs &8&l» &7Usage: &a/Jobs area add &f[areaName/wg:worldGuardAreaName]
-        [bonus]'
+      addUsage: '&a&lJobs &8&l» &7Usage: &a/Jobs area add &f[areaName/wg:worldGuardAreaName] [bonus]'
       removeUsage: '&a&lJobs &8&l» &7Usage: &a/Jobs area remove &f[areaName]'
     output:
       addedNew: '&a&lJobs &8&l» &7Added a new restricted area with &ex%bonus% &7bonus'
       removed: '&a&lJobs &8&l» &7Removed the restricted area &c%name%'
-      list: '&7%number%. &f%areaname% &e%worldname% (&a%x1%:%y1%:%z1%/&e%x2%:%y2%:%z2%)
-        &6%bonus%'
+      list: '&7%number%. &f%areaname% &e%worldname% (&a%x1%:%y1%:%z1%/&e%x2%:%y2%:%z2%) &6%bonus%'
       wgList: '&e%number%&a. WorldGuard: &e%areaname% &6%bonus%'
       noAreas: '&eThere are no saved restricted areas'
       noAreasByLoc: '&eThere are no restricted areas in this location'
@@ -600,8 +575,7 @@ command:
       money: '&6money: %amount% '
       exp: '&eexp: %amount% '
       points: '&6points: %amount%'
-      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2
-        %points%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
       bottomline: ''
       prev: '&e&l<- Previous page &8|'
       next: '&8|&l Next Page ->'
@@ -616,8 +590,7 @@ command:
       money: '&6money: %amount% '
       exp: '&eexp: %amount% '
       points: '&6points: %amount%'
-      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2
-        %points%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
       bottomline: ''
       nodata: '&a&lJobs &8&l» &cData not found'
   transfer:
@@ -625,15 +598,13 @@ command:
       info: Transfer a player's job from an old job to a new job.
       args: '[playername] [oldjob] [newjob]'
     output:
-      target: '&a&lJobs &8&l» &7You have been transferred from &c%oldjobname% &7to
-        &a%newjobname%.'
+      target: '&a&lJobs &8&l» &7You have been transferred from &c%oldjobname% &7to &a%newjobname%.'
   promote:
     help:
       info: Promote the player X levels in a job.
       args: '[playername] [jobname] [levels]'
     output:
-      target: '&a&lJobs &8&l» &7You have been promoted &a(%levelsgained%)&7 levels
-        in &e%jobname%.'
+      target: '&a&lJobs &8&l» &7You have been promoted &a(%levelsgained%)&7 levels in &e%jobname%.'
   exp:
     help:
       info: Change the player exp for job.
@@ -641,8 +612,7 @@ command:
     error:
       nojob: '&a&lJobs &8&l» &cThis player must first join a job.'
     output:
-      target: '&a&lJobs &8&l» &7Your exp was changed for &a%jobname% &7and now you
-        at &5%level%lvl &7and with &d%exp%exp.'
+      target: '&a&lJobs &8&l» &7Your exp was changed for &a%jobname% &7and now you at &5%level%lvl &7and with &d%exp%exp.'
   level:
     help:
       info: Change the player's level in a job.
@@ -650,8 +620,7 @@ command:
     error:
       nojob: '&a&lJobs &8&l» &cThis player must first join a job.'
     output:
-      target: '&a&lJobs &8&l» &7Your level was changed for &a%jobname% &7and now you
-        at &5%level%lvl &7and with &d%exp%exp.'
+      target: '&a&lJobs &8&l» &7Your level was changed for &a%jobname% &7and now you at &5%level%lvl &7and with &d%exp%exp.'
   demote:
     help:
       info: Demote the player X levels in a job.
@@ -663,8 +632,7 @@ command:
       info: Grants the player X experience in a job.
       args: '[playername] [jobname] [xp]'
     output:
-      target: '&a&lJobs &8&l» &7You have been granted &e(+%xpgained%)&7 experience
-        in %jobname%.'
+      target: '&a&lJobs &8&l» &7You have been granted &e(+%xpgained%)&7 experience in %jobname%.'
   removexp:
     help:
       info: Remove X experience from the player in a job.
@@ -713,20 +681,15 @@ command:
       cmilVersionNew: '&e-> [newVersion]'
 message:
   skillup:
-    broadcast: '&a&lJobs &8&l» &a%playername%&7 has been promoted to a %titlename%
-      in %jobname%.'
-    nobroadcast: '&a&lJobs &8&l» &ECongratulations&7, you have been promoted to a
-      %titlename% in %jobname%.'
+    broadcast: '&a&lJobs &8&l» &a%playername%&7 has been promoted to a %titlename% in %jobname%.'
+    nobroadcast: '&a&lJobs &8&l» &ECongratulations&7, you have been promoted to a %titlename% in %jobname%.'
   levelup:
     broadcast: '&a&lJobs &8&l» &a%playername%&7 is now a level %joblevel% in %jobname%.'
     nobroadcast: '&a&lJobs &8&l» &7You are now level %joblevel% %jobname%.'
   leveldown:
-    message: '&a&lJobs &8&l» &7You lost level&c (%lostLevel% in %jobname%)&7 job!
-      Level:&d %joblevel%&7.'
-  cowtimer: '&a&lJobs &8&l» &7You still need to wait &e%time% sec&7 to get paid for
-    this job.'
-  blocktimer: '&a&lJobs &8&l» &7You need to wait &e[time] sec&7 more to get paid for
-    this!'
+    message: '&a&lJobs &8&l» &7You lost level&c (%lostLevel% in %jobname%)&7 job! Level:&d %joblevel%&7.'
+  cowtimer: '&a&lJobs &8&l» &7You still need to wait &e%time% sec&7 to get paid for this job.'
+  blocktimer: '&a&lJobs &8&l» &7You need to wait &e[time] sec&7 more to get paid for this!'
   taxes: '&a&lJobs &8&l» &c[amount] &7server taxes were transferred to this account'
   boostStarted: '&a&lJobs &8&l» &a&nJobs boost time have been started!'
   boostStoped: '&a&lJobs &8&l» &c&nJobs boost time have been ended!'

@@ -56,17 +56,17 @@
 info:
   #Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMI&e] '
-  NoPermission: '&cYou don''t have permission!'
-  CantHavePermission: '&cYou can''t have this permission!'
-  WrongGroup: '&cYou are in wrong group for this!'
-  NoPlayerPermission: '&c[playerName] doesn''t have permission for: [permission]'
-  Ingame: '&cYou can only use this in game!'
-  NoInformation: '&cNo information found!'
-  Console: '&6Server'
-  FromConsole: '&cYou can only use this in the console!'
-  NotOnline: '&cThe player is not online!'
-  NobodyOnline: '&cThere is no one online!'
-  Same: '&cCan''t open your own inventory for editing!'
+  NoPermission: '&c権限がありません！'
+  CantHavePermission: '&c権限がありません！'
+  WrongGroup: '&c間違ったグループに入っています！'
+  NoPlayerPermission: '&c[playerName]には権限がありません: [パーミッション］'
+  Ingame: '&cゲーム内でのみ使用可能です！'
+  NoInformation: '&c情報が見つかりませんでした！'
+  Console: '&6サーバー'
+  FromConsole: '&cコンソールでのみ使用可能です！'
+  NotOnline: '&cプレイヤーがオンラインではありません！'
+  NobodyOnline: '&c誰もオンラインではありません！'
+  Same: '&c自分のインベントリを開いて編集することはできません！'
   cantLoginWithDifCap: '&cCan''t login with different name capitalization! Old name: &e[oldName]&c. Current: &e[currentName]'
   Searching: '&eSearching for player data, please wait, this can take some time to finish!'
   NoPlayer: '&cCan''t find player with this name!'
@@ -262,15 +262,15 @@ info:
   afkSymbolOff: ''
   nextPageConsole: '&fFor next page perform &5[command]'
   prevPage: '&2----<< &6Prev '
-  prevPageGui: '&6Previous page '
-  prevPageClean: '&6Prev '
-  prevPageOff: '&2----<< &7Prev '
+  prevPageGui: '&6前のページ '
+  prevPageClean: '&6前へ '
+  prevPageOff: '&2----<< &7前へ '
   prevPageHover: '&7<<<'
   firstPageHover: '&7|<'
-  nextPage: '&6 Next &2>>----'
-  nextPageGui: '&6Next Page'
-  nextPageClean: '&6 Next'
-  nextPageOff: '&7 Next &2>>----'
+  nextPage: '&6 次へ &2>>----'
+  nextPageGui: '&6次のページ'
+  nextPageClean: '&6 次へ'
+  nextPageOff: '&7 次へ &2>>----'
   nextPageHover: '&7>>>'
   lastPageHover: '&7>|'
   pageCount: '&2[current]&7/&2[total]'
@@ -551,7 +551,7 @@ info:
     knockback:
       - Knockback
     luck:
-      - Luck
+      - 幸運
     binding_curse:
       - BindingCurse
     loot_bonus_blocks:
@@ -826,19 +826,19 @@ Chat:
   privateHover: '&eSent time: &6%server_time_hh:mm:ss%'
   staffHover: '&eSent time: &6%server_time_hh:mm:ss%'
   helpopHover: '&eSent time: &6%server_time_hh:mm:ss%'
-  link: '&l&4[&7LINK&4]'
+  link: '&l&4[&7リンク&4]'
   item: '&7[%cmi_iteminhand_displayname%[amount]&7]'
   itemAmount: ' x[amount]'
   itemEmpty: '&7[Mighty fist]'
 command:
   help:
     output:
-      usage: '&eUsage: &7%usage%'
+      usage: '&e使い方: &7%usage%'
       cmdInfoFormat: '[command] &f- &e[description]'
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
       explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Help&e &e======= ------'
+      title: '&e------ ======= &6ヘルプ&e &e======= ------'
   nocmd:
     help:
       info: '&eShows all available commands'

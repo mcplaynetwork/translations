@@ -377,7 +377,7 @@ Messages:
   PlayerInPvPSafeZone:
     Text: そのプレイヤーはPvPセーフゾーンにいます。
   NoPistonsOutsideClaims:
-    Text: "警告:\\tピストンはランドクレームの外ではブロックを動かしません。"
+    Text: '警告:\tピストンはランドクレームの外ではブロックを動かしません。'
   SoftMuted:
     Text: ソフトミュート {0}。
     Notes: '0: The changed player''s name.'

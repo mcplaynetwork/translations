@@ -267,29 +267,29 @@ abilities:
       info: '+{value}% 即時回復'
     healer:
       name: ヒーラー
-      desc: 'ヒーリングXPが{value}%増加します。'
+      desc: ヒーリングXPが{value}%増加します。
       info: '+{value}% XP'
     life_steal:
       name: ライフスティール
-      desc: '倒した敵対的なモブやプレイヤーの最大HPの{value}%を回復します。'
+      desc: 倒した敵対的なモブやプレイヤーの最大HPの{value}%を回復します。
       info: '{value}% HPを盗む'
     golden_heart:
       name: ゴールデンハート
-      desc: '自分の衝撃吸収ハートに与えるダメージが{値}%減少する。'
+      desc: 自分の衝撃吸収ハートに与えるダメージが{値}%減少する。
       info: '-{value}% 衝撃吸収ダメージ'
     revival:
       name: Revival
-      desc: 'リスポーン後30秒間、&c+{value} Health&7と&6+{value_2} Regenerationを獲得する。'
+      desc: リスポーン後30秒間、&c+{value} Health&7と&6+{value_2} Regenerationを獲得する。
       info: '+{value} Health、+{value_2} Regen'
       message: '&f30秒間、蘇生ボーナスを得た！&f(&c+{value} Health, &6+{value_2} Regeneration&f)'
   forging:
     disenchanter:
       name: Disenchanter
-      desc: '砥石を使ってアイテムを分解する際の経験値が{value}%増加します。'
+      desc: 砥石を使ってアイテムを分解する際の経験値が{value}%増加します。
       info: '+{value}% 砥石EXP'
     forger:
       name: Forger
-      desc: 'フォージングXPが{value}%増加します。'
+      desc: フォージングXPが{value}%増加します。
       info: '+{value}% XP'
     repairing:
       name: 修理
@@ -297,11 +297,11 @@ abilities:
       info: '+{value}% 鉄床修理'
     anvil_master:
       name: 鉄床使い
-      desc: '経験値が高くなりすぎる前に、金床の最大修理コストを増加させます。'
+      desc: 経験値が高くなりすぎる前に、金床の最大修理コストを増加させます。
       info: '{value} 最大コスト'
     skill_mender:
       name: Skill Mender
-      desc: 'スキルXPを獲得すると、{value}%の確率で、修繕エンチャントが施されたアイテムや着用している防具を、スキルXP2回につき1回、耐久度を上げて修理することができます。'
+      desc: スキルXPを獲得すると、{value}%の確率で、修繕エンチャントが施されたアイテムや着用している防具を、スキルXP2回につき1回、耐久度を上げて修理することができます。
       info: '{value}% 修繕確率'
 acf:
   core:
@@ -369,6 +369,22 @@ commands:
         entry: '  {color}{stat}&f - {value}'
       removeall:
         removed: '&7All armor modifiers have been removed from your item'
+    multiplier:
+      add:
+        added: '&b{target} &7値を持つ乗数 &b{value} &7がアイテムに追加されました。'
+        already_exists: '&eAn armor multiplier with target &b{target} &ealready exists on your armor! Remove it first with /sk armor multiplier remove'
+        skill_lore: '&7When worn: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7When worn: &b-{value}% {skill} XP'
+        global_lore: '&7When worn: &9+{value}% Skill XP'
+        global_lore_subtract: '&7When worn: &9-{value}% Skill XP'
+      remove:
+        does_not_exist: '&eYour item does not have a &b{target} &earmor multiplier!'
+        removed: '&b{target} &7armor multiplier was removed from your item'
+      list:
+        header: '&fArmor multipliers found:'
+        entry: '  &b{target}&f - {value}'
+      removeall:
+        removed: '&7All armor multipliers have been removed from your item'
     requirement:
       add:
         added: '&3{skill}&7 armor requirement with level &b{level}&7 was added to your item'
@@ -384,22 +400,6 @@ commands:
         removed: '&7All armor requirements have been removed from your item'
       equip: '&eYou do not meet the requirements to equip this item: {requirements}'
       entry: '&b{skill} {level}&7, '
-    multiplier:
-      add:
-        skill_lore: '&7When worn: &b+{value}% {skill} XP'
-        skill_lore_subtract: '&7When worn: &b-{value}% {skill} XP'
-        global_lore: '&7When worn: &9+{value}% Skill XP'
-        global_lore_subtract: '&7When worn: &9-{value}% Skill XP'
-        added: '&b{target} &7値を持つ乗数 &b{value} &7がアイテムに追加されました。'
-        already_exists: '&eAn armor multiplier with target &b{target} &ealready exists on your armor! Remove it first with /sk armor multiplier remove'
-      remove:
-        does_not_exist: '&eYour item does not have a &b{target} &earmor multiplier!'
-        removed: '&b{target} &7armor multiplier was removed from your item'
-      list:
-        header: '&fArmor multipliers found:'
-        entry: '  &b{target}&f - {value}'
-      removeall:
-        removed: '&7All armor multipliers have been removed from your item'
   backup:
     load:
       confirm: '&cLoading a backup will revert all skill data of players. This action is permanent and cannot be undone. You may want to save a backup before loading one. Type the command again to confirm this action'
@@ -432,6 +432,22 @@ commands:
         entry: '  {color}{stat}&f - {value}'
       removeall:
         removed: '&7All item modifiers have been removed from your item'
+    multiplier:
+      add:
+        added: '&b{target} &7値を持つ乗数 &b{value} &7がアイテムに追加されました。'
+        already_exists: '&eAn item multiplier with target &b{target} &ealready exists on your item! Remove it first with /sk item multiplier remove'
+        skill_lore: '&7When held: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7When held: &b-{value}% {skill} XP'
+        global_lore: '&7When held: &9+{value}% Skill XP'
+        global_lore_subtract: '&7When held: &9-{value}% Skill XP'
+      remove:
+        does_not_exist: '&eYour item does not have a &b{target} &eitem multiplier!'
+        removed: '&b{target} &7item multiplier was removed from your item'
+      list:
+        header: '&fItem multipliers found:'
+        entry: '  &b{target}&f - {value}'
+      removeall:
+        removed: '&7All item multipliers have been removed from your item'
     register:
       registered: '&fRegistered held item to key {key}'
       already_registered: '&eThere is already an item registered to key &f{key}&e, use &f/skills item unregister &eto unregister it first'
@@ -454,22 +470,6 @@ commands:
     unregister:
       unregistered: '&fUnregistered item with key {key}'
       not_registered: '&eThere is no item registered with key {key}'
-    multiplier:
-      removeall:
-        removed: '&7All item multipliers have been removed from your item'
-      add:
-        added: '&b{target} &7値を持つ乗数 &b{value} &7がアイテムに追加されました。'
-        already_exists: '&eAn item multiplier with target &b{target} &ealready exists on your item! Remove it first with /sk item multiplier remove'
-        skill_lore: '&7When held: &b+{value}% {skill} XP'
-        skill_lore_subtract: '&7When held: &b-{value}% {skill} XP'
-        global_lore: '&7When held: &9+{value}% Skill XP'
-        global_lore_subtract: '&7When held: &9-{value}% Skill XP'
-      remove:
-        does_not_exist: '&eYour item does not have a &b{target} &eitem multiplier!'
-        removed: '&b{target} &7item multiplier was removed from your item'
-      list:
-        header: '&fItem multipliers found:'
-        entry: '  &b{target}&f - {value}'
   lang:
     set: '&7Language set to &b{lang}'
     not_found: '&eLanguage not found!'
@@ -499,10 +499,10 @@ commands:
       removed_one_stat: '&7Removed &b{num} {color}{stat} &7modifiers from player &6{player}'
       players_only: '&eOnly players can remove their own modifiers! Try specifying a player'
   multiplier:
-    list: '&fXP multiplier for &6{player}&f: &b{multiplier}x / +{percent}%'
-    players_only: '&eOnly players can list their own multiplier! Specify a player!'
     global: Global
+    list: '&fXP multiplier for &6{player}&f: &b{multiplier}x / +{percent}%'
     skill_entry: '&b{skill} &fXP multiplier: &b{multiplier}x / +{percent}%'
+    players_only: '&eOnly players can list their own multiplier! Specify a player!'
   rank:
     header: '&b&lあなたのスキルランキング'
     power: '&eパワー &7(全てのスキル): &f{total}中の#{rank}'
@@ -540,13 +540,13 @@ commands:
   updateleaderboards:
     already_updating: '&eLeaderboard is already updating!'
     updated: '&aLeaderboard updated!'
+  version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest version is &b{latest_version}'
   xp:
     add: '&7Added &b{amount} {skill} &7XP to player &7{player}'
     set: '&7Set &b{skill} &7XP for player &7{player} &7to {amount}'
     remove: '&7Removed &b{amount} {skill} &7XP from player &6{player}'
   unknown_skill: '&eUnknown skill!'
   no_profile: '&ePlayer does not have a skills profile!'
-  version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest version is &b{latest_version}'
 leveler:
   title: '&a{skill} レベルアップ'
   subtitle: '&6{old} ➜ {new}'
@@ -769,4 +769,4 @@ units:
   mana: マナ
   hp: HP
   xp: XP
-file_version: '24'
+file_version: 24

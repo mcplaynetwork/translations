@@ -17,7 +17,7 @@ commands:
   not-a-number: "&c%number% は数値ではありません!"
   not-holding-item: "&cあなたはアイテムを持っていなければなりません"
   enchantment-info:
-    invalid-usage: "&c無効な使い方です。正しい使い方は %command% <enchantment>です。"
+    invalid-usage: "&c無効な使い方です！使い方: %command% <enchantment>"
     open-menu-message: "&7Information about &e%enchant% &7enchantment."
   enchants:
     open-menu-message: "&7すべてのエンチャントのリストを表示しています。"

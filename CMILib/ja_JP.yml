@@ -70,7 +70,7 @@ info:
     &e[oldName]&c. Current: &e[currentName]'
   Searching: '&eSearching for player data, please wait, this can take some time to
     finish!'
-  NoPlayer: '&cCan''t find player with this name!'
+  NoPlayer: '&cこの名前のプレーヤーが見つかりません！'
   NoCommand: '&cThere is no command by this name!'
   NoCommandWhileSleeping: '&cCan''t perform commands while sleeping!'
   cantFindCommand: '&5Couldn''t find &7[%1]&5 command, did you mean &7[%2]&5?'

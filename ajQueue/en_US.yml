@@ -40,6 +40,9 @@ commands:
         unknown-server: '&cCould not find queue {QUEUE}. Make sure you spelled it
             correctly!'
         success: <green>Kicked <white>{PLAYER} <green>from {NUM} queue{s}!
+    kickall:
+        usage: '<red>Usage: /ajqueue kickall <queue>'
+        success: <green>Kicked <white>{NUM} <green>player{s} from <white>{SERVER}<green>!
     leave:
         more-args: '&cPlease specify which queue you want to leave! &7You are in these
             queues: {QUEUES}'
@@ -84,9 +87,22 @@ placeholders:
         none: None
     position:
         none: None
+    estimated_time:
+        none: None
+    status:
+        online: '&aOnline'
+        offline: '&cOffline'
+        restarting: '&cRestarting'
+        full: '&eFull'
+        restricted: '&eRestricted'
+        paused: '&ePaused'
+        whitelisted: '&eWhitelisted'
 title:
     title: ''
     subtitle: <gold>You are <green>#{POS} <gold>in the queue!
+    sending-now:
+        title: ''
+        subtitle: <green>Sending you to <white>{SERVER} <green>now..
 max-tries-reached: '&cUnable to connect to {SERVER}. Max retries reached.'
 auto-queued: '&aYou''ve been auto-queued for {SERVER} because you were kicked.'
 velocity-kick-message: '<red>You were kicked while trying to join {SERVER}: <white>{REASON}'

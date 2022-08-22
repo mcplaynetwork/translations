@@ -57,6 +57,9 @@ commands:
     no-player: '&c{PLAYER}が見つかりません！キューに入っているか確認してください！'
     unknown-server: '&cキュー{QUEUE}が見つかりませんでした。スペルが正しいか確認してください！'
     success: <green> {NUM}キューから<white>{PLAYER} <green>をキックしました！
+  kickall:
+    usage: '<red>使い方: /ajqueue kickall <queue>'
+    success: <white>{NUM}<green>のプレイヤー{s}を<white>{SERVER}<green>からkickしました！
 noperm: '&c権限がありません！'
 format:
   time:
@@ -78,11 +81,23 @@ placeholders:
     none: なし
   position:
     none: なし
+  status:
+    whitelisted: '&eホワイトリスト'
+    online: '&aオンライン'
+    offline: '&cオフライン'
+    restarting: '&c再起動中'
+    full: '&e満員'
+    restricted: '&e制限付き'
+    paused: '&e一時停止'
+  estimated_time:
+    none: なし
 max-tries-reached: '&c{SERVER}への接続ができません。再試行回数が最大になりました。'
 auto-queued: '&aあなたがキックされたため、{SERVER}に自動キューされました。'
 title:
   title: ' '
   subtitle: <gold>あなたは<green>#{POS}<gold>番目にいます！
+  sending-now:
+    subtitle: <white>{SERVER}<green>に転送中です...
 velocity-kick-message: '<red>{SERVER}に参加しようとしてキックされました: <white>{REASON}'
 updater:
   update-available: |-

@@ -9,12 +9,14 @@
 **Ignore keys:**
 
 ```
-None
+updater\.update-available
 ```
 
 ## Manual changes
 
-No manual changes were made.
+replace `>-\n[\s]*?(\[lang\].*\[\/lang\])`
+
+with `'$1'`
 
 ## Other information
 
